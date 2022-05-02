@@ -1,9 +1,22 @@
+/* CSS HSL */
+:root {
+  --minion-yellow: hsla(51, 85%, 66%, 1);
+  --sandy-brown: hsla(29, 85%, 65%, 1);
+  --raw-sienna: hsla(22, 62%, 63%, 1);
+  --ruby-red: hsla(350, 96%, 33%, 1);
+  --russian-violet: hsla(275, 66%, 13%, 1);
+  --white: hsla(0, 0%, 100%, 1);
+  --greyish-white: hsla(0, 0%, 100%, 0.8);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--russian-violet);
+  color: var(--white);
 }
 
 a {

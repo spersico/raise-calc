@@ -1,0 +1,25 @@
+name: Resources
+on:
+  schedule:
+  - cron: "0 1 * * *"
+permissions:
+    contents: write
+jobs:
+    resources:
+        name: Update resources
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
+              with:
+                node-version: 16
+                cache: 'npm'
+            - run: npm install
+            - run:  npm run data
+
+            - name: Update resources
+              uses: test-room-7/action-update-file@v1
+              with:
+                  file-path: services
+                  commit-msg: Update resources
+                  github-token: ${{ secrets.GITHUB_TOKEN }}

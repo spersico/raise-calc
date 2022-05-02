@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "data": "node updateData/index.js"
   },
   "dependencies": {
     "next": "12.1.6",
@@ -14,6 +15,9 @@
     "react-dom": "18.1.0"
   },
   "devDependencies": {
+    "nodemon": "^2.0.16",
+    "undici": "^5.1.0",
+    "world-countries": "^4.0.0",
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.6"
   }
