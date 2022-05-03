@@ -1,7 +1,5 @@
 name: Resources
-on:
-  schedule:
-  - cron: "0 1 * * *"
+on: push
 permissions:
     contents: write
 jobs:
@@ -20,6 +18,8 @@ jobs:
             - name: Update resources
               uses: test-room-7/action-update-file@v1
               with:
-                  file-path: services
+                  file-path: pages/api/country/_services
                   commit-msg: Update resources
+                  allow-dot: true
+                  allow-removing: true
                   github-token: ${{ secrets.GITHUB_TOKEN }}
