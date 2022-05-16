@@ -10,15 +10,18 @@
     "data": "node updateData/index.js"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.7.0",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },
   "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.6",
     "nodemon": "^2.0.16",
     "undici": "^5.1.0",
-    "world-countries": "^4.0.0",
-    "eslint": "8.14.0",
-    "eslint-config-next": "12.1.6"
+    "world-countries": "^4.0.0"
   }
 }

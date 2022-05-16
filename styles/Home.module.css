@@ -8,7 +8,6 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -23,13 +22,14 @@
 }
 
 .title {
-  color: var(--sandy-brown);
+  color: var(--raw-sienna);
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
 }
 .subtitle {
   color: var(--raw-sienna);
+  margin-bottom: 9rem;
 }
 
 .title,
