@@ -18,10 +18,10 @@
     "react-dom": "18.1.0"
   },
   "devDependencies": {
-    "eslint": "8.14.0",
-    "eslint-config-next": "12.1.6",
-    "nodemon": "^2.0.16",
     "undici": "^5.1.0",
-    "world-countries": "^4.0.0"
+    "nodemon": "^2.0.16",
+    "world-countries": "^4.0.0",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.6"
   }
 }
