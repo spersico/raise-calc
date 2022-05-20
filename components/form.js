@@ -1,4 +1,5 @@
 import {
+  Autocomplete,
   FormControl,
   Grid,
   InputLabel,
@@ -9,10 +10,12 @@ import {
 } from '@mui/material';
 import useInflationData from '../logic/useInflation';
 import styles from '../styles/Form.module.css';
+import CountrySelect from './CountrySelect';
 
 export default function Form({ countries }) {
-  const [setCountryCode, setDate, selectedCountry, date, loading] =
+  const [setCountryCode, setDate, selectedCountry] =
     useInflationData(countries);
+  console.log(`🐛 -> selectedCountry`, selectedCountry);
 
   return (
     <Grid
@@ -23,17 +26,10 @@ export default function Form({ countries }) {
     >
       <Grid item xs={4}>
         <FormControl sx={{ minWidth: 120 }} size='small'>
-          <InputLabel id='demo-select-small'>Pais</InputLabel>
-          <Select
-            labelId='demo-select-small'
-            id='demo-select-small'
-            label='Pais'
-          >
-            <MenuItem value=''>
-              <em>None</em>
-            </MenuItem>
-            <MenuItem>Argentina</MenuItem>
-          </Select>
+          <CountrySelect
+            countries={countries}
+            onChange={(_, country) => setCountryCode(country.code)}
+          />
         </FormControl>
       </Grid>
       <Grid item xs={6}>
