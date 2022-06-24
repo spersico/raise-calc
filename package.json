@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "data": "node updateData/index.js"
+    "data": "node countryData/index.js"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
