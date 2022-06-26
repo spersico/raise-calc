@@ -1,78 +1,40 @@
-const fs = require('fs');
-const { writeFile } = fs.promises;
+const { buildAllDataList } = require('./dataUnifiers/allDataList.js');
+const { buildSlimList } = require('./dataUnifiers/slimCountryList.js');
 
-const { buildData: updateIMFData } = require('./providers/imf.js');
-const { log, allCountries, readAllFilesInAFolder } = require('./utils.js');
-
-const slimCountryList = (allData) =>
-  allCountries.reduce((acum, country) => {
-    const {
-      codes: { cca2: code },
-      names,
-    } = country;
-
-    acum[code] = {
-      code,
-      names,
-      periods: allData
-        .filter(({ data }) => data[code])
-        .map(({ data, meta }) => ({
-          [meta.provider]: {
-            periods: data[code].periods,
-            dataRange: data[code].dataRange,
-          },
-        })),
-    };
-
-    return acum;
-  }, {});
-
-const fullcountryList = (allData) =>
-  allCountries
-    .map((country) => {
-      const {
-        codes: { cca2: code },
-        names,
-      } = country;
-      const periods = allData
-        .filter(({ data }) => data[code])
-        .map(({ data, meta }) => ({ [meta.provider]: data[code].dataRange }));
-      return { code };
-    })
-    .sort((a, b) => a.names[0].localeCompare(b.names[0]));
+const { fetchProviderData } = require('./providers/index.js');
+const { log, readFiles } = require('./utils.js');
 
 const gatherAllCountriesData = async () => {
-  log(`buildData - started`);
+  log(`UPDATE COUNTRY CPI DATA - started`);
 
-  log(`IMF - started`);
-  await updateIMFData();
-  log(`IMF - finished`);
+  await fetchProviderData();
 
-  let allGatheredData;
-  await readAllFilesInAFolder(`${process.cwd()}/countryData/data/providers`)
-    .then((files) => {
-      allGatheredData = files.map(({ contents }) => JSON.parse(contents));
-    })
+  log(`> Read Providers Data - started`);
+
+  const sortedAndParsedProviderFiles = await readFiles(
+    `${process.cwd()}/countryData/data/providers`
+  )
+    .then(
+      (files) =>
+        files
+          .map(({ contents }) => JSON.parse(contents))
+          .sort(
+            (providerA, providerB) =>
+              (providerA.meta.preference || 999) -
+              (providerB.meta.preference || 999)
+          )
+      // descending order of priority (lower number = higher priority)
+    )
     .catch((error) => {
       console.log(error);
     });
-  // TODO THIS should group by country, not by provider
-  // TODO
-  await writeFile(
-    './countryData/data/allCountriesData.json',
-    JSON.stringify({ data: allGatheredData })
-  );
-  console.log(allGatheredData);
-  const listOfCountries = slimCountryList(allGatheredData);
-  await writeFile(
-    './countryData/data/countryList.json',
-    JSON.stringify({
-      meta: { updatedAt: new Date().toISOString() },
-      countries: listOfCountries,
-    })
-  );
 
-  log(`buildData - finished`, `with ${listOfCountries.length} records`);
+  log(`> Read Providers Data - finished`);
+
+  const allGatheredData = await buildAllDataList(sortedAndParsedProviderFiles);
+  const countryList = await buildSlimList(allGatheredData);
+
+  log(`UPDATE COUNTRY CPI DATA - finished`, `with ${countryList.length} records`);
 };
 
 gatherAllCountriesData();

@@ -1,5 +1,6 @@
 {
   "meta": {
+    "preference": 900,
     "updatedAt": "2022-05-30T01:56:33.488Z",
     "provider": "INDEC",
     "url": "https://infra.datos.gob.ar/catalog/sspm/dataset/145/distribution/145.9/download/indice-precios-al-consumidor-apertura-por-categorias-base-diciembre-2016-mensual.csv"
@@ -74,9 +75,9 @@
         ["2022-01", 605.0317],
         ["2022-02", 633.4341],
         ["2022-03", 676.0566],
-        ["2022-04", 716.9]
-      ],
-      "dataRange": [["2016-12", "2022-04"]]
+        ["2022-04", 716.9],
+        ["2022-07", 800]
+      ]
     }
   }
 }

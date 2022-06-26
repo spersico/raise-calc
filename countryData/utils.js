@@ -36,7 +36,12 @@ const allCountries = countries
   )
   .sort((a, b) => a.names[0] - b.names[0]);
 
-const storeProviderData = async (provider, countryCode, data) => {
+const storeProviderData = async (
+  provider,
+  countryCode,
+  data,
+  preference = 999
+) => {
   return writeFile(
     `./countryData/data/providers/${provider}${
       countryCode ? '-' + countryCode : ''
@@ -45,6 +50,7 @@ const storeProviderData = async (provider, countryCode, data) => {
       meta: {
         updatedAt: new Date().toISOString(),
         provider,
+        preference,
       },
       data,
     })
@@ -101,9 +107,9 @@ function readFiles(dirname) {
 }
 
 module.exports = {
-  readAllFilesInAFolder: readFiles,
+  readFiles,
   storeProviderData,
   log: (title, extradata) =>
-    console.log(`${title} at ${new Date().toISOString()}`, extradata),
+    console.log(`${title} at ${new Date().toISOString()}`),
   allCountries,
 };
