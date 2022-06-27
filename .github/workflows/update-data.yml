@@ -1,7 +1,5 @@
 name: Resources
-on:
-  schedule:
-  - cron: "0 0 * * 0"
+on: push
 permissions:
     contents: write
 jobs:
