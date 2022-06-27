@@ -1,20 +1,19 @@
-const calculateInflationPercentageChange = (current, previous) => {
-  return ((current - previous) / previous) * 100;
+const calculateChangeRate = (current, previous, preference = 0) => {
+  return (
+    ((current[preference] - previous[preference]) / previous[preference]) * 100
+  );
 };
 
-export const getAccumulatedInflation = ({ period }) => {
-  if (!period.length) return {};
-  const monthly = period.map((current, index) => {
-    if (!index) return [current[0], 0];
-    return [
-      current[0],
-      calculateInflationPercentageChange(current[1], period[index - 1][1]),
-    ];
+export const getAccumulatedInflation = (periods) => {
+  if (!periods.length) return {};
+  const monthly = periods.map(([yearMonth, values], index) => {
+    if (index === 0) return [yearMonth, 0];
+    return [yearMonth, calculateChangeRate(values, periods[index - 1][1])];
   });
 
-  const total = calculateInflationPercentageChange(
-    period[period.length - 1][1],
-    period[0][1]
+  const total = calculateChangeRate(
+    periods[periods.length - 1][1],
+    periods[0][1]
   );
   return { monthly, total };
 };

@@ -1,16 +1,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
 import { getAccumulatedInflation } from './inflationHelpers';
-
-const thisMonth =
-  new Date().getFullYear() +
-  '-' +
-  String(new Date().getMonth() + 1).padStart(2, '0');
+import { thisYearAndMonth } from './utils';
 
 export default function useInflationData(countries) {
   const [code, setCountryCode] = useState(null);
   const [selectedCountry, setSelectedCountry] = useState(null);
-  const [date, setDate] = useState(thisMonth);
+  const [date, setDate] = useState(thisYearAndMonth);
   const [{ data, loading }, getCountryData] = useGetCountryData(code, date);
 
   useEffect(() => {
