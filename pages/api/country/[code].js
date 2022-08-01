@@ -1,6 +1,9 @@
 const countries = require('./../../../countryData/data/allCountriesData.json');
 const { data } = countries;
 
+const generateDate = (year, month) =>
+  `${year}-${String(month).padStart(2, '0')}`;
+
 export const getCpiFromCountry = (code, provider, fromYear, fromMonth = 1) => {
   const country = data[code];
   if (!country) throw new Error('Country CPI not found');
@@ -11,7 +14,7 @@ export const getCpiFromCountry = (code, provider, fromYear, fromMonth = 1) => {
     : meta;
 
   if (fromYear && fromMonth) {
-    const from = `${fromYear}-${String(fromMonth).padStart(2, '0')}`;
+    const from = generateDate(fromYear, fromMonth);
     const startIndex = periods.findIndex(([date]) => date === from);
     if (startIndex === -1) throw new Error('Invalid from date');
 
