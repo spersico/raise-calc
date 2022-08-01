@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
-import { getAccumulatedInflation } from './inflationHelpers';
+import { getAccumulatedAndMonthlyInflations } from './inflationHelpers';
 import { thisYearAndMonth } from './utils';
 
 export default function useInflationData(countries) {
@@ -40,9 +40,14 @@ export const useGetCountryData = (id, date) => {
       try {
         setLoading(true);
         const response = await (await fetch(url)).json();
-        response.inflation = getAccumulatedInflation(response);
+        console.log(`🐛 | makeRequest | response`, response);
+        const accumulatedData = {
+          ...response,
+          ...getAccumulatedAndMonthlyInflations(response.periods, date),
+        };
+        console.log(`🐛 | DATA`, accumulatedData);
 
-        setData(response);
+        setData(accumulatedData);
       } catch (err) {
         setError(err);
       } finally {
