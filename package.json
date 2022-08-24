@@ -10,18 +10,17 @@
     "data": "node countryData/index.js"
   },
   "dependencies": {
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "@mui/material": "^5.7.0",
-    "next": "12.1.6",
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "next": "12.2.5",
+    "primeflex": "^3.2.1",
+    "primeicons": "^5.0.0",
+    "primereact": "^8.4.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "undici": "^5.1.0",
-    "nodemon": "^2.0.16",
-    "world-countries": "^4.0.0",
-    "eslint": "8.14.0",
-    "eslint-config-next": "12.1.6"
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "undici": "^5.10.0",
+    "world-countries": "^4.0.0"
   }
 }

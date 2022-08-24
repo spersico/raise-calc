@@ -1,4 +1,3 @@
-import { Container, Grid } from '@mui/material';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
@@ -22,8 +21,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ data: { countries } }) {
-
-
   return (
     <div className={styles.container}>
       <Head>
@@ -41,21 +38,10 @@ export default function Home({ data: { countries } }) {
           Your tool to figure out how much you should ask on your next salary
           review 💵💲.
         </h2>
-        <Container maxWidth='lg'>
-          <Grid container columns={16}>
-            <Grid item xs={10}>
-              <Form countries={countries} />
-            </Grid>
-            <Grid item xs={6}>
-              <Image
-                src={Hands}
-                alt='hands with cash'
-                width='500'
-                height='500'
-              />
-            </Grid>
-          </Grid>
-        </Container>
+
+        <Form countries={countries} />
+
+        <Image src={Hands} alt='hands with cash' width='500' height='500' />
       </main>
     </div>
   );
