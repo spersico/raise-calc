@@ -4,7 +4,7 @@ export const toYearMonth = (year, month) => `${year}-${toMonth(month)}`;
 
 export const dateToYearMonth = (date) => {
   const value = new Date(date);
-  return toYearMonth(value.getFullYear(), value.getMonth());
+  return toYearMonth(value.getFullYear(), value.getMonth() + 1);
 };
 
 export const thisMonthOneBased = new Date().getMonth() + 1;
