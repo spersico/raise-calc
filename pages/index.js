@@ -1,9 +1,9 @@
-import { Container, Grid } from '@mui/material';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import Hands from '../public/hands.png';
 import Form from '../components/form';
+import { useRouter } from 'next/router';
 
 import getCountries from '../logic/countries';
 
@@ -22,7 +22,7 @@ export async function getStaticProps() {
 }
 
 export default function Home({ data: { countries } }) {
-
+  const router = useRouter();
 
   return (
     <div className={styles.container}>
@@ -41,21 +41,10 @@ export default function Home({ data: { countries } }) {
           Your tool to figure out how much you should ask on your next salary
           review 💵💲.
         </h2>
-        <Container maxWidth='lg'>
-          <Grid container columns={16}>
-            <Grid item xs={10}>
-              <Form countries={countries} />
-            </Grid>
-            <Grid item xs={6}>
-              <Image
-                src={Hands}
-                alt='hands with cash'
-                width='500'
-                height='500'
-              />
-            </Grid>
-          </Grid>
-        </Container>
+
+        <Form countries={countries} router={router} />
+
+        <Image src={Hands} alt='hands with cash' width='500' height='500' />
       </main>
     </div>
   );
