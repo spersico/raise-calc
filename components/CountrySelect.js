@@ -11,7 +11,7 @@ const itemTemplate = (item, coso) => {
   );
 };
 
-export default function CountrySelect({ countries, onChange }) {
+export default function CountrySelect({ value, countries, onChange }) {
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [filteredCountries, setFilteredCountries] = useState([]);
 
@@ -32,6 +32,13 @@ export default function CountrySelect({ countries, onChange }) {
       setFilteredCountries(_filteredCountries);
     }, 150);
   };
+
+  useEffect(() => {
+    if (!value) return;
+    if (selectedCountry?.code === value?.code) return;
+
+    setSelectedCountry(value.names[0]);
+  }, [value]);
 
   return (
     <AutoComplete

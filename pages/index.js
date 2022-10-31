@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import Hands from '../public/hands.png';
 import Form from '../components/form';
+import { useRouter } from 'next/router';
 
 import getCountries from '../logic/countries';
 
@@ -21,6 +22,8 @@ export async function getStaticProps() {
 }
 
 export default function Home({ data: { countries } }) {
+  const router = useRouter();
+
   return (
     <div className={styles.container}>
       <Head>
@@ -39,7 +42,7 @@ export default function Home({ data: { countries } }) {
           review 💵💲.
         </h2>
 
-        <Form countries={countries} />
+        <Form countries={countries} router={router} />
 
         <Image src={Hands} alt='hands with cash' width='500' height='500' />
       </main>
