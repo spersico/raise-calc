@@ -4,15 +4,25 @@ const { data } = countries;
 const generateDate = (year, month) =>
   `${year}-${String(month).padStart(2, '0')}`;
 
+const getPeriodByProvider = (requestedProvider, country) => {
+  const { inflation, meta } = country;
+  if (meta.length === 1) return { periods: inflation[meta[0].provider], providers: meta };
+  if (!requestedProvider) return { periods: inflation['average'], providers: meta };
 
+  const countryProvider = meta.find((p) => p.provider === requestedProvider);
+  if (!countryProvider) {
+    const countryProviders = meta.map(({ provider }) => provider);
+    throw new Error('Country provider not found, avaliable providers: ' + countryProviders.join(', '));
+  }
+
+  return { periods: inflation[countryProvider.provider], providers: [countryProvider] };
+};
 
 export const getCpiFromCountry = (code, provider, fromYear, fromMonth = 1) => {
   const country = data[code];
   if (!country) throw new Error('Country CPI not found');
-  const { inflation, meta } = country;
-  const countryProvider = meta.find((p) => p.provider === provider);
-  const providers = !provider ? meta : [countryProvider];
-  const periods = inflation[countryProvider ? countryProvider.provider : 'average'];
+
+  const { periods, providers } = getPeriodByProvider(provider, country);
 
   let fromIndex = 0;
   if (fromYear && fromMonth) {
