@@ -5,8 +5,8 @@
    "meta": [
     {
      "provider": "INDEC",
-     "seriesCode": "148.3_INIVELNAL_DICI_M_26",
-     "indexedAt": "2022-05-28T04:31:09.058Z"
+     "seriesCode": "145.3_INGNACNAL_DICI_M_15",
+     "indexedAt": "2023-01-23T04:31:09.058Z"
     },
     {
      "provider": "IMF",
@@ -473,57 +473,55 @@
     [
      "2022-05",
      [
-      null,
+      753.147,
       753.147
      ]
     ],
     [
      "2022-06",
      [
-      null,
+      793.0278,
       793.0278
      ]
     ],
     [
      "2022-07",
      [
-      800,
+      851.761,
       851.761
      ]
     ],
     [
      "2022-08",
      [
-      null,
+      911.1316,
       911.1316
      ]
     ],
     [
      "2022-09",
      [
-      null,
+      967.3076,
       967.3076
      ]
     ],
     [
      "2022-10",
      [
-      null,
+      1028.706,
       1028.706
      ]
     ],
     [
      "2022-11",
      [
-      null,
-      null
+      1079.3
      ]
     ],
     [
      "2022-12",
      [
-      null,
-      null
+      1134.5875
      ]
     ],
     [
@@ -361367,12 +361365,12 @@
  "meta": {
   "INDEC": {
    "preference": 900,
-   "updatedAt": "2022-05-30T01:56:33.488Z",
+   "updatedAt": "2023-01-23T04:31:09.058Z",
    "provider": "INDEC",
-   "url": "https://infra.datos.gob.ar/catalog/sspm/dataset/145/distribution/145.9/download/indice-precios-al-consumidor-apertura-por-categorias-base-diciembre-2016-mensual.csv"
+   "url": "https://datos.gob.ar/dataset/sspm-indice-precios-al-consumidor-nacional-ipc-base-diciembre-2016/archivo/sspm_145.3"
   },
   "IMF": {
-   "updatedAt": "2023-01-23T22:07:44.590Z",
+   "updatedAt": "2023-01-23T23:04:48.380Z",
    "provider": "IMF",
    "preference": 999
   }
