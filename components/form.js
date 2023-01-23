@@ -7,6 +7,8 @@ export default function Form({ countries, router }) {
   const { setCountry, setDate, selectedCountry, selectedDate } =
     useInflationData(countries, router);
 
+  const [year, month] = selectedCountry ? selectedCountry.first.split('-') : [new Date().getFullYear(), '01'];
+
   return (
     <div className='flex justify-content-center'>
       <div className='card'>
@@ -23,8 +25,10 @@ export default function Form({ countries, router }) {
             <Calendar
               id='monthpicker'
               value={selectedDate}
+              disabled={!selectedCountry}
               onChange={(e) => setDate(e.value)}
               view='month'
+              minDate={new Date(`${year}-${month}-15`)}
               maxDate={new Date()}
               dateFormat='mm/yy'
             />
