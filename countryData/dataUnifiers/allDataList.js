@@ -44,11 +44,15 @@ async function buildAllDataList(sortedProviderFiles) {
   });
 
   allData = dateFillingPipeline(allData);
-  allData = inflationCalcPipeline(allData);
+  await writeFile(
+    './countryData/data/allCountriesBaseData.json',
+    JSON.stringify({ data: allData, meta: allMeta }, null, 1)
+  );
 
+  const inflationData = inflationCalcPipeline(allData);
   await writeFile(
     './countryData/data/allCountriesData.json',
-    JSON.stringify({ data: allData, meta: allMeta }, null, 2)
+    JSON.stringify({ data: inflationData, meta: allMeta }, null, 1)
   );
 
   log(`> Unify Providers ${sortedProviderFiles.length} Data - finished`);

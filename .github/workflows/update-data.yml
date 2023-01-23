@@ -22,6 +22,7 @@ jobs:
               with:
                   file-path: |
                       countryData/data/providers/IMF.json
+                      countryData/data/allCountriesBaseData.json
                       countryData/data/allCountriesData.json
                       countryData/data/countryList.json
                   commit-msg: Update resources

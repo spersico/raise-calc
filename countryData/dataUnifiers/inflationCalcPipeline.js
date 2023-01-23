@@ -77,7 +77,7 @@ function inflationCalcPipeline(data) {
       inflation.average = calculateInflationPerProvider(getAverageOrSelectedCPIPeriods(periods, -1));
     }
 
-    result[code] = { ...data[code], inflation };
+    result[code] = { meta, inflation };
   }
   return result;
 }
