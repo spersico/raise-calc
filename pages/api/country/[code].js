@@ -5,6 +5,7 @@ const { data } = countries;
 const toMonth = (month = new Date().getMonth() + 1) =>
   String(month).padStart(2, '0');
 const toYearMonth = (year, month) => `${year}-${toMonth(month)}`;
+// TODO: up to here
 
 const getCountryPeriodsByProvider = (requestedProvider, country) => {
   const { inflation, meta } = country;
