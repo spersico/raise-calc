@@ -44,7 +44,7 @@ export default function Home({ data: { countries } }) {
 
         <Form countries={countries} router={router} />
 
-        <Image src={Hands} alt='hands with cash' width='500' height='500' />
+        {/* <Image src={Hands} alt='hands with cash' width='500' height='500' /> */}
       </main>
     </div>
   );
