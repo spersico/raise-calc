@@ -15,11 +15,12 @@ const slimCountryList = (allData) =>
       return {
         code,
         names,
+        first: allData[code].periods[0][0],
       };
     });
 
 const buildSlimList = async (allGatheredData) => {
-  log(`> Build Slim Country List - started`);
+  log(`> Build Slim Country List - started`, allGatheredData);
   const countries = slimCountryList(allGatheredData);
 
   await writeFile(

@@ -1,6 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
-import { getAccumulatedAndMonthlyInflations } from './inflationHelpers';
 import { dateToYearMonth } from './utils';
 
 const formUrl = (code, date) => {
@@ -63,16 +62,9 @@ export const useGetCountryData = (router) => {
     try {
       const url = formUrl(code, date);
       const response = await (await fetch(url)).json();
-      const accumulatedData = {
-        ...response,
-        ...getAccumulatedAndMonthlyInflations(
-          response.periods,
-          dateToYearMonth(date)
-        ),
-      };
 
-      setData(accumulatedData);
-      console.log(`🐛 | DATA`, accumulatedData);
+      setData(response);
+      console.log(`🐛 | DATA`, response);
     } catch (err) {
       setError(err);
     } finally {

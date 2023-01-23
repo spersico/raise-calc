@@ -4,23 +4,29 @@ const { data } = countries;
 const generateDate = (year, month) =>
   `${year}-${String(month).padStart(2, '0')}`;
 
+
+
 export const getCpiFromCountry = (code, provider, fromYear, fromMonth = 1) => {
   const country = data[code];
   if (!country) throw new Error('Country CPI not found');
-  const { periods, meta } = country;
+  const { inflation, meta } = country;
+  const countryProvider = meta.find((p) => p.provider === provider);
+  const providers = !provider ? meta : [countryProvider];
+  const periods = inflation[countryProvider ? countryProvider.provider : 'average'];
 
-  const providerMeta = provider
-    ? [meta.find((p) => p.provider === provider)]
-    : meta;
-
+  let fromIndex = 0;
   if (fromYear && fromMonth) {
     const from = generateDate(fromYear, fromMonth);
-    const startIndex = periods.findIndex(([date]) => date === from);
-    if (startIndex === -1) throw new Error('Invalid from date');
-
-    return { provider: providerMeta, periods: periods.slice(startIndex) };
+    fromIndex = periods.findIndex(({ date }) => date === from);
   }
-  return { provider: providerMeta, periods };
+
+  if (fromIndex === -1) {
+    console.warn('No data found for ' + fromYear + '-' + fromMonth, periods);
+    fromIndex = 0;
+  }
+
+
+  return { providers, periods: periods.slice(fromIndex) };
 };
 
 /**

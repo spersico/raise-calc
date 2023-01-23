@@ -1,6 +1,8 @@
 const fs = require('fs');
 const { writeFile } = fs.promises;
 const { log } = require('../utils.js');
+const { dateFillingPipeline } = require('./dateFillingPipeline.js');
+const { inflationCalcPipeline } = require('./inflationCalcPipeline.js');
 
 async function buildAllDataList(sortedProviderFiles) {
   log(`> Unify Providers ${sortedProviderFiles.length} Data - finished`);
@@ -25,7 +27,7 @@ async function buildAllDataList(sortedProviderFiles) {
       } else {
         // we add the provider to the local country metadata
         allData[code].meta.push({ provider, ...countryMeta });
-        periods.reduce((acum, [period, value]) => {
+        periods.forEach(([period, value]) => {
           if (allData[code].periods[period]) {
             allData[code].periods[period].push(value);
           } else {
@@ -36,22 +38,17 @@ async function buildAllDataList(sortedProviderFiles) {
             allData[code].periods[period][preference] = value;
             // we set values in the same order as the meta
           }
-          acum[period] = [value];
-          return acum;
         }, {});
       }
     });
   });
 
-  for (const code in allData) {
-    allData[code].periods = Object.entries(allData[code].periods).sort(
-      ([periodA], [periodB]) => String(periodA).localeCompare(periodB)
-    );
-  }
+  allData = dateFillingPipeline(allData);
+  allData = inflationCalcPipeline(allData);
 
   await writeFile(
     './countryData/data/allCountriesData.json',
-    JSON.stringify({ data: allData, meta: allMeta })
+    JSON.stringify({ data: allData, meta: allMeta }, null, 2)
   );
 
   log(`> Unify Providers ${sortedProviderFiles.length} Data - finished`);
