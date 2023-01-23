@@ -57,12 +57,8 @@ const getCpiFromCountry = (code, provider, fromYear, fromMonth) => {
  */
 export default function handler(req, res) {
   const { code, provider, year, month } = req.query;
-  const country = getCpiFromCountry(
-    String(code).toUpperCase(),
-    provider,
-    year,
-    month
-  );
+  const countryCode = String(code).toUpperCase();
+  const country = getCpiFromCountry(countryCode, provider, year, month);
   if (!country) return res.status(404).json({ error: 'Country not found' });
   res.status(200).json(country);
 }
