@@ -1,3 +1,5 @@
+const round = (n, decimals = 4) => Number(`${Math.round(`${n}e${decimals}`)}e-${decimals}`);
+
 const calculateChangeRate = (current, previous) => {
   return ((current - previous) / previous) * 100;
 };
@@ -46,7 +48,7 @@ const calculateInflationPerProvider = (periods) => {
         monthlyInflation = calculateChangeRate(cpi, lastCPI);
       }
     }
-    monthlyData.push({ date, inflation: monthlyInflation, cpi, ...estimation });
+    monthlyData.push({ date, inflation: round(monthlyInflation), cpi, ...estimation });
   }
 
   return monthlyData;
