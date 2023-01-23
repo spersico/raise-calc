@@ -35,8 +35,9 @@ const getCountrySlicedPeriods = ({ fromYear, fromMonth }, periods) => {
 };
 
 const calculateTotalInflationOfPeriods = (periods) => {
+  if (periods.length === 1) return periods[0].inflation;
   const { cpi: lastCpi } = periods[periods.length - 1];
-  const { cpi: firstCpi } = periods[0].cpi;
+  const { cpi: firstCpi } = periods[0];
   return ((lastCpi - firstCpi) / firstCpi) * 100;
 };
 
