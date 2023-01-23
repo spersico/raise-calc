@@ -4,6 +4,9 @@ const { data } = countries;
 const generateDate = (year, month) =>
   `${year}-${String(month).padStart(2, '0')}`;
 
+const calculateChangeRate = (current, previous) => {
+  return ((current - previous) / previous) * 100;
+};
 const getCountryPeriodsByProvider = (requestedProvider, country) => {
   const { inflation, meta } = country;
   if (meta.length === 1) return { periods: inflation[meta[0].provider], providers: meta };
@@ -32,14 +35,17 @@ const getCountrySlicedPeriods = ({ fromYear, fromMonth }, periods) => {
   return periods.slice(fromIndex);
 };
 
-export const getCpiFromCountry = (code, provider, fromYear, fromMonth = 1) => {
+const getCpiFromCountry = (code, provider, fromYear, fromMonth = 1) => {
   const country = data[code];
   if (!country) throw new Error('Country CPI not found');
 
   const { periods, providers } = getCountryPeriodsByProvider(provider, country);
   const slicedPeriods = getCountrySlicedPeriods({ fromYear, fromMonth }, periods);
 
-  return { providers, periods: slicedPeriods };
+
+  const totalInflation = calculateChangeRate(slicedPeriods[slicedPeriods.length - 1].cpi, slicedPeriods[0].cpi);
+
+  return { providers, periods: slicedPeriods, totalInflation };
 };
 
 /**
