@@ -4,7 +4,7 @@ const { data } = countries;
 const generateDate = (year, month) =>
   `${year}-${String(month).padStart(2, '0')}`;
 
-const getPeriodByProvider = (requestedProvider, country) => {
+const getCountryPeriodsByProvider = (requestedProvider, country) => {
   const { inflation, meta } = country;
   if (meta.length === 1) return { periods: inflation[meta[0].provider], providers: meta };
   if (!requestedProvider) return { periods: inflation['average'], providers: meta };
@@ -22,19 +22,17 @@ export const getCpiFromCountry = (code, provider, fromYear, fromMonth = 1) => {
   const country = data[code];
   if (!country) throw new Error('Country CPI not found');
 
-  const { periods, providers } = getPeriodByProvider(provider, country);
+  const { periods, providers } = getCountryPeriodsByProvider(provider, country);
 
   let fromIndex = 0;
   if (fromYear && fromMonth) {
     const from = generateDate(fromYear, fromMonth);
     fromIndex = periods.findIndex(({ date }) => date === from);
+    if (fromIndex === -1) {
+      console.error(`No data found  - Invalid Period ${from} `, periods);
+      throw new Error(`No data found - Invalid Period ${from}`);
+    }
   }
-
-  if (fromIndex === -1) {
-    console.warn('No data found for ' + fromYear + '-' + fromMonth, periods);
-    fromIndex = 0;
-  }
-
 
   return { providers, periods: periods.slice(fromIndex) };
 };
