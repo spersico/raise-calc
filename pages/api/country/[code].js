@@ -1,12 +1,11 @@
 const countries = require('./../../../countryData/data/allCountriesData.json');
 const { data } = countries;
 
-const generateDate = (year, month) =>
-  `${year}-${String(month).padStart(2, '0')}`;
+// TODO: move this to a shared logic utils file shared between this and frontend
+const toMonth = (month = new Date().getMonth() + 1) =>
+  String(month).padStart(2, '0');
+const toYearMonth = (year, month) => `${year}-${toMonth(month)}`;
 
-const calculateChangeRate = (current, previous) => {
-  return ((current - previous) / previous) * 100;
-};
 const getCountryPeriodsByProvider = (requestedProvider, country) => {
   const { inflation, meta } = country;
   if (meta.length === 1) return { periods: inflation[meta[0].provider], providers: meta };
@@ -24,7 +23,7 @@ const getCountryPeriodsByProvider = (requestedProvider, country) => {
 const getCountrySlicedPeriods = ({ fromYear, fromMonth }, periods) => {
   let fromIndex = 0;
   if (fromYear && fromMonth) {
-    const from = generateDate(fromYear, fromMonth);
+    const from = toYearMonth(fromYear, fromMonth);
     fromIndex = periods.findIndex(({ date }) => date === from);
     if (fromIndex === -1) {
       console.error(`No data found  - Invalid Period`, { from, periods });
@@ -35,15 +34,19 @@ const getCountrySlicedPeriods = ({ fromYear, fromMonth }, periods) => {
   return periods.slice(fromIndex);
 };
 
-const getCpiFromCountry = (code, provider, fromYear, fromMonth = 1) => {
+const calculateTotalInflationOfPeriods = (periods) => {
+  const { cpi: lastCpi } = periods[periods.length - 1];
+  const { cpi: firstCpi } = periods[0].cpi;
+  return ((lastCpi - firstCpi) / firstCpi) * 100;
+};
+
+const getCpiFromCountry = (code, provider, fromYear, fromMonth) => {
   const country = data[code];
   if (!country) throw new Error('Country CPI not found');
 
   const { periods, providers } = getCountryPeriodsByProvider(provider, country);
   const slicedPeriods = getCountrySlicedPeriods({ fromYear, fromMonth }, periods);
-
-
-  const totalInflation = calculateChangeRate(slicedPeriods[slicedPeriods.length - 1].cpi, slicedPeriods[0].cpi);
+  const totalInflation = calculateTotalInflationOfPeriods(slicedPeriods);
 
   return { providers, periods: slicedPeriods, totalInflation };
 };
