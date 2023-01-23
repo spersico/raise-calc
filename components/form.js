@@ -25,6 +25,7 @@ export default function Form({ countries, router }) {
               value={selectedDate}
               onChange={(e) => setDate(e.value)}
               view='month'
+              maxDate={new Date()}
               dateFormat='mm/yy'
             />
           </div>
