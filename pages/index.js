@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import data from '../countryData/data/countryList.json';
 
-import Form from '../components/form';
+import Form from '../components/Form';
 import { useRouter } from 'next/router';
 
 export async function getStaticProps() { return { props: { data } }; }
