@@ -1,0 +1,8 @@
+.secondaryNames {
+  color: var(--grey);
+  padding-left: 10px;
+  font-size: 0.8rem;
+}
+.item {
+  color: var(--raw-sienna);
+}
