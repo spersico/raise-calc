@@ -3,7 +3,7 @@ import * as React from 'react';
 import { AutoComplete } from 'primereact/autocomplete';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import styles from './CountrySelect.module.css';
+import styles from '../styles/CountrySelect.module.css';
 
 const ItemTemplate = ({ item }) => {
   const primaryName = item.names.length > 1 ? item.names[1] : item.names[0];
