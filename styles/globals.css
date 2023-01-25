@@ -8,6 +8,7 @@
   --cyan-blue: #30cdb2;
   --white: hsla(0, 0%, 100%, 1);
   --greyish-white: hsla(0, 0%, 100%, 0.8);
+  --grey: hsla(0, 0%, 100%, 0.6);
 }
 
 html {
