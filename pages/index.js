@@ -1,23 +1,11 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import countryList from '../countryData/data/countryList.json';
+import data from '../countryData/data/countryList.json';
 
 import Form from '../components/form';
 import { useRouter } from 'next/router';
 
-
-// This function gets called at build time
-export async function getStaticProps() {
-  // Call an external API endpoint to get posts
-
-  // By returning { props: { posts } }, the Blog component
-  // will receive `posts` as a prop at build time
-  return {
-    props: {
-      data: countryList,
-    },
-  };
-}
+export async function getStaticProps() { return { props: { data } }; }
 
 export default function Home({ data: { countries } }) {
   const router = useRouter();
@@ -37,7 +25,7 @@ export default function Home({ data: { countries } }) {
         <h1 className={styles.title}>Raise Calculator</h1>
         <h2 className={styles.subtitle}>
           Your tool to figure out how much you should ask on your next salary
-          review 💵💲.
+          review 💵.
         </h2>
 
         <Form countries={countries} router={router} />
