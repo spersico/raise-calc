@@ -1,20 +1,32 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
-import { dateToYearMonth } from './utils';
+
+const toMonth = (month = new Date().getMonth() + 1) =>
+  String(month).padStart(2, '0');
+
+const toYearMonth = (year, month) => `${year}-${toMonth(month)}`;
+
+const dateToYearMonth = (date) => {
+  const value = new Date(date);
+  return toYearMonth(value.getFullYear(), value.getMonth() + 1);
+};
 
 const formUrl = (code, date) => {
   const [year, month] = dateToYearMonth(date).split('-');
-  return `${globalThis.location.protocol}//${globalThis.location.host}/api/country/${code}?year=${year}&month=${month}`;
+  return `/api/country/${code}?year=${year}&month=${month}`;
 };
 
 export default function useInflationData(countries, router) {
   const [selectedCountry, setSelectedCountry] = useState(null);
+  const [firstDate, setSelectedCountryFirstDate] = useState([new Date().getFullYear(), '01']);
   const [selectedDate, setSelectedDate] = useState(null);
   const [{ data: selectedCountryData, loading }, getCountryData] =
     useGetCountryData(router);
 
   const setCountry = (code) => {
-    setSelectedCountry(countries.find((c) => c.code === code));
+    const country = countries.find((c) => c.code === code);
+    setSelectedCountry(country);
+    setSelectedCountryFirstDate(country ? country.first.split('-') : [new Date().getFullYear(), '01']);
     if (code && selectedDate) getCountryData(code, selectedDate);
   };
 
@@ -44,6 +56,7 @@ export default function useInflationData(countries, router) {
     setCountry,
     setDate,
     selectedCountry,
+    firstDate,
     selectedCountryData,
     selectedDate,
     loading,

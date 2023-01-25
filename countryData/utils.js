@@ -4,11 +4,6 @@ const path = require('path');
 const fs = require('fs');
 const { writeFile } = fs.promises;
 
-const thisMonth =
-  new Date().getFullYear() +
-  '-' +
-  String(new Date().getMonth() + 1).padStart(2, '0');
-
 const allCountries = countries
   .map(
     ({
@@ -43,8 +38,7 @@ const storeProviderData = async (
   preference = 999
 ) => {
   return writeFile(
-    `./countryData/data/providers/${provider}${
-      countryCode ? '-' + countryCode : ''
+    `./countryData/data/providers/${provider}${countryCode ? '-' + countryCode : ''
     }.json`,
     JSON.stringify({
       meta: {
