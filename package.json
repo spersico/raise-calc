@@ -1,6 +1,6 @@
 {
   "name": "raise-calc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "NODE_OPTIONS='--inspect' next dev",
@@ -10,17 +10,17 @@
     "data": "node countryData/index.js"
   },
   "dependencies": {
-    "next": "^13.0.0",
-    "primeflex": "^3.2.1",
+    "next": "^13.1.5",
+    "primeflex": "^3.3.0",
     "primeicons": "^6.0.1",
-    "primereact": "^8.7.0",
+    "primereact": "^8.7.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.26.0",
-    "eslint-config-next": "^13.0.0",
-    "undici": "^5.12.0",
+    "eslint": "8.32.0",
+    "eslint-config-next": "^13.1.5",
+    "undici": "^5.16.0",
     "world-countries": "^4.0.0"
   }
 }
