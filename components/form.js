@@ -1,8 +1,7 @@
-import { Calendar } from 'primereact/calendar';
-
 import useInflationData from '../hooks/useInflation';
 import CountrySelect from './CountrySelect';
 import styles from '../styles/Form.module.css';
+import DateSelect from './DateSelect';
 
 export default function Form({ countries, router }) {
   const { setCountry, setDate, firstDate, selectedCountry, selectedDate } =
@@ -13,7 +12,6 @@ export default function Form({ countries, router }) {
     <form onSubmit={console.log} className='p-fluid'>
       <div className={styles.formWrapper}>
         <div className='card'>
-          <label htmlFor='countryPicker'>Select a Country</label>
           <CountrySelect
             value={selectedCountry}
             countries={countries}
@@ -21,16 +19,11 @@ export default function Form({ countries, router }) {
           />
         </div>
         <div className='card'>
-          <label htmlFor='monthPicker'>Select a Date</label>
-          <Calendar
-            inputId='monthPicker'
-            value={selectedDate}
+          <DateSelect
+            selectedDate={selectedDate}
+            setDate={setDate}
+            firstDate={firstDate}
             disabled={!selectedCountry}
-            onChange={(e) => setDate(e.value)}
-            view='month'
-            minDate={new Date(`${firstDate[0]}-${firstDate[1]}-15`)}
-            maxDate={new Date()}
-            dateFormat='mm/yy'
           />
         </div>
       </div >
