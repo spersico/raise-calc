@@ -42,7 +42,7 @@ const calculateTotalInflationOfPeriods = (periods) => {
   return ((lastCpi - firstCpi) / firstCpi) * 100;
 };
 
-const getCpiFromCountry = (code, provider, fromYear, fromMonth) => {
+const getCpi = (code, provider, fromYear, fromMonth) => {
   const country = data[code];
   if (!country) throw new Error('Country CPI not found');
 
@@ -52,15 +52,30 @@ const getCpiFromCountry = (code, provider, fromYear, fromMonth) => {
 
   return { providers, periods: slicedPeriods, totalInflation };
 };
+/**
+ * Function used by the SSR to get the country data
+ */
+export function getCpiFromQuery(query) {
+  try {
+    const { code, provider, year, month } = query;
+    const countryCode = String(code).toUpperCase();
+    return getCpi(countryCode, provider, year, month);
+  } catch (error) {
+    console.error(`Error getting CPI from query: ${JSON.stringify(query)} - `, error);
+    throw error;
+  }
+}
 
 /**
  * Fetch country data CPI from the API
  * e.g: localhost:3000/api/country/ar?year=2021&month=12
  */
 export default function handler(req, res) {
-  const { code, provider, year, month } = req.query;
-  const countryCode = String(code).toUpperCase();
-  const country = getCpiFromCountry(countryCode, provider, year, month);
-  if (!country) return res.status(404).json({ error: 'Country not found' });
-  res.status(200).json(country);
+  try {
+    const country = getCpiFromQuery(req.query);
+    res.status(200).json(country);
+
+  } catch (error) {
+    return res.status(404).json({ error: 'Error getting CPI' + error.message, params: req.query });
+  }
 }

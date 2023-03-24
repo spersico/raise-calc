@@ -4,12 +4,14 @@ import styles from '../styles/Form.module.css';
 import DateSelect from './DateSelect';
 
 export default function Form({ countries, router }) {
-  const { setCountry, setDate, firstDate, selectedCountry, selectedDate } =
+  const { setCountry, setDate, firstDate, selectedCountry, selectedDate, showResults } =
     useInflationData(countries, router);
+  console.log(`🐛 | Form | selectedCountry, selectedDate:`, selectedCountry, selectedDate);
 
 
   return (
-    <form onSubmit={console.log} className='p-fluid'>
+    <form className='p-fluid'>
+      <pre>{JSON.stringify({ selectedCountry, selectedDate })}</pre>
       <div className={styles.formWrapper}>
         <div className='card'>
           <CountrySelect
@@ -26,6 +28,7 @@ export default function Form({ countries, router }) {
             disabled={!selectedCountry}
           />
         </div>
+        <button onClick={showResults}>Submit</button>
       </div >
     </form>
   );
