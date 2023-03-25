@@ -11,13 +11,13 @@ const calculateAverage = (arrayOfNumbers) => {
   );
 };
 
-/** Gets the last 2 months of CPIs, be them estimated or actual CPIs*/
+/** Gets the last 6 months of CPIs, be them estimated or actual CPIs*/
 const getLastMonthsOfData = (monthlyData) => {
   return monthlyData
     .slice()
     .reverse()
     .filter(({ cpi }) => Number.isFinite(cpi))
-    .slice(0, monthlyData.length - 2)
+    .slice(0, 6)
     .map(({ inflation }) => inflation);
 };
 
@@ -54,6 +54,10 @@ const calculateInflationPerProvider = (periods) => {
   return monthlyData;
 };
 
+// TODO: This assumes that the methodology and the initial CPI count is the same. 
+// I'm not sure that's true. 
+// A probable better way would be to get the average inflation, and use that
+// and for the CPI of that one, select one of the provider CPI's, and modify it according to inflation (the avg one)
 function getAverageOrSelectedCPIPeriods(
   periods,
   providerIndex
