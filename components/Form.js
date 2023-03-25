@@ -14,7 +14,7 @@ export default function Form({ countries }) {
           <CountrySelect
             value={selectedCountry}
             countries={countries}
-            onChange={(country) => setCountry(country?.code)}
+            onChange={setCountry}
           />
         </div>
         <div className='card'>

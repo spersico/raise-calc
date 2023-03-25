@@ -14,16 +14,17 @@ export default function useFormData(countries) {
   useEffect(() => {
     // load the query params into the form
     const code = query.get('code');
-    if (!code) return;
+    const country = countries.find((c) => c.code === code);
+    if (!country) return;
+
+    setCountry(country);
+
     const year = query.get('year');
     const month = query.get('month');
-
-    setCountry(code);
     year && month && setDate(new Date(year, Number(month) - 1, 1));
   }, []);
 
-  const setCountry = (code) => {
-    const country = countries.find((c) => c.code === code);
+  const setCountry = (country) => {
     console.log(`🐛 | setCountry:`, country);
     setSelectedCountry(country);
     setSelectedCountryFirstDate(country ? country.first.split('-') : [new Date().getFullYear(), '01']);
