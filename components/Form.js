@@ -9,7 +9,6 @@ export default function Form({ countries }) {
 
   return (
     <form className='p-fluid'>
-      <pre>{JSON.stringify({ selectedCountry, selectedDate })}</pre>
       <div className={styles.formWrapper}>
         <div className='card'>
           <CountrySelect

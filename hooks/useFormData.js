@@ -24,6 +24,7 @@ export default function useFormData(countries) {
 
   const setCountry = (code) => {
     const country = countries.find((c) => c.code === code);
+    console.log(`🐛 | setCountry:`, country);
     setSelectedCountry(country);
     setSelectedCountryFirstDate(country ? country.first.split('-') : [new Date().getFullYear(), '01']);
   };
