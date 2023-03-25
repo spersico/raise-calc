@@ -10,17 +10,17 @@
     "data": "node countryData/index.js"
   },
   "dependencies": {
-    "next": "^13.1.5",
+    "next": "^13.2.4",
     "primeflex": "^3.3.0",
     "primeicons": "^6.0.1",
-    "primereact": "^8.7.3",
+    "primereact": "^9.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "eslint": "8.32.0",
-    "eslint-config-next": "^13.1.5",
-    "undici": "^5.16.0",
+    "eslint": "8.36.0",
+    "eslint-config-next": "^13.2.4",
+    "undici": "^5.21.0",
     "world-countries": "^4.0.0"
   }
 }

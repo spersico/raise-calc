@@ -6,8 +6,6 @@ import DateSelect from './DateSelect';
 export default function Form({ countries, router }) {
   const { setCountry, setDate, firstDate, selectedCountry, selectedDate, showResults } =
     useInflationData(countries, router);
-  console.log(`🐛 | Form | selectedCountry, selectedDate:`, selectedCountry, selectedDate);
-
 
   return (
     <form className='p-fluid'>
