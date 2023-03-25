@@ -1,13 +1,13 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import data from '../countryData/data/countryList.json';
+import countryList from '../countryData/data/countryList.json';
 
 import Form from '../components/Form';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
-export async function getStaticProps() { return { props: { data } }; }
+export async function getStaticProps() { return { props: { countryList } }; }
 
-export default function Home({ data: { countries } }) {
+export default function Home({ countryList }) {
   const router = useRouter();
 
   return (
@@ -27,9 +27,7 @@ export default function Home({ data: { countries } }) {
           Your tool to figure out how much you should ask on your next salary
           review 💵.
         </h2>
-
-        <Form countries={countries} router={router} />
-
+        <Form countries={countryList.countries} router={router} />
       </main>
     </div>
   );

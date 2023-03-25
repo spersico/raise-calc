@@ -50,27 +50,30 @@ export default function CountrySelect({ value, countries, onChange }) {
   }, [selectedCountry]);
 
   return (
-    <AutoComplete
-      id='countryPicker'
-      value={selectedCountry}
-      field='code'
-      suggestions={filteredCountries}
-      completeMethod={searchCountry}
-      dropdown
-      dropdownAutoFocus
-      onBlur={(event) => {
-        const value = event.target.value;
-        if (!value) { setSelectedCountry(null); return; };
-        if (!selectedCountry?.code && typeof value === 'string') {
-          const query = value.trim().toLowerCase();
-          const maybeCountry = countriesLookup.find((country) => compareByName(country, query));
-          setSelectedCountry(maybeCountry);
-        }
-      }}
-      itemTemplate={(item) => <ItemTemplate item={item} />}
-      selectedItemTemplate={(item) => item.names[0]}
-      onChange={(e) => setSelectedCountry(e.value)}
-      aria-label='Countries'
-    />
+    <>
+      <label htmlFor='countryPicker'>Select a Country</label>
+      <AutoComplete
+        id='countryPicker'
+        value={selectedCountry}
+        field='code'
+        suggestions={filteredCountries}
+        completeMethod={searchCountry}
+        dropdown
+        dropdownAutoFocus
+        onBlur={(event) => {
+          const value = event.target.value;
+          if (!value) { setSelectedCountry(null); return; };
+          if (!selectedCountry?.code && typeof value === 'string') {
+            const query = value.trim().toLowerCase();
+            const maybeCountry = countriesLookup.find((country) => compareByName(country, query));
+            setSelectedCountry(maybeCountry);
+          }
+        }}
+        itemTemplate={(item) => <ItemTemplate item={item} />}
+        selectedItemTemplate={(item) => item.names[0]}
+        onChange={(e) => setSelectedCountry(e.value)}
+        aria-label='Countries'
+      />
+    </>
   );
 }
