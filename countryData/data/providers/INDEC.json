@@ -1,7 +1,7 @@
 {
   "meta": {
     "preference": 900,
-    "updatedAt": "2023-01-23T04:31:09.058Z",
+    "updatedAt": "2023-03-25T01:31:09.058Z",
     "provider": "INDEC",
     "url": "https://datos.gob.ar/dataset/sspm-indice-precios-al-consumidor-nacional-ipc-base-diciembre-2016/archivo/sspm_145.3"
   },
@@ -83,7 +83,9 @@
         ["2022-09", 967.3076],
         ["2022-10", 1028.706],
         ["2022-11", 1079.3],
-        ["2022-12", 1134.5875]
+        ["2022-12", 1134.5875],
+        ["2023-01", 1202.979],
+        ["2023-02", 1282.7091]
       ]
     }
   }
