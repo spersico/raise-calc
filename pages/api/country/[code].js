@@ -46,6 +46,7 @@ function percentageOfCurrentMonth() {
   return ((dayOfMonth / daysInMonth)).toFixed(2);
 }
 
+// TODO: Fix. It currently depends on the number of selected months. It shouldn't
 // The last value, almost always will be estimated, because data is always old.
 // Instead of throwing away the estimation, because inflation is a daily phenomena
 // We correct it, by the percentage of the month that the user is asking on.
