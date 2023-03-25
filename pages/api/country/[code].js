@@ -36,11 +36,27 @@ const getCountrySlicedPeriods = ({ fromYear, fromMonth }, periods) => {
 };
 
 const calculateTotalInflationOfPeriods = (periods) => {
-  if (periods.length === 1) return periods[0].inflation;
-  const { cpi: lastCpi } = periods[periods.length - 1];
-  const { cpi: firstCpi } = periods[0];
-  return ((lastCpi - firstCpi) / firstCpi) * 100;
+  return periods.reduce((acum, period) => acum + period.inflation, 0);
 };
+
+function percentageOfCurrentMonth() {
+  const today = new Date();
+  const daysInMonth = new Date(today.getFullYear(), today.getMonth() + 1, 0).getDate();
+  const dayOfMonth = today.getDate();
+  return ((dayOfMonth / daysInMonth)).toFixed(2);
+}
+
+// The last value, almost always will be estimated, because data is always old.
+// Instead of throwing away the estimation, because inflation is a daily phenomena
+// We correct it, by the percentage of the month that the user is asking on.
+// That way, if we are at 80% of the month, we reduce the cpi estimated change by 20%.
+// And if the month just started, the estimation of the new month will pretty much be discarded
+function correctLastEstimatedPeriod(previousToLastPeriod, lastPeriod) {
+  const percentage = percentageOfCurrentMonth();
+  lastPeriod.inflation = percentage * lastPeriod.inflation;
+  lastPeriod.percentage = percentage;
+  lastPeriod.cpi = previousToLastPeriod.cpi + (previousToLastPeriod.cpi * (lastPeriod.inflation / 100));
+}
 
 const getCpi = (code, provider, fromYear, fromMonth) => {
   const country = data[code];
@@ -48,6 +64,7 @@ const getCpi = (code, provider, fromYear, fromMonth) => {
 
   const { periods, providers } = getCountryPeriodsByProvider(provider, country);
   const slicedPeriods = getCountrySlicedPeriods({ fromYear, fromMonth }, periods);
+  correctLastEstimatedPeriod(periods[periods.length - 2], slicedPeriods[slicedPeriods.length - 1]);
   const totalInflation = calculateTotalInflationOfPeriods(slicedPeriods);
 
   return { providers, periods: slicedPeriods, totalInflation };
