@@ -3,12 +3,10 @@ import styles from '../styles/Home.module.css';
 import countryList from '../countryData/data/countryList.json';
 
 import Form from '../components/Form';
-import { useRouter } from 'next/navigation';
 
 export async function getStaticProps() { return { props: { countryList } }; }
 
 export default function Home({ countryList }) {
-  const router = useRouter();
 
   return (
     <div className={styles.container}>
@@ -27,7 +25,7 @@ export default function Home({ countryList }) {
           Your tool to figure out how much you should ask on your next salary
           review 💵.
         </h2>
-        <Form countries={countryList.countries} router={router} />
+        <Form countries={countryList.countries} />
       </main>
     </div>
   );

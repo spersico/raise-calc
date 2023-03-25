@@ -2,7 +2,6 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import countryList from '../countryData/data/countryList.json';
 import { getCpiFromQuery } from './api/country/[code].js';
-import { useRouter } from 'next/navigation';
 import Form from '../components/Form';
 import ResultSummary from '../components/ResultSummary';
 
@@ -12,13 +11,12 @@ export async function getServerSideProps(context) {
     return {
         props: {
             countryList,
-            country
+            country,
         },
     };
 }
 
 export default function Results({ countryList, country }) {
-    const router = useRouter();
 
     return (
         <div className={styles.container}>
@@ -32,7 +30,7 @@ export default function Results({ countryList, country }) {
             </Head>
 
             <main className={styles.main}>
-                <Form countries={countryList.countries} router={router} />
+                <Form countries={countryList.countries} />
                 <ResultSummary country={country} />
             </main>
         </div>
