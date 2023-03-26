@@ -4,7 +4,7 @@ The base CPI data is fetched from the IMF, using the DBNomics API, but there's a
 
 ## Manual sources
 
-For manual sources (and by extension the automatic one too), you just make a new JSON file in the `countryData/data/providers/` folder. The file should have the same structure than the rest (check them out). 
+For manual sources, you just make a new JSON file in the `countryData/data/providers/` folder. The file should have the same structure than the rest (check them out). 
 Also, be mindful of the `priority` property, which is used to determine which source to use when there's a conflict. The higher the number, the less priority is has (the IMF has the lowest, with 999).
 
 Right now, if there's a more than one source, the source with the highest priority is used, but I'm planning to make it so that the user can choose which source to use.
@@ -13,7 +13,7 @@ As long as you have a valid JSON file, you can run the `data` npm script and it 
 
 ## Automatic sources
 
-Well... the automatic sources is basically making the manual sources through code, so that it's auto updated every week. To do that, make a new file in the `./providers/` folder, and export an async function that generates a JSON like the ones in the `./data/providers/`, and import and call that function from the `./providers/index.js` file. Check the `./providers/imf.js` file for an example.
+The automatic sources is basically making the manual sources through code, so that it's auto updated every week. To do that, make a new file in the `./providers/` folder, and export an async function that generates a JSON like the ones in the `./data/providers/`, and import and call that function from the `./providers/index.js` file. Check the `./providers/imf.js` file for an example.
 
 # Estimation
 
