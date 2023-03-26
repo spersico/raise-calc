@@ -3,10 +3,10 @@ import { Accordion, AccordionTab } from 'primereact/accordion';
 import { BuyingPowerGraph } from './ResultChart';
 
 
-export default function ResultSummary({ result, initialSalary = 1000 }) {
+export default function ResultSummary({ result, initialSalary }) {
     return (
         <>
-            <BuyingPowerGraph data={result.periods} initialSalary={initialSalary} />
+            <BuyingPowerGraph data={result.periods} initialSalary={initialSalary || 100} />
 
             <Accordion activeIndex={0}>
                 <AccordionTab header="Raw Data">
