@@ -1,7 +1,7 @@
-import useFormData from '../hooks/useFormData';
-import CountrySelect from './CountrySelect';
+import useFormData from '../hooks/useFormData.js';
+import CountrySelect from './CountrySelect.js';
 import styles from '../styles/Form.module.css';
-import DateSelect from './DateSelect';
+import DateSelect from './DateSelect.js';
 
 export default function Form({ countries }) {
   const { setCountry, setDate, firstDate, selectedCountry, selectedDate, showResults } =

@@ -1,10 +1,5 @@
-const { buildData } = require('./imf.js');
-const { log } = require('../utils.js');
+import { buildIMFData } from './imf.js';
 
-const fetchProviderData = async () => {
-  log(`>> IMF - started`);
-  await buildData();
-  log(`>> IMF - finished`);
+export async function fetchAllProvidersData() {
+  await buildIMFData();
 };
-
-module.exports = { fetchProviderData };

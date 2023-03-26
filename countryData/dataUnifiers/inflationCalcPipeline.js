@@ -69,7 +69,7 @@ function getAverageOrSelectedCPIPeriods(
   });
 }
 
-function inflationCalcPipeline(data) {
+export function inflationCalcPipeline(data) {
   const result = {};
   for (const code in data) {
     const { periods, meta } = data[code];
@@ -87,7 +87,3 @@ function inflationCalcPipeline(data) {
   }
   return result;
 }
-
-
-module.exports = { inflationCalcPipeline };
-

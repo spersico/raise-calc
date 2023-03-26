@@ -1,19 +1,20 @@
-const { buildAllDataList } = require('./dataUnifiers/allDataList.js');
-const { buildSlimList } = require('./dataUnifiers/slimCountryList.js');
+import logger from '../utils/logger.js';
+import { PROVIDERS_DATA_FOLDER } from './constants.js';
+import { buildAllDataList } from './dataUnifiers/allDataList.js';
+import { buildSlimList } from './dataUnifiers/slimCountryList.js';
 
-const { fetchProviderData } = require('./providers/index.js');
-const { log, readFiles } = require('./utils.js');
+import { fetchAllProvidersData } from './providers/index.js';
+import { readFilesInAFolder } from './utils/readFilesInAFolder.js';
 
-const gatherAllCountriesData = async () => {
-  log(`UPDATE COUNTRY CPI DATA - started`);
 
-  await fetchProviderData();
+async function gatherAllCountriesData() {
+  logger.info(`UPDATE COUNTRY CPI DATA - started`);
 
-  log(`> Read Providers Data - started`);
+  await fetchAllProvidersData();
 
-  const sortedAndParsedProviderFiles = await readFiles(
-    `${process.cwd()}/countryData/data/providers`
-  )
+  logger.info(`> Read Providers Data - started`);
+
+  const sortedAndParsedProviderFiles = await readFilesInAFolder(PROVIDERS_DATA_FOLDER)
     .then(
       (files) =>
         files
@@ -26,15 +27,15 @@ const gatherAllCountriesData = async () => {
       // descending order of priority (lower number = higher priority)
     )
     .catch((error) => {
-      console.log(error);
+      logger.error(error);
     });
 
-  log(`> Read Providers Data - finished`);
+  logger.info(`> Read Providers Data - finished`);
 
   const allGatheredData = await buildAllDataList(sortedAndParsedProviderFiles);
   const countryList = await buildSlimList(allGatheredData);
 
-  log(`UPDATE COUNTRY CPI DATA - finished`, `with ${countryList.length} records`);
+  logger.info(`UPDATE COUNTRY CPI DATA - finished with ${countryList.length} records`);
 };
 
 gatherAllCountriesData();

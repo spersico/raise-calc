@@ -1,7 +1,35 @@
-const fs = require('fs');
-const { writeFile } = fs.promises;
+import { writeFile } from 'fs/promises';
+import countries from 'world-countries';
+import logger from '../../utils/logger.js';
+import { DATA_FOLDER } from '../constants.js';
 
-const { log, allCountries } = require('../utils.js');
+
+const allCountries = countries
+  .map(
+    ({
+      cca2,
+      currencies,
+      cioc,
+      cca3,
+      region,
+      subregion,
+      name: { common, native },
+      languages,
+      latlng,
+    }) => ({
+      codes: { cca2, cioc, cca3 },
+      names: [
+        common,
+        ...Object.keys(native)
+          .filter((key) => key !== 'eng' && native[key].common !== common)
+          .map((key) => native[key].common),
+      ],
+      geo: { region, subregion, latlng },
+      languages,
+      currencies,
+    })
+  )
+  .sort((a, b) => a.names[0] - b.names[0]);
 
 const slimCountryList = (allData) =>
   allCountries
@@ -19,19 +47,18 @@ const slimCountryList = (allData) =>
       };
     });
 
-const buildSlimList = async (allGatheredData) => {
-  log(`> Build Slim Country List - started`, allGatheredData);
+export async function buildSlimList(allGatheredData) {
+  logger.info(`> Build Slim Country List - started`, allGatheredData);
   const countries = slimCountryList(allGatheredData);
 
   await writeFile(
-    './countryData/data/countryList.json',
+    `${DATA_FOLDER}/countryList.json`,
     JSON.stringify({
       meta: { updatedAt: new Date().toISOString() },
       countries,
     })
   );
-  log(`> Building Slim Country List (${countries.length}) - finished`);
+  logger.info(`> Building Slim Country List (${countries.length}) - finished`);
 
   return countries;
 };
-module.exports = { buildSlimList };

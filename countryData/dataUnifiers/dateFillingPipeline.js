@@ -38,7 +38,7 @@ const getAllMonthsSince = (year, month) => {
   return results;
 };
 
-function dateFillingPipeline(data) {
+export function dateFillingPipeline(data) {
   const result = {};
   for (const code in data) {
     const { periods, meta } = data[code];
@@ -56,8 +56,3 @@ function dateFillingPipeline(data) {
   }
   return result;
 }
-
-
-module.exports = {
-  dateFillingPipeline
-};

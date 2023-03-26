@@ -1,8 +1,7 @@
-import logger from '../../../utils/logger';
+import logger from '../../../utils/logger.js';
 
-const countries = require('./../../../countryData/data/allCountriesData.json');
+import countries from './../../../countryData/data/allCountriesData.json';
 const { data } = countries;
-
 // TODO: move this to a shared logic utils file shared between this and frontend
 const toMonth = (month = new Date().getMonth() + 1) =>
   String(month).padStart(2, '0');

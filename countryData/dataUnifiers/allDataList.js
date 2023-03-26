@@ -1,11 +1,12 @@
-const fs = require('fs');
-const { writeFile } = fs.promises;
-const { log } = require('../utils.js');
-const { dateFillingPipeline } = require('./dateFillingPipeline.js');
-const { inflationCalcPipeline } = require('./inflationCalcPipeline.js');
+import { writeFile } from 'fs/promises';
+import logger from '../../utils/logger.js';
+import { DATA_FOLDER } from '../constants.js';
+import { dateFillingPipeline } from './dateFillingPipeline.js';
+import { inflationCalcPipeline } from './inflationCalcPipeline.js';
 
-async function buildAllDataList(sortedProviderFiles) {
-  log(`> Unify Providers ${sortedProviderFiles.length} Data - finished`);
+
+export async function buildAllDataList(sortedProviderFiles) {
+  logger.info(`> Unify Providers ${sortedProviderFiles.length} Data - finished`);
 
   let allData = {};
   let allMeta = {};
@@ -45,19 +46,18 @@ async function buildAllDataList(sortedProviderFiles) {
 
   allData = dateFillingPipeline(allData);
   await writeFile(
-    './countryData/data/allCountriesBaseData.json',
+    `${DATA_FOLDER}/allCountriesBaseData.json`,
     JSON.stringify({ data: allData, meta: allMeta }, null, 1)
   );
 
   const inflationData = inflationCalcPipeline(allData);
   await writeFile(
-    './countryData/data/allCountriesData.json',
+    `${DATA_FOLDER}/allCountriesData.json`,
     JSON.stringify({ data: inflationData, meta: allMeta }, null, 1)
   );
 
-  log(`> Unify Providers ${sortedProviderFiles.length} Data - finished`);
+  logger.info(`> Unify Providers ${sortedProviderFiles.length} Data - finished`);
 
   return allData;
 }
 
-module.exports = { buildAllDataList };
