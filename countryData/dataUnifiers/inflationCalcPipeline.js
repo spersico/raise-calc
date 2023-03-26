@@ -1,26 +1,23 @@
 import { calculateAverage, calculateChangeRate, round } from '../../utils/math.js';
+import { MONTHS_TO_AVERAGE_ESTIMATED_CPI } from '../constants.js';
 
 
-/** Gets the last 6 months of CPIs, be them estimated or actual CPIs*/
-const getLastMonthsOfData = (monthlyData) => {
-  return monthlyData
+function estimateMissingCPI(monthlyData, lastPeriodsCPI) {
+  const previousInflations = monthlyData
     .slice()
     .reverse()
     .filter(({ cpi }) => Number.isFinite(cpi))
-    .slice(0, 6)
+    .slice(0, MONTHS_TO_AVERAGE_ESTIMATED_CPI)
     .map(({ inflation }) => inflation);
-};
-
-
-const estimateMissingCPI = (monthlyData, lastPeriodsCPI) => {
-  const previousInflations = getLastMonthsOfData(monthlyData);
   const avg = calculateAverage(previousInflations);
-  return (avg / 100) * lastPeriodsCPI + lastPeriodsCPI;
-};
+  const estimatedNextValue = (avg / 100) * lastPeriodsCPI + lastPeriodsCPI;
+  return estimatedNextValue;
+}
 
 
-const calculateInflationPerProvider = (periods) => {
-  if (!periods.length) return {};
+function calculateInflationPerProvider(periods) {
+  if (!periods.length)
+    return {};
   let monthlyData = [];
 
   for (let index = 0; index < periods.length; index++) {
@@ -42,7 +39,7 @@ const calculateInflationPerProvider = (periods) => {
   }
 
   return monthlyData;
-};
+}
 
 // TODO: This assumes that the methodology and the initial CPI count is the same. 
 // I'm not sure that's true. 
