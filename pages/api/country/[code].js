@@ -52,11 +52,13 @@ function getCountrySlicedPeriods({ fromYear, fromMonth }, periods) {
  * @param {*} previousToLastPeriod 
  * @param {*} lastPeriod 
  */
-function correctLastEstimatedPeriod(previousToLastPeriod, lastPeriod) {
+function correctLastEstimatedPeriod(allPeriods, slicedPeriods) {
+  const lastPeriod = allPeriods[allPeriods.length - 1];
+  const previousToLastPeriod = allPeriods[allPeriods.length - 2];
   const percentage = percentageOfCurrentMonth();
   const inflation = percentage * lastPeriod.inflation;
   const cpi = previousToLastPeriod.cpi + (previousToLastPeriod.cpi * (inflation / 100));
-  return { ...lastPeriod, percentage, inflation, cpi };
+  slicedPeriods[slicedPeriods.length - 1] = { ...lastPeriod, percentage, inflation, cpi };
 }
 
 
@@ -70,8 +72,11 @@ function correctLastEstimatedPeriod(previousToLastPeriod, lastPeriod) {
  */
 const calculateTotalInflationOfPeriods = (periods) => {
   if (periods.length === 1) return periods[0].inflation;
-  const compositeInflation = periods.reduce((acum, cur) => acum * (cur.inflation / 100 + 1), 1) - 1;
-  return compositeInflation * 100;
+  let acumulatedInflation = 1;
+  for (let i = 0; i < periods.length; i++) {
+    acumulatedInflation *= (periods[i].inflation / 100 + 1);
+    periods[i].acumulatedInflation = (acumulatedInflation - 1) * 100;
+  }
 };
 
 
@@ -82,10 +87,10 @@ function getCpi(code, provider, fromYear, fromMonth) {
 
   const { periods, providers } = getCountryPeriodsByProvider(provider, country);
   const slicedPeriods = getCountrySlicedPeriods({ fromYear, fromMonth }, periods);
-  slicedPeriods[slicedPeriods.length - 1] = correctLastEstimatedPeriod(periods[periods.length - 2], slicedPeriods[slicedPeriods.length - 1]);
-  const totalInflation = calculateTotalInflationOfPeriods(slicedPeriods);
+  correctLastEstimatedPeriod(periods, slicedPeriods);
+  calculateTotalInflationOfPeriods(slicedPeriods);
 
-  return { providers, periods: slicedPeriods, totalInflation };
+  return { providers, periods: slicedPeriods };
 }
 
 /**
