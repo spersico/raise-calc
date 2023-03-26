@@ -120,11 +120,11 @@ export const generateDataset = (dataPoints, initialSalary) => {
 
 
 
-export function BuyingPowerGraph({ data, initialValue = 1000 }) {
+export function BuyingPowerGraph({ data, initialSalary = 1000 }) {
     const [chartData, setChartData] = useState(generateDataset([]));
     useEffect(() => {
-        data.length && setChartData(generateDataset(data, initialValue));
-    }, [data, initialValue]);
+        data.length && setChartData(generateDataset(data, initialSalary));
+    }, [data, initialSalary]);
 
     return <Chart type='line' data={chartData} options={options} />;
 }

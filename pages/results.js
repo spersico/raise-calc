@@ -4,19 +4,21 @@ import countryList from '../countryData/data/countryList.json';
 import { getCpiFromQuery } from './api/country/[code].js';
 import Form from '../components/Form.js';
 import ResultSummary from '../components/ResultSummary.js';
+import { useSearchParams } from 'next/navigation';
 
 
 export async function getServerSideProps(context) {
-    const country = getCpiFromQuery(context.query);
+    const inflationData = getCpiFromQuery(context.query);
     return {
         props: {
             countryList,
-            country,
+            inflationData,
         },
     };
 }
 
-export default function Results({ countryList, country }) {
+export default function Results({ countryList, inflationData }) {
+    const query = useSearchParams(); // TODO: remove when the form is complete
 
     return (
         <div className={styles.container}>
@@ -31,7 +33,7 @@ export default function Results({ countryList, country }) {
 
             <main className={styles.main}>
                 <Form countries={countryList.countries} />
-                <ResultSummary country={country} />
+                <ResultSummary result={inflationData} initialSalary={query.get('initialSalary')} />
             </main>
         </div>
     );
