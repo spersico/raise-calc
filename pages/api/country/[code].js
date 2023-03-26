@@ -54,9 +54,9 @@ function percentageOfCurrentMonth() {
 // And if the month just started, the estimation of the new month will pretty much be discarded
 function correctLastEstimatedPeriod(previousToLastPeriod, lastPeriod) {
   const percentage = percentageOfCurrentMonth();
-  lastPeriod.inflation = percentage * lastPeriod.inflation;
-  lastPeriod.percentage = percentage;
-  lastPeriod.cpi = previousToLastPeriod.cpi + (previousToLastPeriod.cpi * (lastPeriod.inflation / 100));
+  const inflation = percentage * lastPeriod.inflation;
+  const cpi = previousToLastPeriod.cpi + (previousToLastPeriod.cpi * (inflation / 100));
+  return { ...lastPeriod, percentage, inflation, cpi };
 }
 
 const getCpi = (code, provider, fromYear, fromMonth) => {
@@ -65,7 +65,7 @@ const getCpi = (code, provider, fromYear, fromMonth) => {
 
   const { periods, providers } = getCountryPeriodsByProvider(provider, country);
   const slicedPeriods = getCountrySlicedPeriods({ fromYear, fromMonth }, periods);
-  correctLastEstimatedPeriod(periods[periods.length - 2], slicedPeriods[slicedPeriods.length - 1]);
+  slicedPeriods[slicedPeriods.length - 1] = correctLastEstimatedPeriod(periods[periods.length - 2], slicedPeriods[slicedPeriods.length - 1]);
   const totalInflation = calculateTotalInflationOfPeriods(slicedPeriods);
 
   return { providers, periods: slicedPeriods, totalInflation };
