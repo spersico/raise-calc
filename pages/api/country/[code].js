@@ -1,3 +1,5 @@
+import logger from '../../../utils/logger';
+
 const countries = require('./../../../countryData/data/allCountriesData.json');
 const { data } = countries;
 
@@ -74,12 +76,13 @@ const getCpi = (code, provider, fromYear, fromMonth) => {
  * Function used by the SSR to get the country data
  */
 export function getCpiFromQuery(query) {
+  logger.info({ event: 'Get CPI', query });
   try {
     const { code, provider, year, month } = query;
     const countryCode = String(code).toUpperCase();
     return getCpi(countryCode, provider, year, month);
   } catch (error) {
-    console.error(`Error getting CPI from query: ${JSON.stringify(query)} - `, error);
+    logger.error({ event: 'Error', query, error });
     throw error;
   }
 }
