@@ -1,7 +1,11 @@
 import { Calendar } from 'primereact/calendar';
 
-
-export default function DateSelect({ firstDate, setDate, selectedDate, disabled = true }) {
+export default function DateSelect({
+    firstDate,
+    setDate,
+    selectedDate,
+    disabled = true,
+}) {
     return (
         <>
             <label htmlFor='monthPicker'>Select a Date</label>
@@ -15,5 +19,6 @@ export default function DateSelect({ firstDate, setDate, selectedDate, disabled 
                 maxDate={new Date()}
                 dateFormat='mm/yy'
             />
-        </>);
+        </>
+    );
 }

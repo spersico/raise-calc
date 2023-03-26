@@ -1,17 +1,19 @@
 import logger from '../../../utils/logger.js';
-
+import { percentageOfCurrentMonth, toYearMonth } from '../../../utils/date.js';
 import countries from './../../../countryData/data/allCountriesData.json';
-const { data } = countries;
-// TODO: move this to a shared logic utils file shared between this and frontend
-const toMonth = (month = new Date().getMonth() + 1) =>
-  String(month).padStart(2, '0');
-const toYearMonth = (year, month) => `${year}-${toMonth(month)}`;
-// TODO: up to here
 
-const getCountryPeriodsByProvider = (requestedProvider, country) => {
+/**
+ * Get the country periods by provider. If no provider is requested, it will return the average
+ * @param {*} requestedProvider 
+ * @param {*} country 
+ * @returns {Object} { periods: [], providers: [] }
+ */
+function getCountryPeriodsByProvider(requestedProvider, country) {
   const { inflation, meta } = country;
-  if (meta.length === 1) return { periods: inflation[meta[0].provider], providers: meta };
-  if (!requestedProvider) return { periods: inflation['average'], providers: meta };
+  if (meta.length === 1)
+    return { periods: inflation[meta[0].provider], providers: meta };
+  if (!requestedProvider)
+    return { periods: inflation['average'], providers: meta };
 
   const countryProvider = meta.find((p) => p.provider === requestedProvider);
   if (!countryProvider) {
@@ -20,9 +22,16 @@ const getCountryPeriodsByProvider = (requestedProvider, country) => {
   }
 
   return { periods: inflation[countryProvider.provider], providers: [countryProvider] };
-};
+}
 
-const getCountrySlicedPeriods = ({ fromYear, fromMonth }, periods) => {
+/**
+ * Get the country periods sliced by the fromYear and fromMonth to the end (now).
+ * If no fromYear and fromMonth is provided, it will return all the periods
+ * @param {*} dateFilter  { fromYear, fromMonth } 
+ * @param {*} periods The previously filtered by provider periods
+ * @returns 
+ */
+function getCountrySlicedPeriods({ fromYear, fromMonth }, periods) {
   let fromIndex = 0;
   if (fromYear && fromMonth) {
     const from = toYearMonth(fromYear, fromMonth);
@@ -34,25 +43,15 @@ const getCountrySlicedPeriods = ({ fromYear, fromMonth }, periods) => {
   }
 
   return periods.slice(fromIndex);
-};
-
-const calculateTotalInflationOfPeriods = (periods) => {
-  return periods.reduce((acum, period) => acum + period.inflation, 0);
-};
-
-function percentageOfCurrentMonth() {
-  const today = new Date();
-  const daysInMonth = new Date(today.getFullYear(), today.getMonth() + 1, 0).getDate();
-  const dayOfMonth = today.getDate();
-  return ((dayOfMonth / daysInMonth)).toFixed(2);
 }
 
-// TODO: Fix. It currently depends on the number of selected months. It shouldn't
-// The last value, almost always will be estimated, because data is always old.
-// Instead of throwing away the estimation, because inflation is a daily phenomena
-// We correct it, by the percentage of the month that the user is asking on.
-// That way, if we are at 80% of the month, we reduce the cpi estimated change by 20%.
-// And if the month just started, the estimation of the new month will pretty much be discarded
+/**
+ * Correct the last period, by the percentage of the month that the user is asking on.
+ * That way, if we are at 80% of the month, we reduce the estimated change by 20%.
+ * The last period is almost always estimated, because data is always old.
+ * @param {*} previousToLastPeriod 
+ * @param {*} lastPeriod 
+ */
 function correctLastEstimatedPeriod(previousToLastPeriod, lastPeriod) {
   const percentage = percentageOfCurrentMonth();
   const inflation = percentage * lastPeriod.inflation;
@@ -60,8 +59,25 @@ function correctLastEstimatedPeriod(previousToLastPeriod, lastPeriod) {
   return { ...lastPeriod, percentage, inflation, cpi };
 }
 
-const getCpi = (code, provider, fromYear, fromMonth) => {
-  const country = data[code];
+
+/**
+ * Calculate the total inflation of the periods
+ * Uses the composite interest formula, to calculate the total inflation of the periods, 
+ * because the inflation is compounded. 
+ * And that method allows us to not need an extra CPI period  to calculate the inflation.
+ * @see https://ciecmza.files.wordpress.com/2020/09/como-se-calcula-la-inflacion.pdf
+ * @param {*} periods filtered by provider and sliced by date 
+ */
+const calculateTotalInflationOfPeriods = (periods) => {
+  if (periods.length === 1) return periods[0].inflation;
+  const compositeInflation = periods.reduce((acum, cur) => acum * (cur.inflation / 100 + 1), 1) - 1;
+  return compositeInflation * 100;
+};
+
+
+/**  Main function to get the country inflation data */
+function getCpi(code, provider, fromYear, fromMonth) {
+  const country = countries.data[code];
   if (!country) throw new Error('Country CPI not found');
 
   const { periods, providers } = getCountryPeriodsByProvider(provider, country);
@@ -70,7 +86,8 @@ const getCpi = (code, provider, fromYear, fromMonth) => {
   const totalInflation = calculateTotalInflationOfPeriods(slicedPeriods);
 
   return { providers, periods: slicedPeriods, totalInflation };
-};
+}
+
 /**
  * Function used by the SSR to get the country data
  */
@@ -88,6 +105,7 @@ export function getCpiFromQuery(query) {
 
 /**
  * Fetch country data CPI from the API
+ * Exposed endpoint: /api/country/[code]
  * e.g: localhost:3000/api/country/ar?year=2021&month=12
  */
 export default function handler(req, res) {

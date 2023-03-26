@@ -1,15 +1,5 @@
-const round = (n, decimals = 4) => Number(`${Math.round(`${n}e${decimals}`)}e-${decimals}`);
+import { calculateAverage, calculateChangeRate, round } from '../../utils/math.js';
 
-const calculateChangeRate = (current, previous) => {
-  return ((current - previous) / previous) * 100;
-};
-
-const calculateAverage = (arrayOfNumbers) => {
-  const cleanArray = arrayOfNumbers.filter(Number.isFinite);
-  return (
-    cleanArray.reduce((acum, cur) => acum + cur, 0) / cleanArray.length || null
-  );
-};
 
 /** Gets the last 6 months of CPIs, be them estimated or actual CPIs*/
 const getLastMonthsOfData = (monthlyData) => {
