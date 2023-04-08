@@ -1,24 +1,9 @@
 Your tool to figure out how much you should ask on your next salary review 💵💲.
 
-## Getting Started
+## Interested in helping?
 
-To run the development server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**There are 2 ways of helping**
+1. You can **add more data to the country data inflation** pipeline to improve fidelity of the data. Check the `countryData` folder for more info
+2. You can **participate in the development**, check the issues, they are organized in 2 milestones:
+ -  **V1** is when this is Proof of Concept ready. It can be validated by an expert, so we know if our data is fine, if the approach is fine
+ -  **V2** is our MVP, we can release it to the public, and become famous.
