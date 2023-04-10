@@ -7,7 +7,10 @@ export default function useFormData(countries) {
   const query = useSearchParams();
 
   const [selectedCountry, setSelectedCountry] = useState(null);
-  const [firstDate, setSelectedCountryFirstDate] = useState([new Date().getFullYear(), '01']);
+  const [firstDate, setSelectedCountryFirstDate] = useState([
+    new Date().getFullYear(),
+    '01',
+  ]);
   const [selectedDate, setDate] = useState(null);
   const [salary, setSalary] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -31,15 +34,27 @@ export default function useFormData(countries) {
 
   const setCountry = (country) => {
     setSelectedCountry(country);
-    setSelectedCountryFirstDate(country ? country.first.split('-') : [new Date().getFullYear(), '01']);
+    setSelectedCountryFirstDate(
+      country ? country.first.split('-') : [new Date().getFullYear(), '01']
+    );
   };
 
   const showResults = async (e) => {
     e.preventDefault();
-    const [year, month] = [selectedDate.getFullYear(), selectedDate.getMonth() + 1];
+    const [year, month] = [
+      selectedDate.getFullYear(),
+      selectedDate.getMonth() + 1,
+    ];
     const code = selectedCountry.code;
     setLoading(true);
-    router.push(`/results?${new URLSearchParams({ code, year, month, salary }).toString()}`);
+    router.push(
+      `/results?${new URLSearchParams({
+        code,
+        year,
+        month,
+        salary,
+      }).toString()}`
+    );
   };
 
   return {

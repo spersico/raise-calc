@@ -8,32 +8,35 @@ const ItemTemplate = ({ item }) => {
   const secondaryName = item.names.length > 1 ? item.names[0] : '';
   return (
     <div className={styles.item}>
-      <div>{primaryName}<span className={styles.secondaryNames}>{secondaryName}</span></div>
-    </div >
+      <div>
+        {primaryName}
+        <span className={styles.secondaryNames}>{secondaryName}</span>
+      </div>
+    </div>
   );
 };
 
 const buildCountryLookup = (countries = []) => {
   return countries.map((country) => ({
-    ...country, search: country.names
-      .join('||')
-      .toLowerCase()
-
+    ...country,
+    search: country.names.join('||').toLowerCase(),
   }));
 };
 
-const compareByName = (country = {}, query = '') => country.search.includes(query);
+const compareByName = (country = {}, query = '') =>
+  country.search.includes(query);
 
 export default function CountrySelect({ value, countries, onChange }) {
   const [selectedCountry, setSelectedCountry] = useState(null);
-  const [countriesLookup] = useState((buildCountryLookup(countries)));
+  const [countriesLookup] = useState(buildCountryLookup(countries));
   const [filteredCountries, setFilteredCountries] = useState([]);
 
   const searchCountry = (event) => {
     const query = event.query.trim().toLowerCase();
 
-    const result = query ?
-      countriesLookup.filter((country) => compareByName(country, query)) : [...countriesLookup];
+    const result = query
+      ? countriesLookup.filter((country) => compareByName(country, query))
+      : [...countriesLookup];
     setFilteredCountries(result);
   };
 
@@ -48,7 +51,7 @@ export default function CountrySelect({ value, countries, onChange }) {
   }, [selectedCountry]);
 
   return (
-    <div >
+    <div>
       <label htmlFor='countryPicker'>Country</label>
       <AutoComplete
         id='countryPicker'
@@ -60,10 +63,15 @@ export default function CountrySelect({ value, countries, onChange }) {
         dropdownAutoFocus
         onBlur={(event) => {
           const value = event.target.value;
-          if (!value) { setSelectedCountry(null); return; };
+          if (!value) {
+            setSelectedCountry(null);
+            return;
+          }
           if (!selectedCountry?.code && typeof value === 'string') {
             const query = value.trim().toLowerCase();
-            const maybeCountry = countriesLookup.find((country) => compareByName(country, query));
+            const maybeCountry = countriesLookup.find((country) =>
+              compareByName(country, query)
+            );
             setSelectedCountry(maybeCountry);
           }
         }}

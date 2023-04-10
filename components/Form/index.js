@@ -8,8 +8,16 @@ import DateSelect from './components/DateSelect.js';
 import SalaryInput from './components/SalaryInput.js';
 
 export default function Form({ countries }) {
-  const { salary, setSalary, setCountry, setDate, firstDate, selectedCountry, selectedDate, showResults } =
-    useFormData(countries);
+  const {
+    salary,
+    setSalary,
+    setCountry,
+    setDate,
+    firstDate,
+    selectedCountry,
+    selectedDate,
+    showResults,
+  } = useFormData(countries);
 
   return (
     <form className='p-fluid'>
@@ -36,10 +44,8 @@ export default function Form({ countries }) {
             disabled={!selectedCountry}
           />
         </div>
-        <Button onClick={showResults}>
-          Show me my buying power evolution
-        </Button>
-      </div >
+        <Button onClick={showResults}>Show me my buying power evolution</Button>
+      </div>
     </form>
   );
 }
