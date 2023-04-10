@@ -7,11 +7,11 @@ export default function ResultSummary({ result }) {
 
   return (
     <div>
-      <BuyingPowerGraph
+      <BuyingPowerDescription
         data={result.periods}
         initialSalary={query.get('salary') || 100}
       />
-      <BuyingPowerDescription
+      <BuyingPowerGraph
         data={result.periods}
         initialSalary={query.get('salary') || 100}
       />
