@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import countryList from '../countryData/data/countryList.json';
 
-import Form from '../components/Form.js';
+import Form from '../components/Form/index.js';
 
 export async function getStaticProps() { return { props: { countryList } }; }
 

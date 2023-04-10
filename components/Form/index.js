@@ -1,11 +1,13 @@
-import useFormData from '../hooks/useFormData.js';
-import CountrySelect from './CountrySelect.js';
-import styles from '../styles/Form.module.css';
-import DateSelect from './DateSelect.js';
-import SalaryInput from './SalaryInput.js';
 import { Button } from 'primereact/button';
 
-export default function Form({ countries, compact }) {
+import styles from './Form.module.css';
+import useFormData from './useFormData.js';
+
+import CountrySelect from './components/CountrySelect.js';
+import DateSelect from './components/DateSelect.js';
+import SalaryInput from './components/SalaryInput.js';
+
+export default function Form({ countries }) {
   const { salary, setSalary, setCountry, setDate, firstDate, selectedCountry, selectedDate, showResults } =
     useFormData(countries);
 

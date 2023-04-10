@@ -2,8 +2,6 @@ import { useSearchParams } from 'next/navigation';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 
-
-
 export default function useFormData(countries) {
   const router = useRouter();
   const query = useSearchParams();
@@ -32,7 +30,6 @@ export default function useFormData(countries) {
   }, []);
 
   const setCountry = (country) => {
-    console.log(`🐛 | setCountry:`, country);
     setSelectedCountry(country);
     setSelectedCountryFirstDate(country ? country.first.split('-') : [new Date().getFullYear(), '01']);
   };

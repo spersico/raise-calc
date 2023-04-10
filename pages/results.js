@@ -2,25 +2,34 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import countryList from '../countryData/data/countryList.json';
 import { getCpiFromQuery } from './api/country/[code].js';
-import Form from '../components/Form.js';
-import ResultSummary from '../components/ResultSummary.js';
-import { useSearchParams } from 'next/navigation';
+import Form from '../components/Form/index.js';
+import ResultsSummary from '../components/ResultsSummary/index.js';
 import { Accordion, AccordionTab } from 'primereact/accordion';
 
 
 export async function getServerSideProps(context) {
-    const inflationData = getCpiFromQuery(context.query);
-    return {
-        props: {
-            countryList,
-            inflationData,
-        },
-    };
+    try {
+        const inflationData = getCpiFromQuery(context.query);
+        return {
+            props: {
+                countryList,
+                inflationData,
+            },
+        };
+    } catch (error) {
+        return {
+            redirect: {
+                destination: '/',
+                permanent: false,
+            },
+        };
+    }
+
+
+
 }
 
 export default function Results({ countryList, inflationData }) {
-    const query = useSearchParams(); // TODO: remove when the form is complete
-
     return (
         <div className={styles.container}>
             <Head>
@@ -41,8 +50,8 @@ export default function Results({ countryList, inflationData }) {
                         <Form countries={countryList.countries} />
                     </AccordionTab>
                     <AccordionTab
-                        header='Results'                    >
-                        <ResultSummary result={inflationData} initialSalary={query.get('salary')} />
+                        header='Results Summary'                    >
+                        <ResultsSummary result={inflationData} initialSalary={query.get('salary')} />
                     </AccordionTab>
                     <AccordionTab header="Results Raw Data">
                         <pre>{JSON.stringify(inflationData, null, 2)}</pre>
