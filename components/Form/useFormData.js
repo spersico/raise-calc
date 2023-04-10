@@ -41,11 +41,12 @@ export default function useFormData(countries) {
 
   const showResults = async (e) => {
     e.preventDefault();
+    if (!selectedCountry || !selectedDate || !salary) return;
     const [year, month] = [
       selectedDate.getFullYear(),
       selectedDate.getMonth() + 1,
     ];
-    const code = selectedCountry.code;
+    const code = selectedCountry?.code;
     setLoading(true);
     router.push(
       `/results?${new URLSearchParams({
