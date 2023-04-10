@@ -11,7 +11,7 @@ import {
     Tooltip,
     Filler,
 } from 'chart.js';
-import { Chart } from 'react-chartjs-2';
+import { Chart } from 'primereact/chart';
 
 ChartJS.register(
     LinearScale,

@@ -5,6 +5,7 @@ import { getCpiFromQuery } from './api/country/[code].js';
 import Form from '../components/Form.js';
 import ResultSummary from '../components/ResultSummary.js';
 import { useSearchParams } from 'next/navigation';
+import { Accordion, AccordionTab } from 'primereact/accordion';
 
 
 export async function getServerSideProps(context) {
@@ -32,8 +33,21 @@ export default function Results({ countryList, inflationData }) {
             </Head>
 
             <main className={styles.main}>
-                <Form countries={countryList.countries} />
-                <ResultSummary result={inflationData} initialSalary={query.get('initialSalary')} />
+                <h1 className={styles.title}> Results Page </h1>
+                <Accordion activeIndex={1} className={styles['p-accordion']}>
+                    <AccordionTab
+                        header='Form'
+                    >
+                        <Form countries={countryList.countries} />
+                    </AccordionTab>
+                    <AccordionTab
+                        header='Results'                    >
+                        <ResultSummary result={inflationData} initialSalary={query.get('salary')} />
+                    </AccordionTab>
+                    <AccordionTab header="Results Raw Data">
+                        <pre>{JSON.stringify(inflationData, null, 2)}</pre>
+                    </AccordionTab>
+                </Accordion>
             </main>
         </div>
     );

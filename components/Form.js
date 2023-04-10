@@ -2,9 +2,11 @@ import useFormData from '../hooks/useFormData.js';
 import CountrySelect from './CountrySelect.js';
 import styles from '../styles/Form.module.css';
 import DateSelect from './DateSelect.js';
+import SalaryInput from './SalaryInput.js';
+import { Button } from 'primereact/button';
 
-export default function Form({ countries }) {
-  const { setCountry, setDate, firstDate, selectedCountry, selectedDate, showResults } =
+export default function Form({ countries, compact }) {
+  const { salary, setSalary, setCountry, setDate, firstDate, selectedCountry, selectedDate, showResults } =
     useFormData(countries);
 
   return (
@@ -18,6 +20,13 @@ export default function Form({ countries }) {
           />
         </div>
         <div className='card'>
+          <SalaryInput
+            salary={salary}
+            setSalary={setSalary}
+            selectedCountry={selectedCountry}
+          />
+        </div>
+        <div className='card'>
           <DateSelect
             selectedDate={selectedDate}
             setDate={setDate}
@@ -25,7 +34,9 @@ export default function Form({ countries }) {
             disabled={!selectedCountry}
           />
         </div>
-        <button onClick={showResults}>Submit</button>
+        <Button onClick={showResults}>
+          Show me my buying power evolution
+        </Button>
       </div >
     </form>
   );
