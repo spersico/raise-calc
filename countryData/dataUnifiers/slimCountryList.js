@@ -1,8 +1,7 @@
-import { writeFile } from 'fs/promises';
-import countries from 'world-countries';
-import logger from '../../utils/logger.js';
-import { DATA_FOLDER, CURRENCY_INFO_FALLBACK } from '../constants.js';
-
+import { writeFile } from "fs/promises";
+import countries from "world-countries";
+import logger from "../../utils/logger.js";
+import { DATA_FOLDER, CURRENCY_INFO_FALLBACK } from "../constants.js";
 
 const allCountries = countries
   .map(
@@ -17,12 +16,11 @@ const allCountries = countries
       languages,
       latlng,
     }) => {
-
       const names = [
         common,
         ...Object.keys(native)
-          .filter((key) => key !== 'eng' && native[key].common !== common)
-          .map((key) => native[key].common)
+          .filter((key) => key !== "eng" && native[key].common !== common)
+          .map((key) => native[key].common),
       ];
       const currencyCodes = Object.entries(currencies);
 
@@ -31,7 +29,10 @@ const allCountries = countries
         names,
         geo: { region, subregion, latlng },
         languages,
-        currencyCode: currencyCodes.length === 0 ? CURRENCY_INFO_FALLBACK[0] : currencyCodes[0][0],
+        currencyCode:
+          currencyCodes.length === 0
+            ? CURRENCY_INFO_FALLBACK[0]
+            : currencyCodes[0][0],
       };
     }
   )
@@ -69,4 +70,4 @@ export async function buildSlimList(allGatheredData) {
   logger.info(`> Building Slim Country List (${countries.length}) - finished`);
 
   return countries;
-};
+}

@@ -1,12 +1,13 @@
-import { writeFile } from 'fs/promises';
-import logger from '../../utils/logger.js';
-import { DATA_FOLDER } from '../constants.js';
-import { dateFillingPipeline } from './dateFillingPipeline.js';
-import { inflationCalcPipeline } from './inflationCalcPipeline.js';
-
+import { writeFile } from "fs/promises";
+import logger from "../../utils/logger.js";
+import { DATA_FOLDER } from "../constants.js";
+import { dateFillingPipeline } from "./dateFillingPipeline.js";
+import { inflationCalcPipeline } from "./inflationCalcPipeline.js";
 
 export async function buildAllDataList(sortedProviderFiles) {
-  logger.info(`> Unify Providers ${sortedProviderFiles.length} Data - finished`);
+  logger.info(
+    `> Unify Providers ${sortedProviderFiles.length} Data - finished`
+  );
 
   let allData = {};
   let allMeta = {};
@@ -56,8 +57,9 @@ export async function buildAllDataList(sortedProviderFiles) {
     JSON.stringify({ data: inflationData, meta: allMeta }, null, 1)
   );
 
-  logger.info(`> Unify Providers ${sortedProviderFiles.length} Data - finished`);
+  logger.info(
+    `> Unify Providers ${sortedProviderFiles.length} Data - finished`
+  );
 
   return allData;
 }
-

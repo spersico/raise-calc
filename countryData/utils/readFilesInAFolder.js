@@ -1,6 +1,5 @@
-
-import fs from 'node:fs';
-import path from 'node:path';
+import fs from "node:fs";
+import path from "node:path";
 
 function promiseAllP(items, block) {
   var promises = [];
@@ -28,7 +27,7 @@ export async function readFilesInAFolder(dirname) {
       promiseAllP(filenames, (filename, index, resolve, reject) => {
         fs.readFile(
           path.resolve(dirname, filename),
-          'utf8',
+          "utf8",
           function (err, content) {
             if (err) return reject(err);
             return resolve({ filename: filename, contents: content });

@@ -1,6 +1,5 @@
-import { writeFile } from 'fs/promises';
-import { PROVIDERS_DATA_FOLDER } from '../constants.js';
-
+import { writeFile } from "fs/promises";
+import { PROVIDERS_DATA_FOLDER } from "../constants.js";
 
 export async function storeProviderData(
   provider,
@@ -8,9 +7,10 @@ export async function storeProviderData(
   data,
   preference = 999
 ) {
-  const filename = `${provider}${countryCode ? '-' + countryCode : ''}.json`;
+  const filename = `${provider}${countryCode ? "-" + countryCode : ""}.json`;
 
-  return writeFile(`${PROVIDERS_DATA_FOLDER}/${filename}`,
+  return writeFile(
+    `${PROVIDERS_DATA_FOLDER}/${filename}`,
     JSON.stringify({
       meta: {
         updatedAt: new Date().toISOString(),
@@ -20,6 +20,4 @@ export async function storeProviderData(
       data,
     })
   );
-};
-
-
+}
