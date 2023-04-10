@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { AutoComplete } from 'primereact/autocomplete';
 
-import styles from '../Form.module.css';
+import styles from './CountrySelect.module.css';
 
 const ItemTemplate = ({ item }) => {
   const primaryName = item.names.length > 1 ? item.names[1] : item.names[0];
@@ -51,7 +51,7 @@ export default function CountrySelect({ value, countries, onChange }) {
   }, [selectedCountry]);
 
   return (
-    <div>
+    <>
       <label htmlFor='countryPicker'>Country</label>
       <AutoComplete
         id='countryPicker'
@@ -82,6 +82,6 @@ export default function CountrySelect({ value, countries, onChange }) {
         tooltipOptions={{ position: 'bottom' }}
         tooltip="Select a Country, it should be the one of the currency you're earning"
       />
-    </div>
+    </>
   );
 }
