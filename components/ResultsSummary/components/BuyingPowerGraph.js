@@ -25,57 +25,84 @@ ChartJS.register(
   Filler
 );
 
-const options = {
-  plugins: {
-    tooltip: { position: 'nearest' },
-    filler: {
-      propagate: false,
-    },
-    title: {
-      display: true,
-      text: (ctx) => 'drawTime: ' + ctx.chart.options.plugins.filler.drawTime,
-    },
-  },
+const prepareLabelFunctions = (data) => {
+  function footer(tooltipItems) {
+    const index = tooltipItems[0].dataIndex;
+    const monthlyInflation = data[index].inflation;
 
-  scales: {
-    x: {
-      border: {
-        display: false,
-      },
-      grid: {
-        display: true,
-        drawOnChartArea: true,
-        drawTicks: true,
-        color: 'rgba(255, 255, 255, 0.25)',
-      },
-    },
-    y: {
-      border: {
-        display: true,
-      },
-      grid: {
-        display: false,
-      },
-    },
-  },
-  animations: {
-    y: {
-      easing: 'easeInOutElastic',
-      from: (ctx) => {
-        if (ctx.type === 'data') {
-          if (ctx.mode === 'default' && !ctx.dropped) {
-            ctx.dropped = true;
-            return 0;
-          }
-        }
-      },
-    },
-  },
-  interaction: {
-    intersect: false,
-    mode: 'index',
-  },
+    return 'Monthly Inflation:' + monthlyInflation.toFixed(2) + '%';
+  }
+
+  function afterFooter(tooltipItems) {
+    const index = tooltipItems[0].dataIndex;
+    const acumulatedInflation = data[index].acumulatedInflation;
+
+    return 'Accumulated Inflation:' + acumulatedInflation.toFixed(2) + '%';
+  }
+  return { footer, afterFooter };
 };
+
+const generateOptions = (data) => {
+  const labelWithData = prepareLabelFunctions(data);
+  return {
+    plugins: {
+      tooltip: { position: 'nearest' },
+      filler: {
+        propagate: false,
+      },
+      title: {
+        display: true,
+        text: (ctx) => 'drawTime: ' + ctx.chart.options.plugins.filler.drawTime,
+      },
+      tooltip: {
+        callbacks: {
+          footer: labelWithData.footer,
+          afterFooter: labelWithData.afterFooter,
+        },
+      },
+    },
+
+    scales: {
+      x: {
+        border: {
+          display: false,
+        },
+        grid: {
+          display: true,
+          drawOnChartArea: true,
+          drawTicks: true,
+          color: 'rgba(255, 255, 255, 0.25)',
+        },
+      },
+      y: {
+        border: {
+          display: true,
+        },
+        grid: {
+          display: false,
+        },
+      },
+    },
+    animations: {
+      y: {
+        easing: 'easeInOutElastic',
+        from: (ctx) => {
+          if (ctx.type === 'data') {
+            if (ctx.mode === 'default' && !ctx.dropped) {
+              ctx.dropped = true;
+              return 0;
+            }
+          }
+        },
+      },
+    },
+    interaction: {
+      intersect: false,
+      mode: 'index',
+    },
+  };
+};
+
 export const buyingPowerAtAPoint = (initialSalary) => (point) =>
   initialSalary / (1 + point.acumulatedInflation / 100);
 
@@ -119,10 +146,8 @@ const generateDataset = (dataPoints, initialSalary) => {
 };
 
 export function BuyingPowerGraph({ data, initialSalary = 1000 }) {
-  const [chartData, setChartData] = useState(generateDataset([]));
-  useEffect(() => {
-    data.length && setChartData(generateDataset(data, initialSalary));
-  }, [data, initialSalary]);
+  const [chartData] = useState(generateDataset(data, initialSalary));
+  const [options] = useState(generateOptions(data));
 
   return <Chart type='line' data={chartData} options={options} />;
 }
