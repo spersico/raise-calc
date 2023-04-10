@@ -79,7 +79,7 @@ const options = {
 };
 const buyingPowerAtAPoint = (initialSalary) => (point) => initialSalary / (1 + (point.acumulatedInflation / 100));
 
-export const generateDataset = (dataPoints, initialSalary) => {
+const generateDataset = (dataPoints, initialSalary) => {
     const buyingPointRelativeToSalary = buyingPowerAtAPoint(initialSalary);
     return {
         labels: dataPoints.map((dataPoint) => dataPoint.date),

@@ -1,5 +1,5 @@
 import { useSearchParams } from 'next/navigation';
-import { BuyingPowerGraph } from './components/ResultChart';
+import { BuyingPowerGraph } from './components/BuyingPowerGraph';
 
 
 export default function ResultSummary({ result }) {
@@ -8,6 +8,7 @@ export default function ResultSummary({ result }) {
     return (
         <>
             <BuyingPowerGraph data={result.periods} initialSalary={query.get('salary') || 100} />
+
         </>
     );
 }
