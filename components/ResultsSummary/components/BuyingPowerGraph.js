@@ -76,7 +76,7 @@ const options = {
     mode: 'index',
   },
 };
-const buyingPowerAtAPoint = (initialSalary) => (point) =>
+export const buyingPowerAtAPoint = (initialSalary) => (point) =>
   initialSalary / (1 + point.acumulatedInflation / 100);
 
 const generateDataset = (dataPoints, initialSalary) => {
