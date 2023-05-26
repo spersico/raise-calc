@@ -21,7 +21,7 @@ body {
   padding: 2rem;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: var(--surface-ground);
+  background-color: var(--bluegray-900);
   font-family: var(--font-family);
   font-weight: normal;
   color: var(--text-color);
