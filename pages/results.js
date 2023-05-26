@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Results.module.css';
 import countryList from '../countryData/data/countryList.json';
 import { getCpiFromQuery } from './api/country/[code].js';
 import Form from '../components/Form/index.js';

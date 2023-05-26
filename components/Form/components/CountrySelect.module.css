@@ -6,3 +6,12 @@
 .item {
   color: var(--raw-sienna);
 }
+.panel {
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .secondaryNames {
+    display: none;
+  }
+}
