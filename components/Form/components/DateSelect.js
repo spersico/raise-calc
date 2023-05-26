@@ -8,7 +8,7 @@ export default function DateSelect({
 }) {
   return (
     <div>
-      <label htmlFor='monthPicker'>Starting Date</label>
+      <label htmlFor='monthPicker'>3 - Since when are you earning that?</label>
       <Calendar
         inputId='monthPicker'
         value={selectedDate}
@@ -18,8 +18,7 @@ export default function DateSelect({
         minDate={new Date(`${firstDate[0]}-${firstDate[1]}-15`)}
         maxDate={new Date()}
         dateFormat='mm/yy'
-        tooltipOptions={{ position: 'mouse' }}
-        tooltip='Since when do you have that income?'
+        appendTo='self'
       />
     </div>
   );

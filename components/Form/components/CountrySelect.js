@@ -52,7 +52,7 @@ export default function CountrySelect({ value, countries, onChange }) {
 
   return (
     <>
-      <label htmlFor='countryPicker'>Country</label>
+      <label htmlFor='countryPicker'>1 - What&apos;s the Country of your Currency?</label>
       <AutoComplete
         id='countryPicker'
         value={selectedCountry}
@@ -78,9 +78,9 @@ export default function CountrySelect({ value, countries, onChange }) {
         itemTemplate={(item) => <ItemTemplate item={item} />}
         selectedItemTemplate={(item) => item.names[0]}
         onChange={(e) => setSelectedCountry(e.value)}
-        aria-label='Countries'
-        tooltipOptions={{ position: 'bottom' }}
-        tooltip="Select a Country, it should be the one of the currency you're earning"
+        aria-label='Country of currency'
+        panelClassName={styles.panel}
+        appendTo='self'
       />
     </>
   );
