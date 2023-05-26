@@ -10,10 +10,6 @@
   align-items: center;
 }
 
-.title {
-  padding-top: 4rem;
-  color: var(--raw-sienna);
-  margin: 0;
-  line-height: 1.15;
-  font-size: 2rem;
+.p-accordion {
+  width: 100%;
 }
