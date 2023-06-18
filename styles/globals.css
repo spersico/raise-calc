@@ -28,3 +28,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 0rem;
+  }
+  .p-accordion .p-accordion-header .p-accordion-header-link,
+  .p-accordion .p-accordion-content {
+    border-radius: 0px !important;
+  }
+}

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import {
   Chart as ChartJS,
   LinearScale,
@@ -28,16 +28,20 @@ ChartJS.register(
 const prepareLabelFunctions = (data) => {
   function footer(tooltipItems) {
     const index = tooltipItems[0].dataIndex;
-    const monthlyInflation = data[index].inflation;
+    const { inflation: monthlyInflation, estimated } = data[index];
 
-    return 'Monthly Inflation:' + monthlyInflation.toFixed(2) + '%';
+    return `Monthly Inflation${
+      estimated ? ' (estimated)' : ''
+    }: ${monthlyInflation.toFixed(2)}%`;
   }
 
   function afterFooter(tooltipItems) {
     const index = tooltipItems[0].dataIndex;
-    const acumulatedInflation = data[index].acumulatedInflation;
+    const { acumulatedInflation, estimated } = data[index];
 
-    return 'Accumulated Inflation:' + acumulatedInflation.toFixed(2) + '%';
+    return `Accumulated Inflation${
+      estimated ? ' (estimated)' : ''
+    }: ${acumulatedInflation.toFixed(2)}%`;
   }
   return { footer, afterFooter };
 };
@@ -49,10 +53,6 @@ const generateOptions = (data) => {
       tooltip: { position: 'nearest' },
       filler: {
         propagate: false,
-      },
-      title: {
-        display: true,
-        text: (ctx) => 'drawTime: ' + ctx.chart.options.plugins.filler.drawTime,
       },
       tooltip: {
         callbacks: {
@@ -112,30 +112,37 @@ const generateDataset = (dataPoints, initialSalary) => {
     labels: dataPoints.map((dataPoint) => dataPoint.date),
     datasets: [
       {
-        label: 'Your Salary',
+        label: 'Nominal Income',
         data: dataPoints.map(() => initialSalary),
-        borderColor: 'rgba(0, 255, 91, 1)',
+        borderColor: 'rgba(255, 0, 0, 1)',
         animations: {
           y: {
-            duration: 2000,
+            duration: 1000,
           },
         },
         radius: 0,
         borderWidth: 3,
-        backgroundColor: 'rgba(255, 0, 0, 0.25)',
+        backgroundColor: 'rgba(255, 0, 0, 0.10)',
         fill: 1,
         tension: 0.5,
       },
       {
-        label: 'Your Buying Power',
-        borderColor: 'rgba(238, 255, 0, 1)',
-        backgroundColor: 'rgba(0, 255, 91, 0.25)',
+        label: 'Real Income',
+        backgroundColor: 'rgba(0, 255, 91, 0.20)',
+        borderColor: 'rgba(0, 255, 91, 1)',
+
         animations: {
           y: {
-            duration: 2000,
-            delay: 1000,
+            duration: 1000,
+            delay: 500,
           },
         },
+        segment: {
+          borderDash: ({ p0DataIndex, p1DataIndex }) =>
+            (dataPoints[p0DataIndex].estimated ||
+              dataPoints[p1DataIndex].estimated) && [4, 4],
+        },
+        spanGaps: true,
         fill: true,
         radius: 1,
         data: [initialSalary, ...dataPoints.map(buyingPointRelativeToSalary)],
