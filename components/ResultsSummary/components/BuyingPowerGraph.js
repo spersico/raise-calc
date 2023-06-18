@@ -114,27 +114,27 @@ const generateDataset = (dataPoints, initialSalary) => {
       {
         label: 'Nominal Income',
         data: dataPoints.map(() => initialSalary),
-        borderColor: 'rgba(0, 255, 91, 1)',
+        borderColor: 'rgba(255, 0, 0, 1)',
         animations: {
           y: {
-            duration: 2000,
+            duration: 1000,
           },
         },
         radius: 0,
         borderWidth: 3,
-        backgroundColor: 'rgba(255, 0, 0, 0.25)',
+        backgroundColor: 'rgba(255, 0, 0, 0.10)',
         fill: 1,
         tension: 0.5,
       },
       {
         label: 'Real Income',
-        backgroundColor: 'rgba(0, 255, 91, 0.25)',
-        borderColor: 'rgba(238, 255, 0, 1)',
+        backgroundColor: 'rgba(0, 255, 91, 0.20)',
+        borderColor: 'rgba(0, 255, 91, 1)',
 
         animations: {
           y: {
-            duration: 2000,
-            delay: 1000,
+            duration: 1000,
+            delay: 500,
           },
         },
         segment: {

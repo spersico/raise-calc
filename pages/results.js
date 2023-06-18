@@ -41,16 +41,15 @@ export default function Results({ countryList, inflationData }) {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}> Results Page </h1>
         <Accordion activeIndex={1} className={styles['p-accordion']}>
-          <AccordionTab header='Form'>
+          <AccordionTab header='Used Parameters'>
             <Form countries={countryList.countries} />
           </AccordionTab>
-          <AccordionTab header='Results Summary'>
+          <AccordionTab header='Results'>
             <ResultsSummary result={inflationData} />
           </AccordionTab>
           {query.get('debug') === 'true' && (
-            <AccordionTab header='Results Raw Data'>
+            <AccordionTab header='Debug Raw Data'>
               <pre>{JSON.stringify(inflationData, null, 2)}</pre>
             </AccordionTab>
           )}
