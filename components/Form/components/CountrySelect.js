@@ -81,6 +81,7 @@ export default function CountrySelect({ value, countries, onChange }) {
         aria-label='Country of currency'
         panelClassName={styles.panel}
         appendTo='self'
+        data-cy="form-country-picker"
       />
     </>
   );

@@ -19,6 +19,7 @@ export default function DateSelect({
         maxDate={new Date()}
         dateFormat='mm/yy'
         appendTo='self'
+        data-cy="form-date-picker"
       />
     </div>
   );
