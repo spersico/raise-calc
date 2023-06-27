@@ -20,8 +20,8 @@ export default function Form({ countries }) {
   } = useFormData(countries);
 
   return (
-    <form className='p-fluid'>
-      <div className={styles.formWrapper}>
+    <form className='p-fluid' >
+      <div className={styles.formWrapper} data-cy="form-wrapper">
         <div className='card'>
           <CountrySelect
             value={selectedCountry}
@@ -44,7 +44,7 @@ export default function Form({ countries }) {
             disabled={!selectedCountry}
           />
         </div>
-        <Button onClick={showResults}>Show me my buying power evolution</Button>
+        <Button onClick={showResults} data-cy="form-button">Show me my buying power evolution</Button>
       </div>
     </form>
   );

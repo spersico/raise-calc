@@ -21,7 +21,7 @@ export default function Home({ countryList }) {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Buying Power Evolution</h1>
+        <h1 className={styles.title} data-cy="main-title">Buying Power Evolution</h1>
         <Explanation />
         <Form countries={countryList.countries} />
       </main>

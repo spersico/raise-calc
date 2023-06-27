@@ -11,6 +11,7 @@ export default function SalaryInput({ salary, setSalary, selectedCountry }) {
         mode='currency'
         currency={selectedCountry?.currencyCode || 'USD'}
         disabled={!selectedCountry}
+        data-cy="form-salary-input"
       />
     </div>
   );

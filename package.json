@@ -1,32 +1,35 @@
 {
-  "name": "raise-calc",
-  "version": "0.1.1",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "dev": "next dev | pino-pretty --ignore env",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "data": "node countryData/index.js"
-  },
-  "dependencies": {
-    "chart.js": "^4.2.1",
-    "next": "^13.2.4",
-    "pino": "^8.11.0",
-    "primeflex": "^3.3.0",
-    "primeicons": "^6.0.1",
-    "primereact": "^9.2.1",
-    "react": "^18.2.0",
-    "react-chartjs-2": "^5.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "8.36.0",
-    "eslint-config-next": "^13.2.4",
-    "eslint-config-prettier": "^8.8.0",
-    "pino-pretty": "10.0.0",
-    "undici": "^5.21.0",
-    "world-countries": "^4.0.0"
-  }
+	"name": "raise-calc",
+	"version": "0.1.1",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "next dev | pino-pretty --ignore env",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"data": "node countryData/index.js",
+		"cy:open": "cypress open",
+		"cy:run": "cypress run"
+	},
+	"dependencies": {
+		"chart.js": "^4.2.1",
+		"next": "^13.2.4",
+		"pino": "^8.11.0",
+		"primeflex": "^3.3.0",
+		"primeicons": "^6.0.1",
+		"primereact": "^9.2.1",
+		"react": "^18.2.0",
+		"react-chartjs-2": "^5.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"cypress": "^12.11.0",
+		"eslint": "8.36.0",
+		"eslint-config-next": "^13.2.4",
+		"eslint-config-prettier": "^8.8.0",
+		"pino-pretty": "10.0.0",
+		"undici": "^5.21.0",
+		"world-countries": "^4.0.0"
+	}
 }
