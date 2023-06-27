@@ -7,7 +7,7 @@ describe('My First Test', () => {
 		cy.get('[data-cy=main-title]').should('contain', 'Buying Power Evolution');
 	});
 
-	it.only('check my $$', () => {
+	it('check my $$', () => {
 		cy.get('[data-cy=form-country-picker]').should('be.visible').type
 			('Argentina').type('{enter}').then(() => {
 				cy.getDropdownList('.p-dropdown-item').should('be.visible');
