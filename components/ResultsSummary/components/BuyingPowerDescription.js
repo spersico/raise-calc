@@ -1,22 +1,23 @@
 import React, { useState } from 'react';
-import { buyingPowerAtAPoint } from './BuyingPowerGraph';
+import {
+  calculateEquivalentSalaryToOriginalBuyingPower,
+  calculateTotalAcumulatedInflation,
+  calculateTotalBuyingPowerLostInPercentage,
+} from '../buyingPowerUtils';
 
 export function BuyingPowerDescription({ data, initialSalary = 1000 }) {
   const [initialDate] = useState(data[0].date);
 
-  const [totalBuyingPowerLostInPercentage] = useState(
-    ((initialSalary -
-      buyingPowerAtAPoint(initialSalary)(data[data.length - 1])) /
-      initialSalary) *
-      100
+  const [totalAcumulatedInflation] = useState(
+    calculateTotalAcumulatedInflation(data)
   );
 
-  const [totalAcumulatedInflation] = useState(
-    data[data.length - 1].acumulatedInflation
+  const [totalBuyingPowerLostInPercentage] = useState(
+    calculateTotalBuyingPowerLostInPercentage(data, initialSalary)
   );
 
   const [equivalentSalaryToOriginalBuyingPower] = useState(
-    ((100 + data[data.length - 2].acumulatedInflation) / 100) * initialSalary
+    calculateEquivalentSalaryToOriginalBuyingPower(data, initialSalary)
   );
 
   return (

@@ -12,6 +12,7 @@ import {
   Filler,
 } from 'chart.js';
 import { Chart } from 'primereact/chart';
+import { calculateBuyingPowerAtAPoint } from '../buyingPowerUtils';
 
 ChartJS.register(
   LinearScale,
@@ -103,11 +104,9 @@ const generateOptions = (data) => {
   };
 };
 
-export const buyingPowerAtAPoint = (initialSalary) => (point) =>
-  initialSalary / (1 + point.acumulatedInflation / 100);
-
 const generateDataset = (dataPoints, initialSalary) => {
-  const buyingPointRelativeToSalary = buyingPowerAtAPoint(initialSalary);
+  const buyingPointRelativeToSalary =
+    calculateBuyingPowerAtAPoint(initialSalary);
   return {
     labels: dataPoints.map((dataPoint) => dataPoint.date),
     datasets: [
