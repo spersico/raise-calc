@@ -4,3 +4,8 @@
   flex-direction: column;
   gap: 2rem;
 }
+
+.label {
+  display: flex;
+  margin-bottom: 5px;
+}

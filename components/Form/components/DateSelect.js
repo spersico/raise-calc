@@ -1,4 +1,5 @@
 import { Calendar } from 'primereact/calendar';
+import formStyles from './../Form.module.css';
 
 export default function DateSelect({
   firstDate,
@@ -8,7 +9,7 @@ export default function DateSelect({
 }) {
   return (
     <div>
-      <label htmlFor='monthPicker'>3 - Since when are you earning that?</label>
+      <label htmlFor='monthPicker' className={formStyles.label}>3 - Since when are you earning that?</label>
       <Calendar
         inputId='monthPicker'
         value={selectedDate}

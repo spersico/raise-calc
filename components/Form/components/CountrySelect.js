@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { AutoComplete } from 'primereact/autocomplete';
 
 import styles from './CountrySelect.module.css';
+import formStyles from './../Form.module.css';
 
 const ItemTemplate = ({ item }) => {
   const primaryName = item.names.length > 1 ? item.names[1] : item.names[0];
@@ -52,7 +53,7 @@ export default function CountrySelect({ value, countries, onChange }) {
 
   return (
     <>
-      <label htmlFor='countryPicker'>1 - What&apos;s the Country of your Currency?</label>
+      <label className={formStyles.label} htmlFor='countryPicker'>1 - What&apos;s the Country of your Currency?</label>
       <AutoComplete
         id='countryPicker'
         value={selectedCountry}

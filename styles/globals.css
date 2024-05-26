@@ -17,8 +17,6 @@ html {
 
 body {
   margin: 0px;
-  height: 100%;
-  padding: 2rem;
   overflow-x: hidden;
   overflow-y: auto;
   background-color: var(--bluegray-900);

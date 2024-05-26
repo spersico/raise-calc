@@ -26,24 +26,22 @@ ChartJS.register(
 );
 
 const prepareLabelFunctions = (data) => {
+  function title(tooltipItems) {
+    const index = tooltipItems[0].dataIndex;
+    if (index === 0) return `First day of ${data[index].date}`;
+    if (index === data.length - 1) return `TODAY - ESTIMATED AND ADJUSTED`;
+    if (data[index].estimated) return `${data[index].date} - ESTIMATED`;
+    return tooltipItems[0].date;
+  }
+
   function footer(tooltipItems) {
     const index = tooltipItems[0].dataIndex;
-    const { inflation: monthlyInflation, estimated } = data[index];
-
-    return `Monthly Inflation${
-      estimated ? ' (estimated)' : ''
-    }: ${monthlyInflation.toFixed(2)}%`;
+    const { inflation: monthlyInflation, accumulatedInflation, equivalentSalary } = data[index];
+    const inflation = monthlyInflation.toFixed(2) + '%';
+    const acumInflation = accumulatedInflation.toFixed(2) + '%';
+    return `Equivalent Salary: $${equivalentSalary.toFixed(2)}\n \n` + `Monthly Inflation: ${inflation}\n` + `Accumulated Inflation: ${acumInflation}`;
   }
-
-  function afterFooter(tooltipItems) {
-    const index = tooltipItems[0].dataIndex;
-    const { acumulatedInflation, estimated } = data[index];
-
-    return `Accumulated Inflation${
-      estimated ? ' (estimated)' : ''
-    }: ${acumulatedInflation.toFixed(2)}%`;
-  }
-  return { footer, afterFooter };
+  return { title, footer };
 };
 
 const generateOptions = (data) => {
@@ -56,8 +54,8 @@ const generateOptions = (data) => {
       },
       tooltip: {
         callbacks: {
+          title: labelWithData.title,
           footer: labelWithData.footer,
-          afterFooter: labelWithData.afterFooter,
         },
       },
     },
@@ -103,13 +101,15 @@ const generateOptions = (data) => {
   };
 };
 
-export const buyingPowerAtAPoint = (initialSalary) => (point) =>
-  initialSalary / (1 + point.acumulatedInflation / 100);
 
 const generateDataset = (dataPoints, initialSalary) => {
-  const buyingPointRelativeToSalary = buyingPowerAtAPoint(initialSalary);
+  const buildDateLabel = ({ date }, index) => {
+    if (index === 0) return `${date}-01`;
+    if (index === dataPoints.length - 1) return `${date}-${String(new Date().getDate()).padStart(2, '0')}`;
+    return date;
+  };
   return {
-    labels: dataPoints.map((dataPoint) => dataPoint.date),
+    labels: dataPoints.map(buildDateLabel),
     datasets: [
       {
         label: 'Nominal Income',
@@ -145,14 +145,14 @@ const generateDataset = (dataPoints, initialSalary) => {
         spanGaps: true,
         fill: true,
         radius: 1,
-        data: [initialSalary, ...dataPoints.map(buyingPointRelativeToSalary)],
+        data: [...dataPoints.map(point => point.relativeSalary)],
         beginAtZero: true,
       },
     ],
   };
 };
 
-export function BuyingPowerGraph({ data, initialSalary = 1000 }) {
+export function BuyingPowerGraph({ data, initialSalary }) {
   const [chartData] = useState(generateDataset(data, initialSalary));
   const [options] = useState(generateOptions(data));
 
