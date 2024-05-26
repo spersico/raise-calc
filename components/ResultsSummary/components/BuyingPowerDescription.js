@@ -8,7 +8,7 @@ export function BuyingPowerDescription({ data }) {
         <span>
           You lost{' '}
           <strong style={{ color: 'var(--raw-sienna)' }}>
-            {lastPoint.relativeBuyingPower.toFixed(2)}%
+            {(100 - lastPoint.relativeBuyingPower).toFixed(2)}%
           </strong>{' '}
           of your buying power since your last income change.
         </span>

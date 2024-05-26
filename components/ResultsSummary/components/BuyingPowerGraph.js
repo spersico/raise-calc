@@ -26,21 +26,22 @@ ChartJS.register(
 );
 
 const prepareLabelFunctions = (data) => {
+  function title(tooltipItems) {
+    const index = tooltipItems[0].dataIndex;
+    if (index === 0) return `First day of ${data[index].date}`;
+    if (index === data.length - 1) return `TODAY - ESTIMATED AND ADJUSTED`;
+    if (data[index].estimated) return `${data[index].date} - ESTIMATED`;
+    return tooltipItems[0].date;
+  }
+
   function footer(tooltipItems) {
     const index = tooltipItems[0].dataIndex;
-    const { inflation: monthlyInflation, estimated } = data[index];
-
-    return `Monthly Inflation${estimated ? ' (estimated)' : ''
-      }: ${monthlyInflation.toFixed(2)}%`;
+    const { inflation: monthlyInflation, accumulatedInflation, equivalentSalary } = data[index];
+    const inflation = monthlyInflation.toFixed(2) + '%';
+    const acumInflation = accumulatedInflation.toFixed(2) + '%';
+    return `Equivalent Salary: $${equivalentSalary.toFixed(2)}\n \n` + `Monthly Inflation: ${inflation}\n` + `Accumulated Inflation: ${acumInflation}`;
   }
-
-  function afterFooter(tooltipItems) {
-    const index = tooltipItems[0].dataIndex;
-    const accumulatedInflation = data[index].accumulatedInflation;
-
-    return 'Accumulated Inflation:' + accumulatedInflation.toFixed(2) + '%';
-  }
-  return { footer, afterFooter };
+  return { title, footer };
 };
 
 const generateOptions = (data) => {
@@ -51,14 +52,10 @@ const generateOptions = (data) => {
       filler: {
         propagate: false,
       },
-      title: {
-        display: false,
-        text: (ctx) => 'drawTime: ' + ctx.chart.options.plugins.filler.drawTime,
-      },
       tooltip: {
         callbacks: {
+          title: labelWithData.title,
           footer: labelWithData.footer,
-          afterFooter: labelWithData.afterFooter,
         },
       },
     },
@@ -106,8 +103,13 @@ const generateOptions = (data) => {
 
 
 const generateDataset = (dataPoints, initialSalary) => {
+  const buildDateLabel = ({ date }, index) => {
+    if (index === 0) return `${date}-01`;
+    if (index === dataPoints.length - 1) return `${date}-${String(new Date().getDate()).padStart(2, '0')}`;
+    return date;
+  };
   return {
-    labels: dataPoints.map((dataPoint) => dataPoint.date),
+    labels: dataPoints.map(buildDateLabel),
     datasets: [
       {
         label: 'Nominal Income',
@@ -143,7 +145,7 @@ const generateDataset = (dataPoints, initialSalary) => {
         spanGaps: true,
         fill: true,
         radius: 1,
-        data: [initialSalary, ...dataPoints.map(point => point.relativeSalary)],
+        data: [...dataPoints.map(point => point.relativeSalary)],
         beginAtZero: true,
       },
     ],

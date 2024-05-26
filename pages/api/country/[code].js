@@ -87,10 +87,9 @@ function correctLastPeriodInAccountForNotYetFinished(allPeriods, slicedPeriods) 
  * @see https://ciecmza.files.wordpress.com/2020/09/como-se-calcula-la-inflacion.pdf
  */
 const addEndOfPeriodAccumulatedInflation = (periods) => {
-  let accumulatedInflationCalc = 1;
-  for (let i = 0; i < periods.length; i++) {
-    accumulatedInflationCalc *= (periods[i].inflation / 100) + 1;
-    periods[i].accumulatedInflation = (accumulatedInflationCalc - 1) * 100;
+  periods[0].accumulatedInflation = 0;
+  for (let i = 1; i < periods.length; i++) {
+    periods[i].accumulatedInflation = ((periods[i].cpi - periods[0].cpi) / periods[0].cpi) * 100;
   }
 };
 
