@@ -30,18 +30,15 @@ const prepareLabelFunctions = (data) => {
     const index = tooltipItems[0].dataIndex;
     const { inflation: monthlyInflation, estimated } = data[index];
 
-    return `Monthly Inflation${
-      estimated ? ' (estimated)' : ''
-    }: ${monthlyInflation.toFixed(2)}%`;
+    return `Monthly Inflation${estimated ? ' (estimated)' : ''
+      }: ${monthlyInflation.toFixed(2)}%`;
   }
 
   function afterFooter(tooltipItems) {
     const index = tooltipItems[0].dataIndex;
-    const { acumulatedInflation, estimated } = data[index];
+    const accumulatedInflation = data[index].accumulatedInflation;
 
-    return `Accumulated Inflation${
-      estimated ? ' (estimated)' : ''
-    }: ${acumulatedInflation.toFixed(2)}%`;
+    return 'Accumulated Inflation:' + accumulatedInflation.toFixed(2) + '%';
   }
   return { footer, afterFooter };
 };
@@ -53,6 +50,10 @@ const generateOptions = (data) => {
       tooltip: { position: 'nearest' },
       filler: {
         propagate: false,
+      },
+      title: {
+        display: false,
+        text: (ctx) => 'drawTime: ' + ctx.chart.options.plugins.filler.drawTime,
       },
       tooltip: {
         callbacks: {
@@ -103,11 +104,8 @@ const generateOptions = (data) => {
   };
 };
 
-export const buyingPowerAtAPoint = (initialSalary) => (point) =>
-  initialSalary / (1 + point.acumulatedInflation / 100);
 
 const generateDataset = (dataPoints, initialSalary) => {
-  const buyingPointRelativeToSalary = buyingPowerAtAPoint(initialSalary);
   return {
     labels: dataPoints.map((dataPoint) => dataPoint.date),
     datasets: [
@@ -145,14 +143,14 @@ const generateDataset = (dataPoints, initialSalary) => {
         spanGaps: true,
         fill: true,
         radius: 1,
-        data: [initialSalary, ...dataPoints.map(buyingPointRelativeToSalary)],
+        data: [initialSalary, ...dataPoints.map(point => point.relativeSalary)],
         beginAtZero: true,
       },
     ],
   };
 };
 
-export function BuyingPowerGraph({ data, initialSalary = 1000 }) {
+export function BuyingPowerGraph({ data, initialSalary }) {
   const [chartData] = useState(generateDataset(data, initialSalary));
   const [options] = useState(generateOptions(data));
 

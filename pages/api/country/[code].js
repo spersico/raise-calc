@@ -1,5 +1,5 @@
 import logger from '../../../utils/logger.js';
-import { percentageOfCurrentMonth, toYearMonth } from '../../../utils/date.js';
+import { getPercentageOfCurrentMonth, toYearMonth } from '../../../utils/date.js';
 import countries from './../../../countryData/data/allCountriesData.json';
 
 /**
@@ -20,7 +20,7 @@ function getCountryPeriodsByProvider(requestedProvider, country) {
     const countryProviders = meta.map(({ provider }) => provider);
     throw new Error(
       'Country provider not found, avaliable providers: ' +
-        countryProviders.join(', ')
+      countryProviders.join(', ')
     );
   }
 
@@ -52,22 +52,25 @@ function getCountrySlicedPeriods({ fromYear, fromMonth }, periods) {
 }
 
 /**
- * Correct the last period, by the percentage of the month that the user is asking on.
+ * Corrects the last period, by the percentage of the month that the user is asking on.
+ * 
+ * The data from the providers estimates the inflation of up to the current month 
+ * (based on the averages of the previous months). 
+ * Because that last month is not finished yet, we need to correct the last period.
  * That way, if we are at 80% of the month, we reduce the estimated change by 20%.
- * The last period is almost always estimated, because data is always old.
  * @param {*} previousToLastPeriod
  * @param {*} lastPeriod
  */
-function correctLastEstimatedPeriod(allPeriods, slicedPeriods) {
+function correctLastPeriodInAccountForNotYetFinished(allPeriods, slicedPeriods) {
   const lastPeriod = allPeriods[allPeriods.length - 1];
   const previousToLastPeriod = allPeriods[allPeriods.length - 2];
-  const percentage = percentageOfCurrentMonth();
-  const inflation = percentage * lastPeriod.inflation;
+  const percentageOfCurrentMonth = Number(getPercentageOfCurrentMonth());
+  const inflation = percentageOfCurrentMonth * lastPeriod.inflation;
   const cpi =
     previousToLastPeriod.cpi + previousToLastPeriod.cpi * (inflation / 100);
   slicedPeriods[slicedPeriods.length - 1] = {
     ...lastPeriod,
-    percentage,
+    percentageOfCurrentMonth,
     inflation,
     cpi,
   };
@@ -78,20 +81,32 @@ function correctLastEstimatedPeriod(allPeriods, slicedPeriods) {
  * Uses the composite interest formula, to calculate the total inflation of the periods,
  * because the inflation is compounded.
  * And that method allows us to not need an extra CPI period  to calculate the inflation.
+ * The formula is:
+ * AccumulatedInflationAtMonthX = 
+ *    ((1 + inflationAsPercentageInFirstMonth) *  ... * (1 + inflationAsPercentageAtMonthX)) - 1
  * @see https://ciecmza.files.wordpress.com/2020/09/como-se-calcula-la-inflacion.pdf
- * @param {*} periods filtered by provider and sliced by date
  */
-const calculateTotalInflationOfPeriods = (periods) => {
-  if (periods.length === 1) return periods[0].inflation;
-  let acumulatedInflation = 1;
+const addEndOfPeriodAccumulatedInflation = (periods) => {
+  let accumulatedInflationCalc = 1;
   for (let i = 0; i < periods.length; i++) {
-    acumulatedInflation *= periods[i].inflation / 100 + 1;
-    periods[i].acumulatedInflation = (acumulatedInflation - 1) * 100;
+    accumulatedInflationCalc *= (periods[i].inflation / 100) + 1;
+    periods[i].accumulatedInflation = (accumulatedInflationCalc - 1) * 100;
+  }
+};
+
+/**
+ * Adds relative salary, equivalent salary and relative buying power to the periods
+ */
+const calculateEnOfPeriodRelativeToInitialSalary = (periods, initialSalary) => {
+  for (let i = 0; i < periods.length; i++) {
+    periods[i].relativeSalary = Number(initialSalary) / (1 + periods[i].accumulatedInflation / 100);
+    periods[i].equivalentSalary = Number(initialSalary) * (1 + periods[i].accumulatedInflation / 100);
+    periods[i].relativeBuyingPower = Number(initialSalary) / periods[i].equivalentSalary * 100;
   }
 };
 
 /**  Main function to get the country inflation data */
-function getCpi(code, provider, fromYear, fromMonth) {
+function getCpi(code, provider, fromYear, fromMonth, initialSalary) {
   const country = countries.data[code];
   if (!country) throw new Error('Country CPI not found');
 
@@ -100,8 +115,10 @@ function getCpi(code, provider, fromYear, fromMonth) {
     { fromYear, fromMonth },
     periods
   );
-  correctLastEstimatedPeriod(periods, slicedPeriods);
-  calculateTotalInflationOfPeriods(slicedPeriods);
+
+  correctLastPeriodInAccountForNotYetFinished(periods, slicedPeriods);
+  addEndOfPeriodAccumulatedInflation(slicedPeriods);
+  calculateEnOfPeriodRelativeToInitialSalary(slicedPeriods, initialSalary);
 
   return { providers, periods: slicedPeriods };
 }
@@ -110,13 +127,16 @@ function getCpi(code, provider, fromYear, fromMonth) {
  * Function used by the SSR to get the country data
  */
 export function getCpiFromQuery(query) {
-  logger.info({ event: 'Get CPI', query });
   try {
-    const { code, provider, year, month } = query;
+    logger.info({ event: 'Get CPI', query });
+    const { code, provider, year, month, salary } = query;
     const countryCode = String(code).toUpperCase();
-    return getCpi(countryCode, provider, year, month);
+    const result = getCpi(countryCode, provider, year, month, salary);
+    logger.debug({ event: 'Get CPI - Success', query, result });
+    return result;
   } catch (error) {
-    logger.error({ event: 'Error', query, error });
+    console.error(error);
+    logger.error({ event: 'Get CPI - Error', query, error });
     throw error;
   }
 }
@@ -131,6 +151,7 @@ export default function handler(req, res) {
     const country = getCpiFromQuery(req.query);
     res.status(200).json(country);
   } catch (error) {
+    logger.error({ event: 'Get CPI - Error', query, error });
     return res
       .status(404)
       .json({ error: 'Error getting CPI' + error.message, params: req.query });

@@ -30,7 +30,7 @@ export function toYearMonth(year, month) {
     return `${year}-${toMonth(month)}`;
 }
 
-export function percentageOfCurrentMonth() {
+export function getPercentageOfCurrentMonth() {
     const today = new Date();
     const daysInMonth = new Date(today.getFullYear(), today.getMonth() + 1, 0).getDate();
     const dayOfMonth = today.getDate();

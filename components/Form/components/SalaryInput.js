@@ -1,9 +1,10 @@
 import { InputNumber } from 'primereact/inputnumber';
+import formStyles from './../Form.module.css';
 
 export default function SalaryInput({ salary, setSalary, selectedCountry }) {
   return (
     <div>
-      <label htmlFor='salaryInput'>2 - What&apos;s your monthly income</label>
+      <label htmlFor='salaryInput' className={formStyles.label}>2 - What&apos;s your monthly income</label>
       <InputNumber
         inputId='salaryInput'
         value={salary}
