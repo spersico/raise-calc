@@ -11,7 +11,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AR.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -709,7 +709,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AE.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -1951,7 +1951,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AF.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -3409,7 +3409,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AG.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -5155,7 +5155,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AL.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -6469,7 +6469,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AM.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -7567,7 +7567,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AO.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -9241,7 +9241,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AT.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -14083,7 +14083,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AW.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -15829,7 +15829,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AZ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -17264,7 +17264,7 @@
     [
      "2024-11",
      [
-      null
+      221.3
      ]
     ],
     [
@@ -17287,7 +17287,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BA.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -18722,7 +18722,7 @@
     [
      "2024-11",
      [
-      null
+      126.5001
      ]
     ],
     [
@@ -18745,7 +18745,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BB.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -19843,7 +19843,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BD.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -20941,7 +20941,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BE.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -25982,7 +25982,7 @@
     [
      "2024-12",
      [
-      null
+      133.54
      ]
     ],
     [
@@ -25999,7 +25999,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BF.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -27097,7 +27097,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BG.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -29275,7 +29275,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BH.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -30373,7 +30373,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BI.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -32263,7 +32263,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BJ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -33505,7 +33505,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BN.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -34580,7 +34580,7 @@
     [
      "2024-11",
      [
-      null
+      106.262272311099
      ]
     ],
     [
@@ -34603,7 +34603,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BO.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -36061,7 +36061,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BR.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -39325,7 +39325,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BS.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -40423,7 +40423,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BT.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -41311,7 +41311,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BW.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -42409,7 +42409,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BY.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -43867,7 +43867,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BZ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -46345,7 +46345,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CA.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -51763,7 +51763,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CD.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -52717,7 +52717,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CF.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -54103,7 +54103,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CG.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -55555,7 +55555,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CH.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -60596,7 +60596,7 @@
     [
      "2024-12",
      [
-      null
+      106.8708
      ]
     ],
     [
@@ -60613,7 +60613,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CI.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -62624,7 +62624,7 @@
     [
      "2024-11",
      [
-      null
+      126.0677144598
      ]
     ],
     [
@@ -62647,7 +62647,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CL.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -66625,7 +66625,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CM.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -67723,7 +67723,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CN.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -70045,7 +70045,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CO.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -74023,7 +74023,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CR.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -77569,7 +77569,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CV.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -79021,7 +79021,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CW.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -80839,7 +80839,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CY.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -82657,7 +82657,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CZ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -85123,7 +85123,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.DE.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -90181,7 +90181,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.DJ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -91279,7 +91279,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.DK.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -95473,7 +95473,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.DM.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -97219,7 +97219,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.DO.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -99109,7 +99109,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.DZ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -100544,7 +100544,7 @@
     [
      "2024-11",
      [
-      null
+      285.45
      ]
     ],
     [
@@ -100567,7 +100567,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.EC.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -104617,7 +104617,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.EE.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -106579,7 +106579,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.EG.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -107677,7 +107677,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ES.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -112795,7 +112795,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ET.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -114547,7 +114547,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.FI.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -119605,7 +119605,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.FJ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -120847,7 +120847,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.FR.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -125905,7 +125905,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GA.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -127003,7 +127003,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GB.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -132061,7 +132061,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GD.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -133807,7 +133807,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GE.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -135265,7 +135265,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GH.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -137251,7 +137251,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GM.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -138739,7 +138739,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GN.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -140125,7 +140125,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GP.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -141223,7 +141223,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GQ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -142321,7 +142321,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GR.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -147379,7 +147379,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GT.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -148837,7 +148837,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GW.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -149935,7 +149935,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GY.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -151393,7 +151393,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.HK.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -152869,7 +152869,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.HN.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -154676,7 +154676,7 @@
     [
      "2024-12",
      [
-      null
+      442.1
      ]
     ],
     [
@@ -154693,7 +154693,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.HR.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -156151,7 +156151,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.HT.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -158185,7 +158185,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.HU.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -161443,7 +161443,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ID.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -165565,7 +165565,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IE.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -170617,7 +170617,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IL.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -174595,7 +174595,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IN.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -179509,7 +179509,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IQ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -180247,7 +180247,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IR.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -181759,7 +181759,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IS.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -186800,7 +186800,7 @@
     [
      "2024-12",
      [
-      null
+      225.6852
      ]
     ],
     [
@@ -186817,7 +186817,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IT.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -191875,7 +191875,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.JM.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -193741,7 +193741,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.JO.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -195127,7 +195127,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.JP.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -200185,7 +200185,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KE.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -201349,7 +201349,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KG.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -202951,7 +202951,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KH.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -204697,7 +204697,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KI.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -206083,7 +206083,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KM.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -207181,7 +207181,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KN.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -208639,7 +208639,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KR.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -213926,7 +213926,7 @@
     [
      "2024-12",
      [
-      null
+      114.91
      ]
     ],
     [
@@ -213943,7 +213943,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KW.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -215041,7 +215041,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KZ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -216499,7 +216499,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LA.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -217957,7 +217957,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LB.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -219205,7 +219205,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LC.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -220951,7 +220951,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LK.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -222049,7 +222049,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LR.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -223441,7 +223441,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LS.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -224876,7 +224876,7 @@
     [
      "2024-11",
      [
-      null
+      114.011778984808
      ]
     ],
     [
@@ -224899,7 +224899,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LT.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -227371,7 +227371,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LU.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -232429,7 +232429,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LV.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -234895,7 +234895,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LY.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -235993,7 +235993,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MA.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -237307,7 +237307,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MD.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -239773,7 +239773,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ME.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -240842,13 +240842,13 @@
     [
      "2024-10",
      [
-      null
+      136.6665680931
      ]
     ],
     [
      "2024-11",
      [
-      null
+      136.892660065569
      ]
     ],
     [
@@ -240871,7 +240871,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MG.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -242749,7 +242749,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MK.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -244423,7 +244423,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ML.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -245521,7 +245521,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MM.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -246619,7 +246619,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MN.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -248005,7 +248005,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MO.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -249967,7 +249967,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MQ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -251785,7 +251785,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MR.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -252883,7 +252883,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MS.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -254629,7 +254629,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MT.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -256087,7 +256087,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MU.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -257941,7 +257941,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MV.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -260839,7 +260839,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MW.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -261937,7 +261937,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MX.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -265987,7 +265987,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MY.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -267805,7 +267805,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MZ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -269335,7 +269335,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NA.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -270793,7 +270793,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NC.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -271891,7 +271891,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NE.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -272989,7 +272989,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NG.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -274447,7 +274447,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NI.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -275905,7 +275905,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NL.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -280585,7 +280585,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NO.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -285643,7 +285643,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NP.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -287059,7 +287059,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NR.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -288157,7 +288157,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.OM.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -289880,7 +289880,7 @@
     [
      "2024-11",
      [
-      null
+      106.3
      ]
     ],
     [
@@ -289903,7 +289903,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PA.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -291523,7 +291523,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PE.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -292621,7 +292621,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PH.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -293719,7 +293719,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PK.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -294908,7 +294908,7 @@
     [
      "2024-12",
      [
-      null
+      265.627241384173
      ]
     ],
     [
@@ -294925,7 +294925,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PL.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -297535,7 +297535,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PS.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -299569,7 +299569,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PT.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -304627,7 +304627,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PY.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -306085,7 +306085,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.QA.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -307183,7 +307183,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.RO.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -309001,7 +309001,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.RS.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -310315,7 +310315,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.RU.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -312686,7 +312686,7 @@
     [
      "2024-11",
      [
-      null
+      269.3101
      ]
     ],
     [
@@ -312709,7 +312709,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.RW.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -314239,7 +314239,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SA.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -316417,7 +316417,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SB.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -317227,7 +317227,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SC.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -318541,7 +318541,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SD.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -320647,7 +320647,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SE.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -325705,7 +325705,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SG.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -327140,7 +327140,7 @@
     [
      "2024-11",
      [
-      null
+      116.792
      ]
     ],
     [
@@ -327163,7 +327163,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SI.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -330404,7 +330404,7 @@
     [
      "2024-12",
      [
-      null
+      127.87
      ]
     ],
     [
@@ -330421,7 +330421,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SK.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -332864,7 +332864,7 @@
     [
      "2024-11",
      [
-      null
+      236.5
      ]
     ],
     [
@@ -332887,7 +332887,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SL.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -334201,7 +334201,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SM.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -335299,7 +335299,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SN.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -337117,7 +337117,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SO.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -337861,7 +337861,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SR.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -339319,7 +339319,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SS.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -340615,7 +340615,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ST.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -341713,7 +341713,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SV.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -342883,7 +342883,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SX.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -344191,7 +344191,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SY.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -345289,7 +345289,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SZ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -346681,7 +346681,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TD.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -347779,7 +347779,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TG.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -349712,73 +349712,73 @@
     [
      "2023-10",
      [
-      125700
+      125.7
      ]
     ],
     [
      "2023-11",
      [
-      126070
+      126.07
      ]
     ],
     [
      "2023-12",
      [
-      126890
+      126.89
      ]
     ],
     [
      "2024-01",
      [
-      126390
+      126.39
      ]
     ],
     [
      "2024-02",
      [
-      126950
+      126.95
      ]
     ],
     [
      "2024-03",
      [
-      126840
+      126.84
      ]
     ],
     [
      "2024-04",
      [
-      129330
+      129.33
      ]
     ],
     [
      "2024-05",
      [
-      131400
+      131.4
      ]
     ],
     [
      "2024-06",
      [
-      132700
+      132.7
      ]
     ],
     [
      "2024-07",
      [
-      133380
+      133.38
      ]
     ],
     [
      "2024-08",
      [
-      130700
+      130.7
      ]
     ],
     [
      "2024-09",
      [
-      128900
+      128.9
      ]
     ],
     [
@@ -349813,7 +349813,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TH.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -350911,7 +350911,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TJ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -352729,7 +352729,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TL.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -353827,7 +353827,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TN.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -355285,7 +355285,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TO.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -356743,7 +356743,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TR.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -361801,7 +361801,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TT.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -363619,7 +363619,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TZ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -364717,7 +364717,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.UA.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -366175,7 +366175,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.UG.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -367250,13 +367250,13 @@
     [
      "2024-11",
      [
-      null
+      133.309272355095
      ]
     ],
     [
      "2024-12",
      [
-      null
+      134.403783753176
      ]
     ],
     [
@@ -367273,7 +367273,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.US.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -372331,7 +372331,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.UY.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -373730,43 +373730,43 @@
     [
      "2024-05",
      [
-      null
+      107.95320567
      ]
     ],
     [
      "2024-06",
      [
-      null
+      108.33773567
      ]
     ],
     [
      "2024-07",
      [
-      null
+      108.45313268
      ]
     ],
     [
      "2024-08",
      [
-      null
+      108.76308401
      ]
     ],
     [
      "2024-09",
      [
-      null
+      109.17063321
      ]
     ],
     [
      "2024-10",
      [
-      null
+      109.52643381
      ]
     ],
     [
      "2024-11",
      [
-      null
+      109.92131821
      ]
     ],
     [
@@ -373789,7 +373789,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.UZ.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -374756,115 +374756,115 @@
     [
      "2023-05",
      [
-      134.277992673313
+      135.328407218345
      ]
     ],
     [
      "2023-06",
      [
-      null
+      134.935954837412
      ]
     ],
     [
      "2023-07",
      [
-      null
+      134.720057309672
      ]
     ],
     [
      "2023-08",
      [
-      null
+      135.447545619144
      ]
     ],
     [
      "2023-09",
      [
-      null
+      137.127095184822
      ]
     ],
     [
      "2023-10",
      [
-      null
+      138.553216974744
      ]
     ],
     [
      "2023-11",
      [
-      null
+      140.118868326558
      ]
     ],
     [
      "2023-12",
      [
-      null
+      141.856342293808
      ]
     ],
     [
      "2024-01",
      [
-      null
+      142.764222884488
      ]
     ],
     [
      "2024-02",
      [
-      null
+      143.221068397718
      ]
     ],
     [
      "2024-03",
      [
-      null
+      144.180649555983
      ]
     ],
     [
      "2024-04",
      [
-      null
+      145.521529596854
      ]
     ],
     [
      "2024-05",
      [
-      null
+      149.596132425566
      ]
     ],
     [
      "2024-06",
      [
-      null
+      149.237101707744
      ]
     ],
     [
      "2024-07",
      [
-      null
+      148.819237822963
      ]
     ],
     [
      "2024-08",
      [
-      null
+      149.607979783424
      ]
     ],
     [
      "2024-09",
      [
-      null
+      151.448157934761
      ]
     ],
     [
      "2024-10",
      [
-      null
+      152.720322461413
      ]
     ],
     [
      "2024-11",
      [
-      null
+      154.140621460304
      ]
     ],
     [
@@ -374887,7 +374887,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.VC.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -376633,7 +376633,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.VE.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -377731,7 +377731,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.VG.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -378469,7 +378469,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.VN.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -380149,7 +380149,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.WS.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -381607,7 +381607,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.XK.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -383065,7 +383065,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.YE.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -384163,7 +384163,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ZA.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -389077,7 +389077,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ZM.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -390175,7 +390175,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ZW.PCPI_IX",
-     "indexedAt": "2024-12-25T03:24:42.009Z"
+     "indexedAt": "2025-01-11T02:14:15.869Z"
     }
    ],
    "periods": [
@@ -391348,7 +391348,7 @@
    "url": "https://datos.gob.ar/dataset/sspm-indice-precios-al-consumidor-nacional-ipc-base-diciembre-2016/archivo/sspm_145.3"
   },
   "IMF": {
-   "updatedAt": "2025-01-05T00:47:26.449Z",
+   "updatedAt": "2025-01-12T00:48:23.360Z",
    "provider": "IMF",
    "preference": 999
   }
