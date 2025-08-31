@@ -11,7 +11,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AR.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -758,7 +758,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AE.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -2042,7 +2042,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AF.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -3542,7 +3542,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AG.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -5330,7 +5330,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AL.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -6489,49 +6489,49 @@
     [
      "2023-01",
      [
-      112.623125942935
+      112.6
      ]
     ],
     [
      "2023-02",
      [
-      113.877349615072
+      113.9
      ]
     ],
     [
      "2023-03",
      [
-      114.674360586542
+      114.7
      ]
     ],
     [
      "2023-04",
      [
-      114.703058490228
+      114.7
      ]
     ],
     [
      "2023-05",
      [
-      114.346255127254
+      114.3
      ]
     ],
     [
      "2023-06",
      [
-      113.950677498315
+      114
      ]
     ],
     [
      "2023-07",
      [
-      113.829072205966
+      113.8
      ]
     ],
     [
      "2023-08",
      [
-      114.51471202664
+      114.5
      ]
     ],
     [
@@ -6669,7 +6669,7 @@
     [
      "2025-07",
      [
-      null
+      119.095484032915
      ]
     ],
     [
@@ -6686,7 +6686,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AM.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -7826,7 +7826,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AO.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -9542,7 +9542,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AT.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -14409,7 +14409,7 @@
     [
      "2025-07",
      [
-      null
+      128.5
      ]
     ],
     [
@@ -14426,7 +14426,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AW.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -16214,7 +16214,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.AZ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -17714,7 +17714,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BA.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -19214,7 +19214,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BB.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -20354,7 +20354,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BD.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -21494,7 +21494,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BE.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -26594,7 +26594,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BF.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -27734,7 +27734,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BG.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -29954,7 +29954,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BH.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -31094,7 +31094,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BI.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -32997,19 +32997,19 @@
     [
      "2025-05",
      [
-      316.9
+      317
      ]
     ],
     [
      "2025-06",
      [
-      null
+      315.2
      ]
     ],
     [
      "2025-07",
      [
-      null
+      319.1
      ]
     ],
     [
@@ -33026,7 +33026,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BJ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -34310,7 +34310,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BN.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -35433,7 +35433,7 @@
     [
      "2025-07",
      [
-      null
+      106.080872720127
      ]
     ],
     [
@@ -35450,7 +35450,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BO.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -36933,7 +36933,7 @@
     [
      "2025-07",
      [
-      null
+      142.8784655293
      ]
     ],
     [
@@ -36950,7 +36950,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BR.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -40256,7 +40256,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BS.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -41396,7 +41396,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BT.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -42326,7 +42326,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BW.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -43466,7 +43466,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BY.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -44949,7 +44949,7 @@
     [
      "2025-07",
      [
-      null
+      105.56
      ]
     ],
     [
@@ -44966,7 +44966,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.BZ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -47463,7 +47463,7 @@
     [
      "2025-06",
      [
-      null
+      119.7
      ]
     ],
     [
@@ -47486,7 +47486,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CA.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -52946,7 +52946,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CD.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -53942,7 +53942,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CF.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -55370,7 +55370,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CG.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -56864,7 +56864,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CH.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -61964,7 +61964,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CI.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -64040,7 +64040,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CL.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -68060,7 +68060,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CM.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -69200,7 +69200,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CN.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -71564,7 +71564,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CO.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -75584,7 +75584,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CR.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -79172,7 +79172,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CV.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -80666,7 +80666,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CW.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -82526,7 +82526,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CY.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -84386,7 +84386,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.CZ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -86877,7 +86877,7 @@
     [
      "2025-07",
      [
-      null
+      156.1
      ]
     ],
     [
@@ -86894,7 +86894,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.DE.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -91994,7 +91994,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.DJ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -93134,7 +93134,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.DK.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -97370,7 +97370,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.DM.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -99158,7 +99158,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.DO.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -101090,7 +101090,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.DZ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -102590,7 +102590,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.EC.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -106682,7 +106682,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.EE.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -108686,7 +108686,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.EG.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -109826,7 +109826,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ES.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -114986,7 +114986,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ET.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -116780,7 +116780,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.FI.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -121880,7 +121880,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.FJ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -123164,7 +123164,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.FR.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -128264,7 +128264,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GA.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -129404,7 +129404,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GB.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -134487,7 +134487,7 @@
     [
      "2025-07",
      [
-      null
+      138.5
      ]
     ],
     [
@@ -134504,7 +134504,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GD.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -136292,7 +136292,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GE.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -137792,7 +137792,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GH.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -139820,7 +139820,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GM.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -141350,7 +141350,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GN.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -142778,7 +142778,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GP.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -143918,7 +143918,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GQ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -145058,7 +145058,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GR.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -150158,7 +150158,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GT.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -151658,7 +151658,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GW.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -152798,7 +152798,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.GY.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -154298,7 +154298,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.HK.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -155816,7 +155816,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.HN.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -157682,7 +157682,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.HR.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -159182,7 +159182,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.HT.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -161258,7 +161258,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.HU.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -164558,7 +164558,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ID.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -168722,7 +168722,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IE.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -173816,7 +173816,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IL.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -177836,7 +177836,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IN.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -182792,7 +182792,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IQ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -183572,7 +183572,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IR.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -185126,7 +185126,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IS.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -190226,7 +190226,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.IT.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -195326,7 +195326,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.JM.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -197234,7 +197234,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.JO.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -198662,7 +198662,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.JP.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -203745,7 +203745,7 @@
     [
      "2025-07",
      [
-      null
+      111.9
      ]
     ],
     [
@@ -203762,7 +203762,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KE.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -204968,7 +204968,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KG.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -206612,7 +206612,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KH.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -208400,7 +208400,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KI.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -209828,7 +209828,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KM.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -210968,7 +210968,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KN.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -212468,7 +212468,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KR.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -217814,7 +217814,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KW.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -218937,7 +218937,7 @@
     [
      "2025-07",
      [
-      null
+      137.2
      ]
     ],
     [
@@ -218954,7 +218954,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.KZ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -220454,7 +220454,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LA.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -221954,7 +221954,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LB.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -223244,7 +223244,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LC.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -225032,7 +225032,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LK.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -226172,7 +226172,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LR.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -227606,7 +227606,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LS.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -229106,7 +229106,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LT.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -231620,7 +231620,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LU.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -236720,7 +236720,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LV.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -239228,7 +239228,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.LY.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -240368,7 +240368,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MA.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -241724,7 +241724,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MD.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -244232,7 +244232,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ME.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -245355,7 +245355,7 @@
     [
      "2025-07",
      [
-      null
+      142.866293096633
      ]
     ],
     [
@@ -245372,7 +245372,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MG.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -247292,7 +247292,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MK.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -248991,7 +248991,7 @@
     [
      "2025-07",
      [
-      null
+      161.39
      ]
     ],
     [
@@ -249008,7 +249008,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ML.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -250148,7 +250148,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MM.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -251288,7 +251288,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MN.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -252716,7 +252716,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MO.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -254720,7 +254720,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MQ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -256580,7 +256580,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MR.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -257720,7 +257720,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MS.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -259508,7 +259508,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MT.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -261008,7 +261008,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MU.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -262904,7 +262904,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MV.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -265844,7 +265844,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MW.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -266984,7 +266984,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MX.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -271076,7 +271076,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MY.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -272919,7 +272919,7 @@
     [
      "2025-07",
      [
-      null
+      133.1
      ]
     ],
     [
@@ -272936,7 +272936,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.MZ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -274508,7 +274508,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NA.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -276008,7 +276008,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NC.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -277148,7 +277148,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NE.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -278288,7 +278288,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NG.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -279788,7 +279788,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NI.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -281271,7 +281271,7 @@
     [
      "2025-07",
      [
-      null
+      313.618446
      ]
     ],
     [
@@ -281288,7 +281288,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NL.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -286010,7 +286010,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NO.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -291110,7 +291110,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NP.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -291272,7 +291272,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.NR.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -292412,7 +292412,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.OM.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -294200,7 +294200,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PA.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -295862,7 +295862,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PE.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -297002,7 +297002,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PH.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -298142,7 +298142,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PK.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -299390,7 +299390,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PL.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -301917,19 +301917,19 @@
     [
      "2024-01",
      [
-      182.226
+      182.2
      ]
     ],
     [
      "2024-02",
      [
-      182.772678
+      182.7
      ]
     ],
     [
      "2024-03",
      [
-      183.138223356
+      183.1
      ]
     ],
     [
@@ -302001,31 +302001,31 @@
     [
      "2025-03",
      [
-      192.0719
+      192.9
      ]
     ],
     [
      "2025-04",
      [
-      null
+      193.7
      ]
     ],
     [
      "2025-05",
      [
-      null
+      193.3
      ]
     ],
     [
      "2025-06",
      [
-      null
+      193.5
      ]
     ],
     [
      "2025-07",
      [
-      null
+      194.1
      ]
     ],
     [
@@ -302042,7 +302042,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PS.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -304118,7 +304118,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PT.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -309218,7 +309218,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.PY.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -310718,7 +310718,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.QA.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -311858,7 +311858,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.RO.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -313718,7 +313718,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.RS.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -315074,7 +315074,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.RU.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -317510,7 +317510,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.RW.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -319082,7 +319082,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SA.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -321302,7 +321302,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SB.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -322154,7 +322154,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SC.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -323510,7 +323510,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SD.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -325658,7 +325658,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SE.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -330758,7 +330758,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SG.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -332241,7 +332241,7 @@
     [
      "2025-07",
      [
-      null
+      100.447
      ]
     ],
     [
@@ -332258,7 +332258,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SI.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -335558,7 +335558,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SK.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -338049,7 +338049,7 @@
     [
      "2025-07",
      [
-      null
+      243.8
      ]
     ],
     [
@@ -338066,7 +338066,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SL.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -339422,7 +339422,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SM.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -340562,7 +340562,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SN.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -342422,7 +342422,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SO.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -343208,7 +343208,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SR.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -344708,7 +344708,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SS.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -346046,7 +346046,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ST.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -347186,7 +347186,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SV.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -348398,7 +348398,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SX.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -349748,7 +349748,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SY.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -350888,7 +350888,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.SZ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -352322,7 +352322,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TD.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -353462,7 +353462,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TG.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -355538,7 +355538,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TH.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -356678,7 +356678,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TJ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -358538,7 +358538,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TL.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -359678,7 +359678,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TN.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -361161,7 +361161,7 @@
     [
      "2025-07",
      [
-      null
+      186.7
      ]
     ],
     [
@@ -361178,7 +361178,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TO.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -362678,7 +362678,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TR.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -367778,7 +367778,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TT.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -369615,7 +369615,7 @@
     [
      "2025-06",
      [
-      null
+      125.6
      ]
     ],
     [
@@ -369638,7 +369638,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.TZ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -370778,7 +370778,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.UA.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -372278,7 +372278,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.UG.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -373418,7 +373418,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.US.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -378518,7 +378518,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.UY.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -380018,7 +380018,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.UZ.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -381158,7 +381158,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.VC.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -382946,7 +382946,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.VE.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -384086,7 +384086,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.VG.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -384866,7 +384866,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.VN.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -386588,7 +386588,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.WS.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -388088,7 +388088,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.XK.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -389588,7 +389588,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.YE.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -390728,4478 +390728,4478 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ZA.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
     [
      "1957-01",
      [
-      0.801537330300273
+      0.8026869
      ]
     ],
     [
      "1957-02",
      [
-      0.801537330300273
+      0.8026869
      ]
     ],
     [
      "1957-03",
      [
-      0.804409910828025
+      0.8055639
      ]
     ],
     [
      "1957-04",
      [
-      0.804409910828025
+      0.8055639
      ]
     ],
     [
      "1957-05",
      [
-      0.807283184713376
+      0.808441
      ]
     ],
     [
      "1957-06",
      [
-      0.810155765241128
+      0.811318
      ]
     ],
     [
      "1957-07",
      [
-      0.813029039126479
+      0.814195
      ]
     ],
     [
      "1957-08",
      [
-      0.827393328480437
+      0.8285801
      ]
     ],
     [
      "1957-09",
      [
-      0.833139182893539
+      0.8343341
      ]
     ],
     [
      "1957-10",
      [
-      0.833139182893539
+      0.8343341
      ]
     ],
     [
      "1957-11",
      [
-      0.827393328480437
+      0.8285801
      ]
     ],
     [
      "1957-12",
      [
-      0.827393328480437
+      0.8285801
      ]
     ],
     [
      "1958-01",
      [
-      0.833139182893539
+      0.8343341
      ]
     ],
     [
      "1958-02",
      [
-      0.833139182893539
+      0.8343341
      ]
     ],
     [
      "1958-03",
      [
-      0.836011763421292
+      0.8372111
      ]
     ],
     [
      "1958-04",
      [
-      0.841757617834395
+      0.8429651
      ]
     ],
     [
      "1958-05",
      [
-      0.841757617834395
+      0.8429651
      ]
     ],
     [
      "1958-06",
      [
-      0.841757617834395
+      0.8429651
      ]
     ],
     [
      "1958-07",
      [
-      0.847503472247498
+      0.8487192
      ]
     ],
     [
      "1958-08",
      [
-      0.850376746132848
+      0.8515962
      ]
     ],
     [
      "1958-09",
      [
-      0.850376746132848
+      0.8515962
      ]
     ],
     [
      "1958-10",
      [
-      0.850376746132848
+      0.8515962
      ]
     ],
     [
      "1958-11",
      [
-      0.850376746132848
+      0.8515962
      ]
     ],
     [
      "1958-12",
      [
-      0.8532493266606
+      0.8544732
      ]
     ],
     [
      "1959-01",
      [
-      0.8532493266606
+      0.8544732
      ]
     ],
     [
      "1959-02",
      [
-      0.850376746132848
+      0.8515962
      ]
     ],
     [
      "1959-03",
      [
-      0.8532493266606
+      0.8544732
      ]
     ],
     [
      "1959-04",
      [
-      0.8532493266606
+      0.8544732
      ]
     ],
     [
      "1959-05",
      [
-      0.8532493266606
+      0.8544732
      ]
     ],
     [
      "1959-06",
      [
-      0.856121907188353
+      0.8573502
      ]
     ],
     [
      "1959-07",
      [
-      0.8532493266606
+      0.8544732
      ]
     ],
     [
      "1959-08",
      [
-      0.8532493266606
+      0.8544732
      ]
     ],
     [
      "1959-09",
      [
-      0.8532493266606
+      0.8544732
      ]
     ],
     [
      "1959-10",
      [
-      0.856121907188353
+      0.8573502
      ]
     ],
     [
      "1959-11",
      [
-      0.858995181073703
+      0.8602272
      ]
     ],
     [
      "1959-12",
      [
-      0.858995181073703
+      0.8602272
      ]
     ],
     [
      "1960-01",
      [
-      0.856121907188353
+      0.8573502
      ]
     ],
     [
      "1960-02",
      [
-      0.856121907188353
+      0.8573502
      ]
     ],
     [
      "1960-03",
      [
-      0.858995181073703
+      0.8602272
      ]
     ],
     [
      "1960-04",
      [
-      0.861867761601456
+      0.8631042
      ]
     ],
     [
      "1960-05",
      [
-      0.864741035486806
+      0.8659812
      ]
     ],
     [
      "1960-06",
      [
-      0.867613616014559
+      0.8688583
      ]
     ],
     [
      "1960-07",
      [
-      0.867613616014559
+      0.8688583
      ]
     ],
     [
      "1960-08",
      [
-      0.870486889899909
+      0.8717353
      ]
     ],
     [
      "1960-09",
      [
-      0.870486889899909
+      0.8717353
      ]
     ],
     [
      "1960-10",
      [
-      0.870486889899909
+      0.8717353
      ]
     ],
     [
      "1960-11",
      [
-      0.870486889899909
+      0.8717353
      ]
     ],
     [
      "1960-12",
      [
-      0.870486889899909
+      0.8717353
      ]
     ],
     [
      "1961-01",
      [
-      0.873359470427661
+      0.8746123
      ]
     ],
     [
      "1961-02",
      [
-      0.876232744313012
+      0.8774893
      ]
     ],
     [
      "1961-03",
      [
-      0.876232744313012
+      0.8774893
      ]
     ],
     [
      "1961-04",
      [
-      0.879105324840764
+      0.8803663
      ]
     ],
     [
      "1961-05",
      [
-      0.884851179253867
+      0.8861203
      ]
     ],
     [
      "1961-06",
      [
-      0.884851179253867
+      0.8861203
      ]
     ],
     [
      "1961-07",
      [
-      0.884851179253867
+      0.8861203
      ]
     ],
     [
      "1961-08",
      [
-      0.88772375978162
+      0.8889974
      ]
     ],
     [
      "1961-09",
      [
-      0.88772375978162
+      0.8889974
      ]
     ],
     [
      "1961-10",
      [
-      0.88772375978162
+      0.8889974
      ]
     ],
     [
      "1961-11",
      [
-      0.893469614194722
+      0.8947514
      ]
     ],
     [
      "1961-12",
      [
-      0.88772375978162
+      0.8889974
      ]
     ],
     [
      "1962-01",
      [
-      0.88772375978162
+      0.8889974
      ]
     ],
     [
      "1962-02",
      [
-      0.88772375978162
+      0.8889974
      ]
     ],
     [
      "1962-03",
      [
-      0.89059703366697
+      0.8918744
      ]
     ],
     [
      "1962-04",
      [
-      0.893469614194722
+      0.8947514
      ]
     ],
     [
      "1962-05",
      [
-      0.896342888080073
+      0.8976284
      ]
     ],
     [
      "1962-06",
      [
-      0.896342888080073
+      0.8976284
      ]
     ],
     [
      "1962-07",
      [
-      0.896342888080073
+      0.8976284
      ]
     ],
     [
      "1962-08",
      [
-      0.896342888080073
+      0.8976284
      ]
     ],
     [
      "1962-09",
      [
-      0.896342888080073
+      0.8976284
      ]
     ],
     [
      "1962-10",
      [
-      0.896342888080073
+      0.8976284
      ]
     ],
     [
      "1962-11",
      [
-      0.896342888080073
+      0.8976284
      ]
     ],
     [
      "1962-12",
      [
-      0.902088742493176
+      0.9033824
      ]
     ],
     [
      "1963-01",
      [
-      0.904961323020928
+      0.9062594
      ]
     ],
     [
      "1963-02",
      [
-      0.902088742493176
+      0.9033824
      ]
     ],
     [
      "1963-03",
      [
-      0.902088742493176
+      0.9033824
      ]
     ],
     [
      "1963-04",
      [
-      0.902088742493176
+      0.9033824
      ]
     ],
     [
      "1963-05",
      [
-      0.902088742493176
+      0.9033824
      ]
     ],
     [
      "1963-06",
      [
-      0.904961323020928
+      0.9062594
      ]
     ],
     [
      "1963-07",
      [
-      0.907833903548681
+      0.9091365
      ]
     ],
     [
      "1963-08",
      [
-      0.910707177434031
+      0.9120135
      ]
     ],
     [
      "1963-09",
      [
-      0.910707177434031
+      0.9120135
      ]
     ],
     [
      "1963-10",
      [
-      0.910707177434031
+      0.9120135
      ]
     ],
     [
      "1963-11",
      [
-      0.910707177434031
+      0.9120135
      ]
     ],
     [
      "1963-12",
      [
-      0.910707177434031
+      0.9120135
      ]
     ],
     [
      "1964-01",
      [
-      0.910707177434031
+      0.9120135
      ]
     ],
     [
      "1964-02",
      [
-      0.910707177434031
+      0.9120135
      ]
     ],
     [
      "1964-03",
      [
-      0.919325612374886
+      0.9206445
      ]
     ],
     [
      "1964-04",
      [
-      0.922198886260236
+      0.9235215
      ]
     ],
     [
      "1964-05",
      [
-      0.922198886260236
+      0.9235215
      ]
     ],
     [
      "1964-06",
      [
-      0.925071466787989
+      0.9263985
      ]
     ],
     [
      "1964-07",
      [
-      0.930817321201092
+      0.9321526
      ]
     ],
     [
      "1964-08",
      [
-      0.933690595086442
+      0.9350296
      ]
     ],
     [
      "1964-09",
      [
-      0.939435756141947
+      0.9407836
      ]
     ],
     [
      "1964-10",
      [
-      0.942309030027297
+      0.9436606
      ]
     ],
     [
      "1964-11",
      [
-      0.9480548844404
+      0.9494147
      ]
     ],
     [
      "1964-12",
      [
-      0.950927464968153
+      0.9522917
      ]
     ],
     [
      "1965-01",
      [
-      0.953800738853503
+      0.9551687
      ]
     ],
     [
      "1965-02",
      [
-      0.953800738853503
+      0.9551687
      ]
     ],
     [
      "1965-03",
      [
-      0.956673319381256
+      0.9580457
      ]
     ],
     [
      "1965-04",
      [
-      0.962419173794358
+      0.9637997
      ]
     ],
     [
      "1965-05",
      [
-      0.962419173794358
+      0.9637997
      ]
     ],
     [
      "1965-06",
      [
-      0.965292447679709
+      0.9666767
      ]
     ],
     [
      "1965-07",
      [
-      0.968165028207461
+      0.9695538
      ]
     ],
     [
      "1965-08",
      [
-      0.973910882620564
+      0.9753078
      ]
     ],
     [
      "1965-09",
      [
-      0.973910882620564
+      0.9753078
      ]
     ],
     [
      "1965-10",
      [
-      0.976783463148317
+      0.9781848
      ]
     ],
     [
      "1965-11",
      [
-      0.979656737033667
+      0.9810618
      ]
     ],
     [
      "1965-12",
      [
-      0.982529317561419
+      0.9839388
      ]
     ],
     [
      "1966-01",
      [
-      0.98540259144677
+      0.9868158
      ]
     ],
     [
      "1966-02",
      [
-      0.991148445859873
+      0.9925699
      ]
     ],
     [
      "1966-03",
      [
-      0.991148445859873
+      0.9925699
      ]
     ],
     [
      "1966-04",
      [
-      0.994021026387625
+      0.9954469
      ]
     ],
     [
      "1966-05",
      [
-      0.991148445859873
+      0.9925699
      ]
     ],
     [
      "1966-06",
      [
-      0.996894300272975
+      0.9983239
      ]
     ],
     [
      "1966-07",
      [
-      0.996894300272975
+      0.9983239
      ]
     ],
     [
      "1966-08",
      [
-      0.999766880800728
+      1.001201
      ]
     ],
     [
      "1966-09",
      [
-      1.01413117015469
+      1.015586
      ]
     ],
     [
      "1966-10",
      [
-      1.01700444404004
+      1.018463
      ]
     ],
     [
      "1966-11",
      [
-      1.01700444404004
+      1.018463
      ]
     ],
     [
      "1966-12",
      [
-      1.01987702456779
+      1.02134
      ]
     ],
     [
      "1967-01",
      [
-      1.02275029845314
+      1.024217
      ]
     ],
     [
      "1967-02",
      [
-      1.02275029845314
+      1.024217
      ]
     ],
     [
      "1967-03",
      [
-      1.02849545950864
+      1.029971
      ]
     ],
     [
      "1967-04",
      [
-      1.03136873339399
+      1.032848
      ]
     ],
     [
      "1967-05",
      [
-      1.03424131392175
+      1.035725
      ]
     ],
     [
      "1967-06",
      [
-      1.0371145878071
+      1.038602
      ]
     ],
     [
      "1967-07",
      [
-      1.0428604422202
+      1.044356
      ]
     ],
     [
      "1967-08",
      [
-      1.04573302274795
+      1.047233
      ]
     ],
     [
      "1967-09",
      [
-      1.04573302274795
+      1.047233
      ]
     ],
     [
      "1967-10",
      [
-      1.0428604422202
+      1.044356
      ]
     ],
     [
      "1967-11",
      [
-      1.0428604422202
+      1.044356
      ]
     ],
     [
      "1967-12",
      [
-      1.0428604422202
+      1.044356
      ]
     ],
     [
      "1968-01",
      [
-      1.0428604422202
+      1.044356
      ]
     ],
     [
      "1968-02",
      [
-      1.04573302274795
+      1.047233
      ]
     ],
     [
      "1968-03",
      [
-      1.0486062966333
+      1.05011
      ]
     ],
     [
      "1968-04",
      [
-      1.05147887716106
+      1.052987
      ]
     ],
     [
      "1968-05",
      [
-      1.05147887716106
+      1.052987
      ]
     ],
     [
      "1968-06",
      [
-      1.05435145768881
+      1.055864
      ]
     ],
     [
      "1968-07",
      [
-      1.06009731210191
+      1.061618
      ]
     ],
     [
      "1968-08",
      [
-      1.06009731210191
+      1.061618
      ]
     ],
     [
      "1968-09",
      [
-      1.06584316651501
+      1.067372
      ]
     ],
     [
      "1968-10",
      [
-      1.06584316651501
+      1.067372
      ]
     ],
     [
      "1968-11",
      [
-      1.06871644040036
+      1.070249
      ]
     ],
     [
      "1968-12",
      [
-      1.07158902092812
+      1.073126
      ]
     ],
     [
      "1969-01",
      [
-      1.07446229481347
+      1.076003
      ]
     ],
     [
      "1969-02",
      [
-      1.07446229481347
+      1.076003
      ]
     ],
     [
      "1969-03",
      [
-      1.08308072975432
+      1.084634
      ]
     ],
     [
      "1969-04",
      [
-      1.08595331028208
+      1.087511
      ]
     ],
     [
      "1969-05",
      [
-      1.08882658416742
+      1.090388
      ]
     ],
     [
      "1969-06",
      [
-      1.08882658416742
+      1.090388
      ]
     ],
     [
      "1969-07",
      [
-      1.09169916469518
+      1.093265
      ]
     ],
     [
      "1969-08",
      [
-      1.09169916469518
+      1.093265
      ]
     ],
     [
      "1969-09",
      [
-      1.09744501910828
+      1.099019
      ]
     ],
     [
      "1969-10",
      [
-      1.10319087352138
+      1.104773
      ]
     ],
     [
      "1969-11",
      [
-      1.10606414740673
+      1.10765
      ]
     ],
     [
      "1969-12",
      [
-      1.11181000181984
+      1.113405
      ]
     ],
     [
      "1970-01",
      [
-      1.11181000181984
+      1.113405
      ]
     ],
     [
      "1970-02",
      [
-      1.11181000181984
+      1.113405
      ]
     ],
     [
      "1970-03",
      [
-      1.11181000181984
+      1.113405
      ]
     ],
     [
      "1970-04",
      [
-      1.14106761237489
+      1.142705
      ]
     ],
     [
      "1970-05",
      [
-      1.14106761237489
+      1.142705
      ]
     ],
     [
      "1970-06",
      [
-      1.14106761237489
+      1.142705
      ]
     ],
     [
      "1970-07",
      [
-      1.14106761237489
+      1.142705
      ]
     ],
     [
      "1970-08",
      [
-      1.17032591628753
+      1.172005
      ]
     ],
     [
      "1970-09",
      [
-      1.17032591628753
+      1.172005
      ]
     ],
     [
      "1970-10",
      [
-      1.17032591628753
+      1.172005
      ]
     ],
     [
      "1970-11",
      [
-      1.17032591628753
+      1.172005
      ]
     ],
     [
      "1970-12",
      [
-      1.17032591628753
+      1.172005
      ]
     ],
     [
      "1971-01",
      [
-      1.17032591628753
+      1.172005
      ]
     ],
     [
      "1971-02",
      [
-      1.17032591628753
+      1.172005
      ]
     ],
     [
      "1971-03",
      [
-      1.19958422020018
+      1.201305
      ]
     ],
     [
      "1971-04",
      [
-      1.19958422020018
+      1.201305
      ]
     ],
     [
      "1971-05",
      [
-      1.19958422020018
+      1.201305
      ]
     ],
     [
      "1971-06",
      [
-      1.19958422020018
+      1.201305
      ]
     ],
     [
      "1971-07",
      [
-      1.19958422020018
+      1.201305
      ]
     ],
     [
      "1971-08",
      [
-      1.22884252411283
+      1.230605
      ]
     ],
     [
      "1971-09",
      [
-      1.22884252411283
+      1.230605
      ]
     ],
     [
      "1971-10",
      [
-      1.25810013466788
+      1.259905
      ]
     ],
     [
      "1971-11",
      [
-      1.25810013466788
+      1.259905
      ]
     ],
     [
      "1971-12",
      [
-      1.25810013466788
+      1.259905
      ]
     ],
     [
      "1972-01",
      [
-      1.25810013466788
+      1.259905
      ]
     ],
     [
      "1972-02",
      [
-      1.25810013466788
+      1.259905
      ]
     ],
     [
      "1972-03",
      [
-      1.25810013466788
+      1.259905
      ]
     ],
     [
      "1972-04",
      [
-      1.25810013466788
+      1.259905
      ]
     ],
     [
      "1972-05",
      [
-      1.25810013466788
+      1.259905
      ]
     ],
     [
      "1972-06",
      [
-      1.25810013466788
+      1.259905
      ]
     ],
     [
      "1972-07",
      [
-      1.28735843858053
+      1.289205
      ]
     ],
     [
      "1972-08",
      [
-      1.31661674249318
+      1.318505
      ]
     ],
     [
      "1972-09",
      [
-      1.31661674249318
+      1.318505
      ]
     ],
     [
      "1972-10",
      [
-      1.34587504640582
+      1.347805
      ]
     ],
     [
      "1972-11",
      [
-      1.34587504640582
+      1.347805
      ]
     ],
     [
      "1972-12",
      [
-      1.34587504640582
+      1.347805
      ]
     ],
     [
      "1973-01",
      [
-      1.34587504640582
+      1.347805
      ]
     ],
     [
      "1973-02",
      [
-      1.34587504640582
+      1.347805
      ]
     ],
     [
      "1973-03",
      [
-      1.37513335031847
+      1.377105
      ]
     ],
     [
      "1973-04",
      [
-      1.40439096087352
+      1.406406
      ]
     ],
     [
      "1973-05",
      [
-      1.40439096087352
+      1.406406
      ]
     ],
     [
      "1973-06",
      [
-      1.40439096087352
+      1.406406
      ]
     ],
     [
      "1973-07",
      [
-      1.43364926478617
+      1.435706
      ]
     ],
     [
      "1973-08",
      [
-      1.43364926478617
+      1.435706
      ]
     ],
     [
      "1973-09",
      [
-      1.43364926478617
+      1.435706
      ]
     ],
     [
      "1973-10",
      [
-      1.46290756869882
+      1.465006
      ]
     ],
     [
      "1973-11",
      [
-      1.46290756869882
+      1.465006
      ]
     ],
     [
      "1973-12",
      [
-      1.46290756869882
+      1.465006
      ]
     ],
     [
      "1974-01",
      [
-      1.49216517925387
+      1.494306
      ]
     ],
     [
      "1974-02",
      [
-      1.49216517925387
+      1.494306
      ]
     ],
     [
      "1974-03",
      [
-      1.52142348316651
+      1.523606
      ]
     ],
     [
      "1974-04",
      [
-      1.52142348316651
+      1.523606
      ]
     ],
     [
      "1974-05",
      [
-      1.55068178707916
+      1.552906
      ]
     ],
     [
      "1974-06",
      [
-      1.57994009099181
+      1.582206
      ]
     ],
     [
      "1974-07",
      [
-      1.57994009099181
+      1.582206
      ]
     ],
     [
      "1974-08",
      [
-      1.60919839490446
+      1.611506
      ]
     ],
     [
      "1974-09",
      [
-      1.63845600545951
+      1.640807
      ]
     ],
     [
      "1974-10",
      [
-      1.63845600545951
+      1.640807
      ]
     ],
     [
      "1974-11",
      [
-      1.66771430937216
+      1.670107
      ]
     ],
     [
      "1974-12",
      [
-      1.66771430937216
+      1.670107
      ]
     ],
     [
      "1975-01",
      [
-      1.6969726132848
+      1.699407
      ]
     ],
     [
      "1975-02",
      [
-      1.72623091719745
+      1.728707
      ]
     ],
     [
      "1975-03",
      [
-      1.72623091719745
+      1.728707
      ]
     ],
     [
      "1975-04",
      [
-      1.7554892211101
+      1.758007
      ]
     ],
     [
      "1975-05",
      [
-      1.7554892211101
+      1.758007
      ]
     ],
     [
      "1975-06",
      [
-      1.78474683166515
+      1.787307
      ]
     ],
     [
      "1975-07",
      [
-      1.8140051355778
+      1.816607
      ]
     ],
     [
      "1975-08",
      [
-      1.8140051355778
+      1.816607
      ]
     ],
     [
      "1975-09",
      [
-      1.84326343949045
+      1.845907
      ]
     ],
     [
      "1975-10",
      [
-      1.84326343949045
+      1.845907
      ]
     ],
     [
      "1975-11",
      [
-      1.87252174340309
+      1.875208
      ]
     ],
     [
      "1975-12",
      [
-      1.87252174340309
+      1.875208
      ]
     ],
     [
      "1976-01",
      [
-      1.87252174340309
+      1.875208
      ]
     ],
     [
      "1976-02",
      [
-      1.90178004731574
+      1.904508
      ]
     ],
     [
      "1976-03",
      [
-      1.93103765787079
+      1.933808
      ]
     ],
     [
      "1976-04",
      [
-      1.96029596178344
+      1.963108
      ]
     ],
     [
      "1976-05",
      [
-      1.96029596178344
+      1.963108
      ]
     ],
     [
      "1976-06",
      [
-      1.98955426569609
+      1.992408
      ]
     ],
     [
      "1976-07",
      [
-      1.98955426569609
+      1.992408
      ]
     ],
     [
      "1976-08",
      [
-      2.04807018016378
+      2.051008
      ]
     ],
     [
      "1976-09",
      [
-      2.04807018016378
+      2.051008
      ]
     ],
     [
      "1976-10",
      [
-      2.04807018016378
+      2.051008
      ]
     ],
     [
      "1976-11",
      [
-      2.04807018016378
+      2.051008
      ]
     ],
     [
      "1976-12",
      [
-      2.07732848407643
+      2.080308
      ]
     ],
     [
      "1977-01",
      [
-      2.10658678798908
+      2.109608
      ]
     ],
     [
      "1977-02",
      [
-      2.10658678798908
+      2.109608
      ]
     ],
     [
      "1977-03",
      [
-      2.13584509190173
+      2.138909
      ]
     ],
     [
      "1977-04",
      [
-      2.19436100636943
+      2.197509
      ]
     ],
     [
      "1977-05",
      [
-      2.19436100636943
+      2.197509
      ]
     ],
     [
      "1977-06",
      [
-      2.19436100636943
+      2.197509
      ]
     ],
     [
      "1977-07",
      [
-      2.22361931028207
+      2.226809
      ]
     ],
     [
      "1977-08",
      [
-      2.25287761419472
+      2.256109
      ]
     ],
     [
      "1977-09",
      [
-      2.25287761419472
+      2.256109
      ]
     ],
     [
      "1977-10",
      [
-      2.28213591810737
+      2.285409
      ]
     ],
     [
      "1977-11",
      [
-      2.28213591810737
+      2.285409
      ]
     ],
     [
      "1977-12",
      [
-      2.31139352866242
+      2.314709
      ]
     ],
     [
      "1978-01",
      [
-      2.34065183257507
+      2.344009
      ]
     ],
     [
      "1978-02",
      [
-      2.34065183257507
+      2.344009
      ]
     ],
     [
      "1978-03",
      [
-      2.34065183257507
+      2.344009
      ]
     ],
     [
      "1978-04",
      [
-      2.39916844040036
+      2.40261
      ]
     ],
     [
      "1978-05",
      [
-      2.39916844040036
+      2.40261
      ]
     ],
     [
      "1978-06",
      [
-      2.39916844040036
+      2.40261
      ]
     ],
     [
      "1978-07",
      [
-      2.48694265878071
+      2.49051
      ]
     ],
     [
      "1978-08",
      [
-      2.51620096269336
+      2.51981
      ]
     ],
     [
      "1978-09",
      [
-      2.54545857324841
+      2.54911
      ]
     ],
     [
      "1978-10",
      [
-      2.57471687716105
+      2.57841
      ]
     ],
     [
      "1978-11",
      [
-      2.57471687716105
+      2.57841
      ]
     ],
     [
      "1978-12",
      [
-      2.57471687716105
+      2.57841
      ]
     ],
     [
      "1979-01",
      [
-      2.6039751810737
+      2.60771
      ]
     ],
     [
      "1979-02",
      [
-      2.63323348498635
+      2.637011
      ]
     ],
     [
      "1979-03",
      [
-      2.662491788899
+      2.666311
      ]
     ],
     [
      "1979-04",
      [
-      2.69174939945405
+      2.695611
      ]
     ],
     [
      "1979-05",
      [
-      2.69174939945405
+      2.695611
      ]
     ],
     [
      "1979-06",
      [
-      2.7210077033667
+      2.724911
      ]
     ],
     [
      "1979-07",
      [
-      2.83804022565969
+      2.842111
      ]
     ],
     [
      "1979-08",
      [
-      2.86729852957234
+      2.871412
      ]
     ],
     [
      "1979-09",
      [
-      2.89655683348499
+      2.900712
      ]
     ],
     [
      "1979-10",
      [
-      2.92581513739763
+      2.930012
      ]
     ],
     [
      "1979-11",
      [
-      2.92581513739763
+      2.930012
      ]
     ],
     [
      "1979-12",
      [
-      2.95507274795268
+      2.959312
      ]
     ],
     [
      "1980-01",
      [
-      2.95507274795268
+      2.959312
      ]
     ],
     [
      "1980-02",
      [
-      2.98433105186533
+      2.988612
      ]
     ],
     [
      "1980-03",
      [
-      3.01358935577798
+      3.017912
      ]
     ],
     [
      "1980-04",
      [
-      3.04284765969063
+      3.047212
      ]
     ],
     [
      "1980-05",
      [
-      3.07210596360328
+      3.076512
      ]
     ],
     [
      "1980-06",
      [
-      3.13062187807097
+      3.135113
      ]
     ],
     [
      "1980-07",
      [
-      3.18913848589627
+      3.193713
      ]
     ],
     [
      "1980-08",
      [
-      3.18913848589627
+      3.193713
      ]
     ],
     [
      "1980-09",
      [
-      3.27691270427662
+      3.281613
      ]
     ],
     [
      "1980-10",
      [
-      3.33542861874431
+      3.340213
      ]
     ],
     [
      "1980-11",
      [
-      3.36468692265696
+      3.369514
      ]
     ],
     [
      "1980-12",
      [
-      3.42320353048226
+      3.428114
      ]
     ],
     [
      "1981-01",
      [
-      3.42320353048226
+      3.428114
      ]
     ],
     [
      "1981-02",
      [
-      3.48171944494995
+      3.486714
      ]
     ],
     [
      "1981-03",
      [
-      3.48171944494995
+      3.486714
      ]
     ],
     [
      "1981-04",
      [
-      3.5109777488626
+      3.516014
      ]
     ],
     [
      "1981-05",
      [
-      3.54023605277525
+      3.545314
      ]
     ],
     [
      "1981-06",
      [
-      3.5694943566879
+      3.574614
      ]
     ],
     [
      "1981-07",
      [
-      3.65726857506824
+      3.662515
      ]
     ],
     [
      "1981-08",
      [
-      3.71578518289354
+      3.721115
      ]
     ],
     [
      "1981-09",
      [
-      3.80355940127389
+      3.809015
      ]
     ],
     [
      "1981-10",
      [
-      3.83281770518653
+      3.838315
      ]
     ],
     [
      "1981-11",
      [
-      3.86207600909918
+      3.867615
      ]
     ],
     [
      "1981-12",
      [
-      3.89133361965423
+      3.896916
      ]
     ],
     [
      "1982-01",
      [
-      3.89133361965423
+      3.896916
      ]
     ],
     [
      "1982-02",
      [
-      3.94985022747953
+      3.955516
      ]
     ],
     [
      "1982-03",
      [
-      4.03762444585987
+      4.043416
      ]
     ],
     [
      "1982-04",
      [
-      4.09614105368517
+      4.102016
      ]
     ],
     [
      "1982-05",
      [
-      4.12539866424022
+      4.131317
      ]
     ],
     [
      "1982-06",
      [
-      4.15465766151046
+      4.160617
      ]
     ],
     [
      "1982-07",
      [
-      4.18391527206551
+      4.189917
      ]
     ],
     [
      "1982-08",
      [
-      4.24243187989081
+      4.248517
      ]
     ],
     [
      "1982-09",
      [
-      4.30094779435851
+      4.307117
      ]
     ],
     [
      "1982-10",
      [
-      4.3594644021838
+      4.365717
      ]
     ],
     [
      "1982-11",
      [
-      4.4179803166515
+      4.424318
      ]
     ],
     [
      "1982-12",
      [
-      4.4179803166515
+      4.424318
      ]
     ],
     [
      "1983-01",
      [
-      4.44723862056415
+      4.453618
      ]
     ],
     [
      "1983-02",
      [
-      4.53501353230209
+      4.541518
      ]
     ],
     [
      "1983-03",
      [
-      4.56427114285714
+      4.570818
      ]
     ],
     [
      "1983-04",
      [
-      4.62278775068244
+      4.629418
      ]
     ],
     [
      "1983-05",
      [
-      4.65204536123749
+      4.658719
      ]
     ],
     [
      "1983-06",
      [
-      4.65204536123749
+      4.658719
      ]
     ],
     [
      "1983-07",
      [
-      4.71056196906278
+      4.717319
      ]
     ],
     [
      "1983-08",
      [
-      4.76907857688808
+      4.775919
      ]
     ],
     [
      "1983-09",
      [
-      4.79833618744313
+      4.805219
      ]
     ],
     [
      "1983-10",
      [
-      4.82759449135578
+      4.834519
      ]
     ],
     [
      "1983-11",
      [
-      4.88611109918107
+      4.89312
      ]
     ],
     [
      "1983-12",
      [
-      4.88611109918107
+      4.89312
      ]
     ],
     [
      "1984-01",
      [
-      4.91536870973612
+      4.92242
      ]
     ],
     [
      "1984-02",
      [
-      4.97388531756142
+      4.98102
      ]
     ],
     [
      "1984-03",
      [
-      5.03240192538671
+      5.03962
      ]
     ],
     [
      "1984-04",
      [
-      5.12017614376706
+      5.127521
      ]
     ],
     [
      "1984-05",
      [
-      5.17869275159236
+      5.186121
      ]
     ],
     [
      "1984-06",
      [
-      5.20795036214741
+      5.215421
      ]
     ],
     [
      "1984-07",
      [
-      5.2664669699727
+      5.274021
      ]
     ],
     [
      "1984-08",
      [
-      5.324983577798
+      5.332622
      ]
     ],
     [
      "1984-09",
      [
-      5.35424118835305
+      5.361921
      ]
     ],
     [
      "1984-10",
      [
-      5.44201540673339
+      5.449822
      ]
     ],
     [
      "1984-11",
      [
-      5.50053201455869
+      5.508422
      ]
     ],
     [
      "1984-12",
      [
-      5.52979031847134
+      5.537722
      ]
     ],
     [
      "1985-01",
      [
-      5.58830623293904
+      5.596323
      ]
     ],
     [
      "1985-02",
      [
-      5.79311366696997
+      5.801423
      ]
     ],
     [
      "1985-03",
      [
-      5.79311366696997
+      5.801423
      ]
     ],
     [
      "1985-04",
      [
-      5.93940449317561
+      5.947924
      ]
     ],
     [
      "1985-05",
      [
-      5.99792040764331
+      6.006524
      ]
     ],
     [
      "1985-06",
      [
-      6.08569531938126
+      6.094424
      ]
     ],
     [
      "1985-07",
      [
-      6.1149529299363
+      6.123724
      ]
     ],
     [
      "1985-08",
      [
-      6.173468844404
+      6.182325
      ]
     ],
     [
      "1985-09",
      [
-      6.26124375614195
+      6.270225
      ]
     ],
     [
      "1985-10",
      [
-      6.34901866787989
+      6.358126
      ]
     ],
     [
      "1985-11",
      [
-      6.43679288626024
+      6.446026
      ]
     ],
     [
      "1985-12",
      [
-      6.55382540855323
+      6.563226
      ]
     ],
     [
      "1986-01",
      [
-      6.75863214922657
+      6.768327
      ]
     ],
     [
      "1986-02",
      [
-      6.81714875705187
+      6.826927
      ]
     ],
     [
      "1986-03",
      [
-      6.90492297543221
+      6.914828
      ]
     ],
     [
      "1986-04",
      [
-      7.0219582711556
+      7.032028
      ]
     ],
     [
      "1986-05",
      [
-      7.0219582711556
+      7.032028
      ]
     ],
     [
      "1986-06",
      [
-      7.10973040946315
+      7.119928
      ]
     ],
     [
      "1986-07",
      [
-      7.25602192902639
+      7.266429
      ]
     ],
     [
      "1986-08",
      [
-      7.34379406733394
+      7.35433
      ]
     ],
     [
      "1986-09",
      [
-      7.49008558689718
+      7.50083
      ]
     ],
     [
      "1986-10",
      [
-      7.57785772520473
+      7.58873
      ]
     ],
     [
      "1986-11",
      [
-      7.66563679708826
+      7.676631
      ]
     ],
     [
      "1986-12",
      [
-      7.75340893539581
+      7.764531
      ]
     ],
     [
      "1987-01",
      [
-      7.84118107370337
+      7.852431
      ]
     ],
     [
      "1987-02",
      [
-      7.95821983621474
+      7.969632
      ]
     ],
     [
      "1987-03",
      [
-      8.07525166515014
+      8.086832
      ]
     ],
     [
      "1987-04",
      [
-      8.19228349408553
+      8.204033
      ]
     ],
     [
      "1987-05",
      [
-      8.25079594176524
+      8.262633
      ]
     ],
     [
      "1987-06",
      [
-      8.33857501364877
+      8.350533
      ]
     ],
     [
      "1987-07",
      [
-      8.39708746132848
+      8.409134
      ]
     ],
     [
      "1987-08",
      [
-      8.54337898089172
+      8.555634
      ]
     ],
     [
      "1987-09",
      [
-      8.66041080982711
+      8.672834
      ]
     ],
     [
      "1987-10",
      [
-      8.74818988171065
+      8.760736
      ]
     ],
     [
      "1987-11",
      [
-      8.8359620200182
+      8.848636
      ]
     ],
     [
      "1987-12",
      [
-      8.89447446769791
+      8.907236
      ]
     ],
     [
      "1988-01",
      [
-      8.95299384895359
+      8.965836
      ]
     ],
     [
      "1988-02",
      [
-      9.0115062966333
+      9.024436
      ]
     ],
     [
      "1988-03",
      [
-      9.15779781619654
+      9.170937
      ]
     ],
     [
      "1988-04",
      [
-      9.24557688808007
+      9.258837
      ]
     ],
     [
      "1988-05",
      [
-      9.33334902638762
+      9.346738
      ]
     ],
     [
      "1988-06",
      [
-      9.36260871701547
+      9.376038
      ]
     ],
     [
      "1988-07",
      [
-      9.47964054595086
+      9.493238
      ]
     ],
     [
      "1988-08",
      [
-      9.59667237488626
+      9.610438
      ]
     ],
     [
      "1988-09",
      [
-      9.71370420382165
+      9.727639
      ]
     ],
     [
      "1988-10",
      [
-      9.83073603275705
+      9.844839
      ]
     ],
     [
      "1988-11",
      [
-      9.91851510464058
+      9.93274
      ]
     ],
     [
      "1988-12",
      [
-      10.0062872429481
+      10.02064
      ]
     ],
     [
      "1989-01",
      [
-      10.1525787625114
+      10.16714
      ]
     ],
     [
      "1989-02",
      [
-      10.2403509008189
+      10.25504
      ]
     ],
     [
      "1989-03",
      [
-      10.41590211101
+      10.43084
      ]
     ],
     [
      "1989-04",
      [
-      10.5621936305732
+      10.57734
      ]
     ],
     [
      "1989-05",
      [
-      10.7084851501365
+      10.72384
      ]
     ],
     [
      "1989-06",
      [
-      10.8255169790719
+      10.84104
      ]
     ],
     [
      "1989-07",
      [
-      10.9425488080073
+      10.95824
      ]
     ],
     [
      "1989-08",
      [
-      11.0888403275705
+      11.10474
      ]
     ],
     [
      "1989-09",
      [
-      11.1766124658781
+      11.19265
      ]
     ],
     [
      "1989-10",
      [
-      11.2643846041856
+      11.28055
      ]
     ],
     [
      "1989-11",
      [
-      11.4106761237489
+      11.42705
      ]
     ],
     [
      "1989-12",
      [
-      11.5569676433121
+      11.57355
      ]
     ],
     [
      "1990-01",
      [
-      11.7032591628753
+      11.72005
      ]
     ],
     [
      "1990-02",
      [
-      11.7910313011829
+      11.80795
      ]
     ],
     [
      "1990-03",
      [
-      11.966582511374
+      11.98375
      ]
     ],
     [
      "1990-04",
      [
-      12.0836143403094
+      12.10095
      ]
     ],
     [
      "1990-05",
      [
-      12.2006461692448
+      12.21815
      ]
     ],
     [
      "1990-06",
      [
-      12.2884252411283
+      12.30605
      ]
     ],
     [
      "1990-07",
      [
-      12.3761973794358
+      12.39395
      ]
     ],
     [
      "1990-08",
      [
-      12.5810013466788
+      12.59905
      ]
     ],
     [
      "1990-09",
      [
-      12.7858122474977
+      12.80415
      ]
     ],
     [
      "1990-10",
      [
-      12.8735843858053
+      12.89205
      ]
     ],
     [
      "1990-11",
      [
-      13.1369077343039
+      13.15575
      ]
     ],
     [
      "1990-12",
      [
-      13.2246798726115
+      13.24365
      ]
     ],
     [
      "1991-01",
      [
-      13.3709713921747
+      13.39015
      ]
     ],
     [
      "1991-02",
      [
-      13.5465226023658
+      13.56595
      ]
     ],
     [
      "1991-03",
      [
-      13.6635544313012
+      13.68316
      ]
     ],
     [
      "1991-04",
      [
-      13.8683653321201
+      13.88826
      ]
     ],
     [
      "1991-05",
      [
-      14.0731692993631
+      14.09336
      ]
     ],
     [
      "1991-06",
      [
-      14.1609414376706
+      14.18126
      ]
     ],
     [
      "1991-07",
      [
-      14.3364926478617
+      14.35706
      ]
     ],
     [
      "1991-08",
      [
-      14.5413035486806
+      14.56216
      ]
     ],
     [
      "1991-09",
      [
-      14.7461075159236
+      14.76726
      ]
     ],
     [
      "1991-10",
      [
-      15.0094308644222
+      15.03096
      ]
     ],
     [
      "1991-11",
      [
-      15.1557223839854
+      15.17746
      ]
     ],
     [
      "1991-12",
      [
-      15.3897860418562
+      15.41186
      ]
     ],
     [
      "1992-01",
      [
-      15.5360775614195
+      15.55836
      ]
     ],
     [
      "1992-02",
      [
-      15.6823690809827
+      15.70486
      ]
     ],
     [
      "1992-03",
      [
-      15.7994009099181
+      15.82206
      ]
     ],
     [
      "1992-04",
      [
-      16.0042048771611
+      16.02716
      ]
     ],
     [
      "1992-05",
      [
-      16.1212367060965
+      16.14437
      ]
     ],
     [
      "1992-06",
      [
-      16.2967879162875
+      16.32017
      ]
     ],
     [
      "1992-07",
      [
-      16.4430794358508
+      16.46667
      ]
     ],
     [
      "1992-08",
      [
-      16.6186306460419
+      16.64247
      ]
     ],
     [
      "1992-09",
      [
-      16.7356624749773
+      16.75967
      ]
     ],
     [
      "1992-10",
      [
-      16.7649221656051
+      16.78897
      ]
     ],
     [
      "1992-11",
      [
-      16.8526943039126
+      16.87687
      ]
     ],
     [
      "1992-12",
      [
-      16.8526943039126
+      16.87687
      ]
     ],
     [
      "1993-01",
      [
-      17.0282455141037
+      17.05267
      ]
     ],
     [
      "1993-02",
      [
-      17.0867579617834
+      17.11127
      ]
     ],
     [
      "1993-03",
      [
-      17.3208216196542
+      17.34567
      ]
     ],
     [
      "1993-04",
      [
-      17.7889558689718
+      17.81447
      ]
     ],
     [
      "1993-05",
      [
-      17.8474683166515
+      17.87307
      ]
     ],
     [
      "1993-06",
      [
-      17.935247388535
+      17.96097
      ]
     ],
     [
      "1993-07",
      [
-      18.0815389080983
+      18.10747
      ]
     ],
     [
      "1993-08",
      [
-      18.1693110464058
+      18.19537
      ]
     ],
     [
      "1993-09",
      [
-      18.2278304276615
+      18.25397
      ]
     ],
     [
      "1993-10",
      [
-      18.3741150136488
+      18.40047
      ]
     ],
     [
      "1993-11",
      [
-      18.4033747042766
+      18.42977
      ]
     ],
     [
      "1993-12",
      [
-      18.4618940855323
+      18.48837
      ]
     ],
     [
      "1994-01",
      [
-      18.7252174340309
+      18.75208
      ]
     ],
     [
      "1994-02",
      [
-      18.7837298817106
+      18.81067
      ]
     ],
     [
      "1994-03",
      [
-      18.900761710646
+      18.92788
      ]
     ],
     [
      "1994-04",
      [
-      19.0177935395814
+      19.04508
      ]
     ],
     [
      "1994-05",
      [
-      19.1348323020928
+      19.16228
      ]
     ],
     [
      "1994-06",
      [
-      19.2518641310282
+      19.27948
      ]
     ],
     [
      "1994-07",
      [
-      19.5444402365787
+      19.57248
      ]
     ],
     [
      "1994-08",
      [
-      19.8370232757052
+      19.86548
      ]
     ],
     [
      "1994-09",
      [
-      20.071093867152
+      20.09988
      ]
     ],
     [
      "1994-10",
      [
-      20.1588660054595
+      20.18778
      ]
     ],
     [
      "1994-11",
      [
-      20.2173784531392
+      20.24638
      ]
     ],
     [
      "1994-12",
      [
-      20.2758978343949
+      20.30498
      ]
     ],
     [
      "1995-01",
      [
-      20.5392211828935
+      20.56868
      ]
     ],
     [
      "1995-02",
      [
-      20.6269933212011
+      20.65658
      ]
     ],
     [
      "1995-03",
      [
-      20.8610639126479
+      20.89098
      ]
     ],
     [
      "1995-04",
      [
-      21.1243803275705
+      21.15468
      ]
     ],
     [
      "1995-05",
      [
-      21.212159399454
+      21.24258
      ]
     ],
     [
      "1995-06",
      [
-      21.1828997088262
+      21.21329
      ]
     ],
     [
      "1995-07",
      [
-      21.2999315377616
+      21.33049
      ]
     ],
     [
      "1995-08",
      [
-      21.3584509190173
+      21.38909
      ]
     ],
     [
      "1995-09",
      [
-      21.3877036760692
+      21.41839
      ]
     ],
     [
      "1995-10",
      [
-      21.4462230573248
+      21.47699
      ]
     ],
     [
      "1995-11",
      [
-      21.5047424385805
+      21.53559
      ]
     ],
     [
      "1995-12",
      [
-      21.6802867151956
+      21.71139
      ]
     ],
     [
      "1996-01",
      [
-      21.9436100636943
+      21.97509
      ]
     ],
     [
      "1996-02",
      [
-      21.9728697543221
+      22.00439
      ]
     ],
     [
      "1996-03",
      [
-      22.1484209645132
+      22.18019
      ]
     ],
     [
      "1996-04",
      [
-      22.2947124840764
+      22.32669
      ]
     ],
     [
      "1996-05",
      [
-      22.4410040036397
+      22.47319
      ]
     ],
     [
      "1996-06",
      [
-      22.6458079708826
+      22.67829
      ]
     ],
     [
      "1996-07",
      [
-      22.8213522474977
+      22.85409
      ]
     ],
     [
      "1996-08",
      [
-      22.9383910100091
+      22.97129
      ]
     ],
     [
      "1996-09",
      [
-      23.1724546678799
+      23.20569
      ]
     ],
     [
      "1996-10",
      [
-      23.3772586351228
+      23.41079
      ]
     ],
     [
      "1996-11",
      [
-      23.4650377070064
+      23.49869
      ]
     ],
     [
      "1996-12",
      [
-      23.6991013648772
+      23.7331
      ]
     ],
     [
      "1997-01",
      [
-      23.9916844040036
+      24.0261
      ]
     ],
     [
      "1997-02",
      [
-      24.1379759235669
+      24.1726
      ]
     ],
     [
      "1997-03",
      [
-      24.2842605095541
+      24.3191
      ]
     ],
     [
      "1997-04",
      [
-      24.4890714103731
+      24.5242
      ]
     ],
     [
      "1997-05",
      [
-      24.5768435486806
+      24.6121
      ]
     ],
     [
      "1997-06",
      [
-      24.6353629299363
+      24.6707
      ]
     ],
     [
      "1997-07",
      [
-      24.8986862784349
+      24.9344
      ]
     ],
     [
      "1997-08",
      [
-      24.9279459690628
+      24.9637
      ]
     ],
     [
      "1997-09",
      [
-      25.0449777979982
+      25.0809
      ]
     ],
     [
      "1997-10",
      [
-      25.1620096269336
+      25.1981
      ]
     ],
     [
      "1997-11",
      [
-      25.07423055505
+      25.1102
      ]
     ],
     [
      "1997-12",
      [
-      25.1620096269336
+      25.1981
      ]
     ],
     [
      "1998-01",
      [
-      25.3668135941765
+      25.4032
      ]
     ],
     [
      "1998-02",
      [
-      25.4253329754322
+      25.4618
      ]
     ],
     [
      "1998-03",
      [
-      25.6008772520473
+      25.6376
      ]
     ],
     [
      "1998-04",
      [
-      25.7179160145587
+      25.7548
      ]
     ],
     [
      "1998-05",
      [
-      25.8349478434941
+      25.872
      ]
     ],
     [
      "1998-06",
      [
-      25.9227199818016
+      25.9599
      ]
     ],
     [
      "1998-07",
      [
-      26.5371388171065
+      26.57521
      ]
     ],
     [
      "1998-08",
      [
-      26.8297218562329
+      26.86821
      ]
     ],
     [
      "1998-09",
      [
-      27.2978561055505
+      27.33701
      ]
     ],
     [
      "1998-10",
      [
-      27.4148879344859
+      27.45421
      ]
     ],
     [
      "1998-11",
      [
-      27.4148879344859
+      27.45421
      ]
     ],
     [
      "1998-12",
      [
-      27.4148879344859
+      27.45421
      ]
     ],
     [
      "1999-01",
      [
-      27.6196919017288
+      27.65931
      ]
     ],
     [
      "1999-02",
      [
-      27.6196919017288
+      27.65931
      ]
     ],
     [
      "1999-03",
      [
-      27.6196919017288
+      27.65931
      ]
     ],
     [
      "1999-04",
      [
-      27.6782112829845
+      27.71791
      ]
     ],
     [
      "1999-05",
      [
-      27.6489515923567
+      27.68861
      ]
     ],
     [
      "1999-06",
      [
-      27.7952431119199
+      27.83511
      ]
     ],
     [
      "1999-07",
      [
-      27.8244958689718
+      27.86441
      ]
     ],
     [
      "1999-08",
      [
-      27.7074709736124
+      27.74721
      ]
     ],
     [
      "1999-09",
      [
-      27.8244958689718
+      27.86441
      ]
     ],
     [
      "1999-10",
      [
-      27.8830152502275
+      27.92301
      ]
     ],
     [
      "1999-11",
      [
-      27.9415346314832
+      27.98161
      ]
     ],
     [
      "1999-12",
      [
-      28.0293067697907
+      28.06951
      ]
     ],
     [
      "2000-01",
      [
-      28.3511425659691
+      28.39181
      ]
     ],
     [
      "2000-02",
      [
-      28.2633704276615
+      28.30391
      ]
     ],
     [
      "2000-03",
      [
-      28.555953466788
+      28.59691
      ]
     ],
     [
      "2000-04",
      [
-      28.936308644222
+      28.97782
      ]
     ],
     [
      "2000-05",
      [
-      29.0533404731574
+      29.09502
      ]
     ],
     [
      "2000-06",
      [
-      29.2288916833485
+      29.27082
      ]
     ],
     [
      "2000-07",
      [
-      29.4922150318471
+      29.53452
      ]
     ],
     [
      "2000-08",
      [
-      29.6092468607825
+      29.65172
      ]
     ],
     [
      "2000-09",
      [
-      29.7555383803458
+      29.79822
      ]
     ],
     [
      "2000-10",
      [
-      29.8433105186533
+      29.88612
      ]
     ],
     [
      "2000-11",
      [
-      29.901829899909
+      29.94472
      ]
     ],
     [
      "2000-12",
      [
-      29.9896020382166
+      30.03262
      ]
     ],
     [
      "2001-01",
      [
-      30.3699572156506
+      30.41352
      ]
     ],
     [
      "2001-02",
      [
-      30.4577362875341
+      30.50142
      ]
     ],
     [
      "2001-03",
      [
-      30.6625402547771
+      30.70652
      ]
     ],
     [
      "2001-04",
      [
-      30.8088317743403
+      30.85302
      ]
     ],
     [
      "2001-05",
      [
-      30.9258636032757
+      30.97022
      ]
     ],
     [
      "2001-06",
      [
-      31.0721551228389
+      31.11672
      ]
     ],
     [
      "2001-07",
      [
-      31.0428954322111
+      31.08743
      ]
     ],
     [
      "2001-08",
      [
-      30.9843829845314
+      31.02882
      ]
     ],
     [
      "2001-09",
      [
-      31.0721551228389
+      31.11672
      ]
     ],
     [
      "2001-10",
      [
-      31.0428954322111
+      31.08743
      ]
     ],
     [
      "2001-11",
      [
-      31.1891869517743
+      31.23392
      ]
     ],
     [
      "2001-12",
      [
-      31.3647381619654
+      31.40973
      ]
     ],
     [
      "2002-01",
      [
-      31.8913779253867
+      31.93713
      ]
     ],
     [
      "2002-02",
      [
-      32.27640633303
+      32.3227
      ]
     ],
     [
      "2002-03",
      [
-      32.6001765969063
+      32.64694
      ]
     ],
     [
      "2002-04",
      [
-      33.1558333757962
+      33.2034
      ]
     ],
     [
      "2002-05",
      [
-      33.3177254413103
+      33.36551
      ]
     ],
     [
      "2002-06",
      [
-      33.6021129936306
+      33.65031
      ]
     ],
     [
      "2002-07",
      [
-      34.1359012738854
+      34.18486
      ]
     ],
     [
      "2002-08",
      [
-      34.3196618380346
+      34.36889
      ]
     ],
     [
      "2002-09",
      [
-      34.6215566696997
+      34.67122
      ]
     ],
     [
      "2002-10",
      [
-      35.1378376706096
+      35.18824
      ]
     ],
     [
      "2002-11",
      [
-      35.5578598362147
+      35.60887
      ]
     ],
     [
      "2002-12",
      [
-      35.6016176342129
+      35.65268
      ]
     ],
     [
      "2003-01",
      [
-      35.8903802729754
+      35.94186
      ]
     ],
     [
      "2003-02",
      [
-      35.8510044949955
+      35.90243
      ]
     ],
     [
      "2003-03",
      [
-      36.061022511374
+      36.11275
      ]
     ],
     [
      "2003-04",
      [
-      36.1441491537762
+      36.196
      ]
     ],
     [
      "2003-05",
      [
-      36.1441491537762
+      36.196
      ]
     ],
     [
      "2003-06",
      [
-      36.0785228571429
+      36.13027
      ]
     ],
     [
      "2003-07",
      [
-      35.8947553594177
+      35.94625
      ]
     ],
     [
      "2003-08",
      [
-      35.9735138489536
+      36.02512
      ]
     ],
     [
      "2003-09",
      [
-      35.7285020746133
+      35.77975
      ]
     ],
     [
      "2003-10",
      [
-      35.4528577616015
+      35.50371
      ]
     ],
     [
      "2003-11",
      [
-      35.0503290081893
+      35.10061
      ]
     ],
     [
      "2003-12",
      [
-      35.0197034030937
+      35.06994
      ]
     ],
     [
      "2004-01",
      [
-      35.1728383621474
+      35.22329
      ]
     ],
     [
      "2004-02",
      [
-      35.2822224567789
+      35.33283
      ]
     ],
     [
      "2004-03",
      [
-      35.4484826751592
+      35.49933
      ]
     ],
     [
      "2004-04",
      [
-      35.4878584531392
+      35.53876
      ]
     ],
     [
      "2004-05",
      [
-      35.4922335395814
+      35.54314
      ]
     ],
     [
      "2004-06",
      [
-      35.522859144677
+      35.57381
      ]
     ],
     [
      "2004-07",
      [
-      35.5928674613285
+      35.64392
      ]
     ],
     [
      "2004-08",
      [
-      35.522859144677
+      35.57381
      ]
     ],
     [
      "2004-09",
      [
-      35.5316093175614
+      35.58258
      ]
     ],
     [
      "2004-10",
      [
-      35.6322432393085
+      35.68335
      ]
     ],
     [
      "2004-11",
      [
-      35.842254322111
+      35.89367
      ]
     ],
     [
      "2004-12",
      [
-      35.7897532848044
+      35.84109
      ]
     ],
     [
      "2005-01",
      [
-      35.8991373794358
+      35.95063
      ]
     ],
     [
      "2005-02",
      [
-      35.9166377252047
+      35.96815
      ]
     ],
     [
      "2005-03",
      [
-      36.1353989808917
+      36.18723
      ]
     ],
     [
      "2005-04",
      [
-      36.2447830755232
+      36.29677
      ]
     ],
     [
      "2005-05",
      [
-      36.1572744131028
+      36.20914
      ]
     ],
     [
      "2005-06",
      [
-      36.0828979435851
+      36.13465
      ]
     ],
     [
      "2005-07",
      [
-      36.3497851501365
+      36.40193
      ]
     ],
     [
      "2005-08",
      [
-      36.4110432939036
+      36.46327
      ]
     ],
     [
      "2005-09",
      [
-      36.4416688989991
+      36.49394
      ]
     ],
     [
      "2005-10",
      [
-      36.4854197634213
+      36.53776
      ]
     ],
     [
      "2005-11",
      [
-      36.4766695905369
+      36.529
      ]
     ],
     [
      "2005-12",
      [
-      36.5116772156506
+      36.56404
      ]
     ],
     [
      "2006-01",
      [
-      36.6516799818016
+      36.70425
      ]
     ],
     [
      "2006-02",
      [
-      36.6998059326661
+      36.75245
      ]
     ],
     [
      "2006-03",
      [
-      36.8091900272975
+      36.86199
      ]
     ],
     [
      "2006-04",
      [
-      36.8966986897179
+      36.94962
      ]
     ],
     [
      "2006-05",
      [
-      37.0367083894449
+      37.08983
      ]
     ],
     [
      "2006-06",
      [
-      37.3079706824386
+      37.36149
      ]
     ],
     [
      "2006-07",
      [
-      37.5661146496815
+      37.62
      ]
     ],
     [
      "2006-08",
      [
-      37.8242586169245
+      37.87851
      ]
     ],
     [
      "2006-09",
      [
-      37.9205105186533
+      37.97491
      ]
     ],
     [
      "2006-10",
      [
-      38.1217714285714
+      38.17646
      ]
     ],
     [
      "2006-11",
      [
-      38.1217714285714
+      38.17646
      ]
     ],
     [
      "2006-12",
      [
-      38.2705313011829
+      38.32543
      ]
     ],
     [
      "2007-01",
      [
-      38.5505507006369
+      38.60585
      ]
     ],
     [
      "2007-02",
      [
-      38.5024247497725
+      38.55765
      ]
     ],
     [
      "2007-03",
      [
-      38.7693188898999
+      38.82493
      ]
     ],
     [
      "2007-04",
      [
-      39.0974642402184
+      39.15354
      ]
     ],
     [
      "2007-05",
      [
-      39.2768497179254
+      39.33319
      ]
     ],
     [
      "2007-06",
      [
-      39.5568621838035
+      39.61361
      ]
     ],
     [
      "2007-07",
      [
-      39.8981397270246
+      39.95537
      ]
     ],
     [
      "2007-08",
      [
-      40.1519016742493
+      40.2095
      ]
     ],
     [
      "2007-09",
      [
-      40.3794200363967
+      40.43734
      ]
     ],
     [
      "2007-10",
      [
-      40.7513162511374
+      40.80977
      ]
     ],
     [
      "2007-11",
      [
-      40.8781937579618
+      40.93684
      ]
     ],
     [
      "2007-12",
      [
-      41.1669702638763
+      41.22602
      ]
     ],
     [
      "2008-01",
      [
-      41.740127388535
+      41.8
      ]
     ],
     [
      "2008-02",
      [
-      41.9481346678799
+      41.9
      ]
     ],
     [
      "2008-03",
      [
-      42.5028207461328
+      42.5
      ]
     ],
     [
      "2008-04",
      [
-      42.7801637852593
+      42.8
      ]
     ],
     [
      "2008-05",
      [
-      43.1268425841674
+      43.1
      ]
     ],
     [
      "2008-06",
      [
-      43.750864422202
+      43.7
      ]
     ],
     [
      "2008-07",
      [
-      44.3748862602366
+      44.4
      ]
     ],
     [
      "2008-08",
      [
-      44.6522292993631
+      44.7
      ]
     ],
     [
      "2008-09",
      [
-      44.9295723384895
+      44.9
      ]
     ],
     [
      "2008-10",
      [
-      45.0682438580528
+      45.1
      ]
     ],
     [
      "2008-11",
      [
-      45.0682438580528
+      45.1
      ]
     ],
     [
      "2008-12",
      [
-      44.9989080982712
+      45
      ]
     ],
     [
      "2009-01",
      [
-      45.2762511373976
+      45.3
      ]
     ],
     [
      "2009-02",
      [
-      45.6922656960873
+      45.7
      ]
     ],
     [
      "2009-03",
      [
-      46.3856232939035
+      46.4
      ]
     ],
     [
      "2009-04",
      [
-      46.5936305732484
+      46.6
      ]
     ],
     [
      "2009-05",
      [
-      46.7323020928116
+      46.7
      ]
     ],
     [
      "2009-06",
      [
-      46.8709736123749
+      46.9
      ]
     ],
     [
      "2009-07",
      [
-      47.3563239308462
+      47.3
      ]
     ],
     [
      "2009-08",
      [
-      47.4949954504095
+      47.5
      ]
     ],
     [
      "2009-09",
      [
-      47.6336669699727
+      47.6
      ]
     ],
     [
      "2009-10",
      [
-      47.6336669699727
+      47.6
      ]
     ],
     [
      "2009-11",
      [
-      47.6336669699727
+      47.6
      ]
     ],
     [
      "2009-12",
      [
-      47.7723384895359
+      47.8
      ]
     ],
     [
      "2010-01",
      [
-      47.9110100090992
+      47.9
      ]
     ],
     [
      "2010-02",
      [
-      48.1883530482257
+      48.2
      ]
     ],
     [
      "2010-03",
      [
-      48.6043676069154
+      48.6
      ]
     ],
     [
      "2010-04",
      [
-      48.6043676069154
+      48.6
      ]
     ],
     [
      "2010-05",
      [
-      48.7430391264786
+      48.7
      ]
     ],
     [
      "2010-06",
      [
-      48.7430391264786
+      48.7
      ]
     ],
     [
      "2010-07",
      [
-      49.0203821656051
+      49.1
      ]
     ],
     [
      "2010-08",
      [
-      49.0897179253867
+      49.1
      ]
     ],
     [
      "2010-09",
      [
-      49.1590536851683
+      49.1
      ]
     ],
     [
      "2010-10",
      [
-      49.2283894449499
+      49.2
      ]
     ],
     [
      "2010-11",
      [
-      49.2977252047316
+      49.3
      ]
     ],
     [
      "2010-12",
      [
-      49.3670609645132
+      49.4
      ]
     ],
     [
      "2011-01",
      [
-      49.6444040036397
+      49.7
      ]
     ],
     [
      "2011-02",
      [
-      49.9217470427661
+      49.9
      ]
     ],
     [
      "2011-03",
      [
-      50.5457688808007
+      50.5
      ]
     ],
     [
      "2011-04",
      [
-      50.684440400364
+      50.7
      ]
     ],
     [
      "2011-05",
      [
-      50.9617834394904
+      50.9
      ]
     ],
     [
      "2011-06",
      [
-      51.2391264786169
+      51.2
      ]
     ],
     [
      "2011-07",
      [
-      51.6551410373066
+      51.6
      ]
     ],
     [
      "2011-08",
      [
-      51.6551410373066
+      51.6
      ]
     ],
     [
      "2011-09",
      [
-      51.9324840764331
+      52
      ]
     ],
     [
      "2011-10",
      [
-      52.2791628753412
+      52.3
      ]
     ],
     [
      "2011-11",
      [
-      52.3484986351228
+      52.3
      ]
     ],
     [
      "2011-12",
      [
-      52.4871701546861
+      52.5
      ]
     ],
     [
      "2012-01",
      [
-      52.7645131938125
+      52.7
      ]
     ],
     [
      "2012-02",
      [
-      53.041856232939
+      53
      ]
     ],
     [
      "2012-03",
      [
-      53.596542311192
+      53.6
      ]
     ],
     [
      "2012-04",
      [
-      53.8738853503185
+      53.9
      ]
     ],
     [
      "2012-05",
      [
-      53.8738853503185
+      53.9
      ]
     ],
     [
      "2012-06",
      [
-      54.0818926296633
+      54.1
      ]
     ],
     [
      "2012-07",
      [
-      54.151228389445
+      54.1
      ]
     ],
     [
      "2012-08",
      [
-      54.3592356687898
+      54.4
      ]
     ],
     [
      "2012-09",
      [
-      54.7752502274795
+      54.8
      ]
     ],
     [
      "2012-10",
      [
-      55.1912647861692
+      55.2
      ]
     ],
     [
      "2012-11",
      [
-      55.3299363057325
+      55.3
      ]
     ],
     [
      "2012-12",
      [
-      55.5379435850773
+      55.5
      ]
     ],
     [
      "2013-01",
      [
-      55.6766151046406
+      55.7
      ]
     ],
     [
      "2013-02",
      [
-      56.1619654231119
+      56.2
      ]
     ],
     [
      "2013-03",
      [
-      56.8553230209281
+      56.9
      ]
     ],
     [
      "2013-04",
      [
-      56.9939945404914
+      57
      ]
     ],
     [
      "2013-05",
      [
-      56.8553230209281
+      56.9
      ]
     ],
     [
      "2013-06",
      [
-      57.063330300273
+      57
      ]
     ],
     [
      "2013-07",
      [
-      57.6180163785259
+      57.6
      ]
     ],
     [
      "2013-08",
      [
-      57.8260236578708
+      57.8
      ]
     ],
     [
      "2013-09",
      [
-      58.1033666969973
+      58.1
      ]
     ],
     [
      "2013-10",
      [
-      58.2420382165605
+      58.2
      ]
     ],
     [
      "2013-11",
      [
-      58.3113739763421
+      58.3
      ]
     ],
     [
      "2013-12",
      [
-      58.4500454959054
+      58.4
      ]
     ],
     [
      "2014-01",
      [
-      58.8660600545951
+      58.8
      ]
     ],
     [
      "2014-02",
      [
-      59.4900818926297
+      59.5
      ]
     ],
     [
      "2014-03",
      [
-      60.2527752502275
+      60.2
      ]
     ],
     [
      "2014-04",
      [
-      60.530118289354
+      60.6
      ]
     ],
     [
      "2014-05",
      [
-      60.7381255686988
+      60.7
      ]
     ],
     [
      "2014-06",
      [
-      60.9461328480437
+      60.9
      ]
     ],
     [
      "2014-07",
      [
-      61.431483166515
+      61.4
      ]
     ],
     [
      "2014-08",
      [
-      61.5701546860782
+      61.6
      ]
     ],
     [
      "2014-09",
      [
-      61.5701546860782
+      61.6
      ]
     ],
     [
      "2014-10",
      [
-      61.7088262056415
+      61.7
      ]
     ],
     [
      "2014-11",
      [
-      61.7088262056415
+      61.7
      ]
     ],
     [
      "2014-12",
      [
-      61.5701546860782
+      61.6
      ]
     ],
     [
      "2015-01",
      [
-      61.5008189262966
+      61.5
      ]
     ],
     [
      "2015-02",
      [
-      61.9168334849863
+      61.9
      ]
     ],
     [
      "2015-03",
      [
-      62.6795268425842
+      62.7
      ]
     ],
     [
      "2015-04",
      [
-      63.3035486806187
+      63.3
      ]
     ],
     [
      "2015-05",
      [
-      63.3728844404004
+      63.4
      ]
     ],
     [
      "2015-06",
      [
-      63.7195632393085
+      63.7
      ]
     ],
     [
      "2015-07",
      [
-      64.2742493175614
+      64.3
      ]
     ],
     [
      "2015-08",
      [
-      64.343585077343
+      64.3
      ]
     ],
     [
      "2015-09",
      [
-      64.343585077343
+      64.3
      ]
     ],
     [
      "2015-10",
      [
-      64.4822565969063
+      64.5
      ]
     ],
     [
      "2015-11",
      [
-      64.6209281164695
+      64.6
      ]
     ],
     [
      "2015-12",
      [
-      64.7595996360327
+      64.8
      ]
     ],
     [
      "2016-01",
      [
-      65.3142857142857
+      65.3
      ]
     ],
     [
      "2016-02",
      [
-      66.2156505914468
+      66.2
      ]
     ],
     [
      "2016-03",
      [
-      66.7703366696997
+      66.8
      ]
     ],
     [
      "2016-04",
      [
-      67.3943585077343
+      67.4
      ]
     ],
     [
      "2016-05",
      [
-      67.5330300272975
+      67.5
      ]
     ],
     [
      "2016-06",
      [
-      67.8797088262056
+      67.9
      ]
     ],
     [
      "2016-07",
      [
-      68.4343949044586
+      68.5
      ]
     ],
     [
      "2016-08",
      [
-      68.365059144677
+      68.4
      ]
     ],
     [
      "2016-09",
      [
-      68.5037306642402
+      68.5
      ]
     ],
     [
      "2016-10",
      [
-      68.8504094631483
+      68.8
      ]
     ],
     [
      "2016-11",
      [
-      69.0584167424932
+      69.1
      ]
     ],
     [
      "2016-12",
      [
-      69.3357597816196
+      69.3
      ]
     ],
     [
      "2017-01",
      [
-      69.7517743403094
+      69.8
      ]
     ],
     [
      "2017-02",
      [
-      70.5144676979072
+      70.5
      ]
     ],
     [
      "2017-03",
      [
-      70.8611464968153
+      70.9
      ]
     ],
     [
      "2017-04",
      [
-      70.9304822565969
+      71
      ]
     ],
     [
      "2017-05",
      [
-      71.1384895359418
+      71.1
      ]
     ],
     [
      "2017-06",
      [
-      71.277161055505
+      71.3
      ]
     ],
     [
      "2017-07",
      [
-      71.4158325750682
+      71.4
      ]
     ],
     [
      "2017-08",
      [
-      71.4851683348499
+      71.5
      ]
     ],
     [
      "2017-09",
      [
-      71.831847133758
+      71.8
      ]
     ],
     [
      "2017-10",
      [
-      72.0398544131028
+      72.1
      ]
     ],
     [
      "2017-11",
      [
-      72.1091901728844
+      72.1
      ]
     ],
     [
      "2017-12",
      [
-      72.4558689717925
+      72.4
      ]
     ],
     [
      "2018-01",
      [
-      72.733212010919
+      72.8
      ]
     ],
     [
      "2018-02",
      [
-      73.2185623293904
+      73.2
      ]
     ],
     [
      "2018-03",
      [
-      73.4959053685168
+      73.5
      ]
     ],
     [
      "2018-04",
      [
-      73.9812556869882
+      74
      ]
     ],
     [
      "2018-05",
      [
-      74.189262966333
+      74.2
      ]
     ],
     [
      "2018-06",
      [
-      74.3972702456779
+      74.4
      ]
     ],
     [
      "2018-07",
      [
-      75.0212920837125
+      75
      ]
     ],
     [
      "2018-08",
      [
-      74.9519563239308
+      74.9
      ]
     ],
     [
      "2018-09",
      [
-      75.2986351228389
+      75.3
      ]
     ],
     [
      "2018-10",
      [
-      75.645313921747
+      75.7
      ]
     ],
     [
      "2018-11",
      [
-      75.7839854413103
+      75.8
      ]
     ],
     [
      "2018-12",
      [
-      75.645313921747
+      75.7
      ]
     ],
     [
      "2019-01",
      [
-      75.5759781619654
+      75.6
      ]
     ],
     [
@@ -395211,7 +395211,7 @@
     [
      "2019-03",
      [
-      76.8240218380346
+      76.8
      ]
     ],
     [
@@ -395637,31 +395637,31 @@
     [
      "2025-02",
      [
-      null
+      101.2
      ]
     ],
     [
      "2025-03",
      [
-      null
+      101.6
      ]
     ],
     [
      "2025-04",
      [
-      null
+      101.9
      ]
     ],
     [
      "2025-05",
      [
-      null
+      102.1
      ]
     ],
     [
      "2025-06",
      [
-      null
+      102.4
      ]
     ],
     [
@@ -395684,7 +395684,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ZM.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -396824,7 +396824,7 @@
     {
      "provider": "IMF",
      "seriesCode": "M.ZW.PCPI_IX",
-     "indexedAt": "2025-08-23T02:34:54.697Z"
+     "indexedAt": "2025-08-30T02:34:17.538Z"
     }
    ],
    "periods": [
@@ -398039,7 +398039,7 @@
    "url": "https://datos.gob.ar/dataset/sspm-indice-precios-al-consumidor-nacional-ipc-base-diciembre-2016/archivo/sspm_145.3"
   },
   "IMF": {
-   "updatedAt": "2025-08-24T00:55:24.459Z",
+   "updatedAt": "2025-08-31T00:52:16.174Z",
    "provider": "IMF",
    "preference": 999
   }
