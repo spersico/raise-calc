@@ -641,6 +641,12 @@
       "inflation": 5.9052,
       "cpi": 14246.693944589562,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 5.9052,
+      "cpi": 15087.989715405465,
+      "estimated": true
      }
     ],
     "IMF": [
@@ -1241,6 +1247,12 @@
       "inflation": 2.0879,
       "cpi": 11834.87868527527,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 2.0807,
+      "cpi": 12081.130951039353,
+      "estimated": true
      }
     ],
     "average": [
@@ -1840,6 +1852,12 @@
       "date": "2026-08",
       "inflation": 2.0879,
       "cpi": 11834.87868527527,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 2.0807,
+      "cpi": 12081.130951039353,
       "estimated": true
      }
     ]
@@ -2988,6 +3006,12 @@
       "date": "2026-08",
       "inflation": 0.0264,
       "cpi": 109.5566793133893,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0261,
+      "cpi": 109.58529186613664,
       "estimated": true
      }
     ]
@@ -4320,6 +4344,12 @@
       "date": "2026-08",
       "inflation": 0.3811,
       "cpi": 138.0728675929579,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3811,
+      "cpi": 138.59910931564386,
       "estimated": true
      }
     ]
@@ -5893,6 +5923,12 @@
       "inflation": -0.4185,
       "cpi": 114.30432530863533,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.4188,
+      "cpi": 113.82561879424276,
+      "estimated": true
      }
     ]
    }
@@ -7099,6 +7135,12 @@
       "inflation": -0.0492,
       "cpi": 118.44971118081511,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0519,
+      "cpi": 118.38829500556785,
+      "estimated": true
      }
     ]
    }
@@ -8124,6 +8166,12 @@
       "date": "2026-08",
       "inflation": -0.362,
       "cpi": 151.49100969092817,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.3701,
+      "cpi": 150.93034146406205,
       "estimated": true
      }
     ]
@@ -9631,6 +9679,12 @@
       "date": "2026-08",
       "inflation": 1.309,
       "cpi": 288.8011298458372,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 1.3085,
+      "cpi": 292.5800444963483,
       "estimated": true
      }
     ]
@@ -13778,6 +13832,12 @@
       "inflation": 0.26,
       "cpi": 132.88748215021917,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2605,
+      "cpi": 133.2336540412205,
+      "estimated": true
      }
     ]
    }
@@ -15409,6 +15469,12 @@
       "inflation": 0.3016,
       "cpi": 128.7684722617,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3016,
+      "cpi": 129.15683797404128,
+      "estimated": true
      }
     ]
    }
@@ -16735,6 +16801,12 @@
       "date": "2026-08",
       "inflation": 0.1203,
       "cpi": 232.93438583524596,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1176,
+      "cpi": 233.20827785059058,
       "estimated": true
      }
     ]
@@ -18063,6 +18135,12 @@
       "inflation": 0.2983,
       "cpi": 136.37981681896395,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2988,
+      "cpi": 136.78736517155795,
+      "estimated": true
      }
     ]
    }
@@ -19093,6 +19171,12 @@
       "inflation": 0.0893,
       "cpi": 114.08013926823125,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0892,
+      "cpi": 114.18187973910197,
+      "estimated": true
      }
     ]
    }
@@ -20119,6 +20203,12 @@
       "date": "2026-08",
       "inflation": 0.3416,
       "cpi": 140.4125440913123,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3407,
+      "cpi": 140.89099983530343,
       "estimated": true
      }
     ]
@@ -24446,6 +24536,12 @@
       "inflation": 0.072,
       "cpi": 136.4377821766794,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0759,
+      "cpi": 136.54136119298187,
+      "estimated": true
      }
     ]
    }
@@ -25475,6 +25571,12 @@
       "date": "2026-08",
       "inflation": 0.2899,
       "cpi": 108.8639503260627,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2875,
+      "cpi": 109.1769886152253,
       "estimated": true
      }
     ]
@@ -27403,6 +27505,12 @@
       "inflation": 0.5798,
       "cpi": 10830.07450795413,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.5844,
+      "cpi": 10893.36907340345,
+      "estimated": true
      }
     ]
    }
@@ -28430,6 +28538,12 @@
       "date": "2026-08",
       "inflation": -0.2034,
       "cpi": 97.6547376553402,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.2037,
+      "cpi": 97.4558637821051,
       "estimated": true
      }
     ]
@@ -30117,6 +30231,12 @@
       "inflation": 1.2174,
       "cpi": 375.4593627919442,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 1.2023,
+      "cpi": 379.9734481342313,
+      "estimated": true
      }
     ]
    }
@@ -31264,6 +31384,12 @@
       "inflation": 0.3418,
       "cpi": 108.49192418495163,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3388,
+      "cpi": 108.85944057812816,
+      "estimated": true
      }
     ]
    }
@@ -32289,6 +32415,12 @@
       "date": "2026-08",
       "inflation": 0.0217,
       "cpi": 106.36103852956923,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0222,
+      "cpi": 106.38461522644329,
       "estimated": true
      }
     ]
@@ -33615,6 +33747,12 @@
       "date": "2026-08",
       "inflation": 2.6287,
       "cpi": 199.76150604032503,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 2.6349,
+      "cpi": 205.02502196298155,
       "estimated": true
      }
     ]
@@ -36447,6 +36585,12 @@
       "inflation": 0.3601,
       "cpi": 7691.136245060137,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3571,
+      "cpi": 7718.597447023125,
+      "estimated": true
      }
     ]
    }
@@ -37475,6 +37619,12 @@
       "inflation": 0.032,
       "cpi": 122.77042438182046,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0321,
+      "cpi": 122.80985414978443,
+      "estimated": true
      }
     ]
    }
@@ -38329,6 +38479,12 @@
       "date": "2026-08",
       "inflation": 0.5185,
       "cpi": 114.43846694532431,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.5195,
+      "cpi": 115.03303200033874,
       "estimated": true
      }
     ]
@@ -39355,6 +39511,12 @@
       "date": "2026-08",
       "inflation": -0.0083,
       "cpi": 136.10218763849468,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0134,
+      "cpi": 136.08394994535112,
       "estimated": true
      }
     ]
@@ -40681,6 +40843,12 @@
       "date": "2026-08",
       "inflation": 0.6627,
       "cpi": 115.17189090153943,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.6591,
+      "cpi": 115.93096963915633,
       "estimated": true
      }
     ]
@@ -43019,6 +43187,12 @@
       "date": "2026-08",
       "inflation": -0.012,
       "cpi": 119.44890764033498,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0117,
+      "cpi": 119.43489230183852,
       "estimated": true
      }
     ]
@@ -47647,6 +47821,12 @@
       "inflation": 0.2842,
       "cpi": 171.2156813521888,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.283,
+      "cpi": 171.70016465852171,
+      "estimated": true
      }
     ]
    }
@@ -48653,6 +48833,12 @@
       "date": "2026-08",
       "inflation": 2.1598,
       "cpi": 1648.391496890026,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 2.1598,
+      "cpi": 1683.9934564398568,
       "estimated": true
      }
     ]
@@ -49923,6 +50109,12 @@
       "date": "2026-08",
       "inflation": -0.137,
       "cpi": 115.3832256622795,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.1337,
+      "cpi": 115.22895828956904,
       "estimated": true
      }
     ]
@@ -51247,6 +51439,12 @@
       "date": "2026-08",
       "inflation": 0.246,
       "cpi": 124.29730602871186,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2461,
+      "cpi": 124.60313955019551,
       "estimated": true
      }
     ]
@@ -55574,6 +55772,12 @@
       "inflation": 0.0915,
       "cpi": 109.1044189076494,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0904,
+      "cpi": 109.20308567048156,
+      "estimated": true
      }
     ]
    }
@@ -57386,6 +57590,12 @@
       "date": "2026-08",
       "inflation": -0.0623,
       "cpi": 124.76386790327575,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0618,
+      "cpi": 124.68676383291152,
       "estimated": true
      }
     ]
@@ -60814,6 +61024,12 @@
       "inflation": 0.1278,
       "cpi": 109.90329629864702,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1261,
+      "cpi": 110.04190267249567,
+      "estimated": true
      }
     ]
    }
@@ -61845,6 +62061,12 @@
       "date": "2026-08",
       "inflation": 0.2374,
       "cpi": 119.92721383665621,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.237,
+      "cpi": 120.21140135771114,
       "estimated": true
      }
     ]
@@ -63891,6 +64113,12 @@
       "date": "2026-08",
       "inflation": 0.0455,
       "cpi": 103.94110655759957,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0479,
+      "cpi": 103.99094631819393,
       "estimated": true
      }
     ]
@@ -67318,6 +67546,12 @@
       "inflation": 0.3659,
       "cpi": 158.2229382677655,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3627,
+      "cpi": 158.7968128648627,
+      "estimated": true
      }
     ]
    }
@@ -70384,6 +70618,12 @@
       "inflation": -0.316,
       "cpi": 104.53238406005944,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.3164,
+      "cpi": 104.20166101895742,
+      "estimated": true
      }
     ]
    }
@@ -71706,6 +71946,12 @@
       "date": "2026-08",
       "inflation": 0.1957,
       "cpi": 122.9911855841276,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1951,
+      "cpi": 123.23110039014038,
       "estimated": true
      }
     ]
@@ -73398,6 +73644,12 @@
       "inflation": 0.0039,
       "cpi": 134.16549941061893,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0039,
+      "cpi": 134.17073186509595,
+      "estimated": true
      }
     ]
    }
@@ -75027,6 +75279,12 @@
       "date": "2026-08",
       "inflation": -0.1572,
       "cpi": 113.99209135451127,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.1592,
+      "cpi": 113.81057794771111,
       "estimated": true
      }
     ]
@@ -77193,6 +77451,12 @@
       "date": "2026-08",
       "inflation": 0.2837,
       "cpi": 161.83887299252876,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2857,
+      "cpi": 162.3011927063774,
       "estimated": true
      }
     ]
@@ -81520,6 +81784,12 @@
       "inflation": 0.22,
       "cpi": 125.78070181866809,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2191,
+      "cpi": 126.0562873363528,
+      "estimated": true
      }
     ]
    }
@@ -82546,6 +82816,12 @@
       "date": "2026-08",
       "inflation": 0.481,
       "cpi": 110.92265405517612,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4847,
+      "cpi": 111.46033313359958,
       "estimated": true
      }
     ]
@@ -86153,6 +86429,12 @@
       "inflation": 0.5039,
       "cpi": 130.49427643739224,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.5099,
+      "cpi": 131.1596015058083,
+      "estimated": true
      }
     ]
    }
@@ -87724,6 +88006,12 @@
       "date": "2026-08",
       "inflation": -0.0132,
       "cpi": 121.0425879585702,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0132,
+      "cpi": 121.02659016319501,
       "estimated": true
      }
     ]
@@ -89411,6 +89699,12 @@
       "inflation": 0.2205,
       "cpi": 136.78730498846076,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.221,
+      "cpi": 137.0896505282536,
+      "estimated": true
      }
     ]
    }
@@ -90737,6 +91031,12 @@
       "date": "2026-08",
       "inflation": -0.3813,
       "cpi": 268.89964263354824,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.3858,
+      "cpi": 267.86222781226803,
       "estimated": true
      }
     ]
@@ -94226,6 +94526,12 @@
       "inflation": 0.3781,
       "cpi": 120.30117095323197,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3778,
+      "cpi": 120.75572892767876,
+      "estimated": true
      }
     ]
    }
@@ -95972,6 +96278,12 @@
       "inflation": 0.5673,
       "cpi": 342.2688662310008,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.5684,
+      "cpi": 344.2142654218468,
+      "estimated": true
      }
     ]
    }
@@ -96998,6 +97310,12 @@
       "date": "2026-08",
       "inflation": 1.1016,
       "cpi": 297.1365479138554,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 1.0976,
+      "cpi": 300.3978691409999,
       "estimated": true
      }
     ]
@@ -101375,6 +101693,12 @@
       "inflation": 0.2667,
       "cpi": 123.0073853774714,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2656,
+      "cpi": 123.33415449672664,
+      "estimated": true
      }
     ]
    }
@@ -102949,6 +103273,12 @@
       "date": "2026-08",
       "inflation": 1.223,
       "cpi": 629.460496563309,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 1.2204,
+      "cpi": 637.1423275532849,
       "estimated": true
      }
     ]
@@ -107276,6 +107606,12 @@
       "inflation": -0.0215,
       "cpi": 122.4205752114616,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0215,
+      "cpi": 122.39421398093273,
+      "estimated": true
      }
     ]
    }
@@ -108422,6 +108758,12 @@
       "date": "2026-08",
       "inflation": 0.0649,
       "cpi": 127.48734452360621,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.068,
+      "cpi": 127.57399342210076,
       "estimated": true
      }
     ]
@@ -112749,6 +113091,12 @@
       "inflation": 0.2254,
       "cpi": 125.22189854434764,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2257,
+      "cpi": 125.50448262872938,
+      "estimated": true
      }
     ]
    }
@@ -113778,6 +114126,12 @@
       "date": "2026-08",
       "inflation": 0.2162,
       "cpi": 118.56361967047475,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2159,
+      "cpi": 118.81955900413675,
       "estimated": true
      }
     ]
@@ -118105,6 +118459,12 @@
       "inflation": 0.3558,
       "cpi": 145.18713308972002,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3531,
+      "cpi": 145.6997404609488,
+      "estimated": true
      }
     ]
    }
@@ -119677,6 +120037,12 @@
       "inflation": 0.0927,
       "cpi": 122.25424488921705,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0928,
+      "cpi": 122.36773757988921,
+      "estimated": true
      }
     ]
    }
@@ -121002,6 +121368,12 @@
       "date": "2026-08",
       "inflation": 0.1842,
       "cpi": 189.96391426668117,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1798,
+      "cpi": 190.30550104518505,
       "estimated": true
      }
     ]
@@ -122770,6 +123142,12 @@
       "inflation": 0.223,
       "cpi": 266.85747279700735,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2187,
+      "cpi": 267.4410011375235,
+      "estimated": true
      }
     ]
    }
@@ -124122,6 +124500,12 @@
       "inflation": 0.3556,
       "cpi": 179.6646677528531,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3561,
+      "cpi": 180.30439374649842,
+      "estimated": true
      }
     ]
    }
@@ -125392,6 +125776,12 @@
       "inflation": 0.1578,
       "cpi": 168.176781483721,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1578,
+      "cpi": 168.4421364154387,
+      "estimated": true
      }
     ]
    }
@@ -126521,6 +126911,12 @@
       "inflation": 0.1374,
       "cpi": 117.67772149447336,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1374,
+      "cpi": 117.83941068380676,
+      "estimated": true
      }
     ]
    }
@@ -127552,6 +127948,12 @@
       "date": "2026-08",
       "inflation": 0.0887,
       "cpi": 165.66880074483174,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0878,
+      "cpi": 165.8143131748193,
       "estimated": true
      }
     ]
@@ -131879,6 +132281,12 @@
       "inflation": 0.2529,
       "cpi": 125.20254787752876,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2493,
+      "cpi": 125.51467782938744,
+      "estimated": true
      }
     ]
    }
@@ -133205,6 +133613,12 @@
       "inflation": 0.2012,
       "cpi": 104.45431395231788,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2026,
+      "cpi": 104.66592098333295,
+      "estimated": true
      }
     ]
    }
@@ -134232,6 +134646,12 @@
       "date": "2026-08",
       "inflation": -0.6389,
       "cpi": 95.570956292333,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.6406,
+      "cpi": 94.95869688933888,
       "estimated": true
      }
     ]
@@ -135559,6 +135979,12 @@
       "date": "2026-08",
       "inflation": 0.8113,
       "cpi": 164.39806591807724,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.8169,
+      "cpi": 165.74095151952906,
       "estimated": true
      }
     ]
@@ -136900,6 +137326,12 @@
       "date": "2026-08",
       "inflation": 0.1056,
       "cpi": 110.28834838761992,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1086,
+      "cpi": 110.40806638979468,
       "estimated": true
      }
     ]
@@ -138532,6 +138964,12 @@
       "inflation": 0.3798,
       "cpi": 480.194594593654,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3792,
+      "cpi": 482.01549249635315,
+      "estimated": true
      }
     ]
    }
@@ -139857,6 +140295,12 @@
       "date": "2026-08",
       "inflation": 0.3648,
       "cpi": 140.99170638610957,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3653,
+      "cpi": 141.50674908953803,
       "estimated": true
      }
     ]
@@ -141666,6 +142110,12 @@
       "date": "2026-08",
       "inflation": 2.5841,
       "cpi": 759.7058010723215,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 2.585,
+      "cpi": 779.344196030041,
       "estimated": true
      }
     ]
@@ -144492,6 +144942,12 @@
       "date": "2026-08",
       "inflation": 0.2305,
       "cpi": 240.88809499237746,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2306,
+      "cpi": 241.44366323546154,
       "estimated": true
      }
     ]
@@ -148038,6 +148494,12 @@
       "date": "2026-08",
       "inflation": 0.3651,
       "cpi": 113.99841749617526,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3619,
+      "cpi": 114.41093976962142,
       "estimated": true
      }
     ]
@@ -152526,6 +152988,12 @@
       "inflation": 0.3101,
       "cpi": 107.54167758443066,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3074,
+      "cpi": 107.8722607013252,
+      "estimated": true
      }
     ]
    }
@@ -155951,6 +156419,12 @@
       "date": "2026-08",
       "inflation": 0.3265,
       "cpi": 108.00756094138978,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3258,
+      "cpi": 108.35944957493683,
       "estimated": true
      }
     ]
@@ -160158,6 +160632,12 @@
       "inflation": 0.4438,
       "cpi": 207.1624725822437,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4499,
+      "cpi": 208.09446201931246,
+      "estimated": true
      }
     ]
    }
@@ -160885,6 +161365,12 @@
       "date": "2026-08",
       "inflation": -0.2027,
       "cpi": 104.48144414714619,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.2055,
+      "cpi": 104.26676960657186,
       "estimated": true
      }
     ]
@@ -162258,6 +162744,12 @@
       "date": "2026-08",
       "inflation": 3.3004,
       "cpi": 548.4023412192607,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 3.2978,
+      "cpi": 566.4875536279895,
       "estimated": true
      }
     ]
@@ -166585,6 +167077,12 @@
       "inflation": 0.5451,
       "cpi": 250.45972466072575,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.5438,
+      "cpi": 251.8218498732931,
+      "estimated": true
      }
     ]
    }
@@ -170911,6 +171409,12 @@
       "inflation": 0.1885,
       "cpi": 126.2161677130842,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1894,
+      "cpi": 126.45517906267688,
+      "estimated": true
      }
     ]
    }
@@ -172578,6 +173082,12 @@
       "inflation": -0.1455,
       "cpi": 138.48537470834484,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.1448,
+      "cpi": 138.28484788576716,
+      "estimated": true
      }
     ]
    }
@@ -173844,6 +174354,12 @@
       "date": "2026-08",
       "inflation": 0.1613,
       "cpi": 115.55962900032556,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1619,
+      "cpi": 115.74670077973892,
       "estimated": true
      }
     ]
@@ -178171,6 +178687,12 @@
       "inflation": 0.1419,
       "cpi": 113.98199239452329,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1419,
+      "cpi": 114.14375183872986,
+      "estimated": true
      }
     ]
    }
@@ -179257,6 +179779,12 @@
       "date": "2026-08",
       "inflation": 0.4471,
       "cpi": 155.04823781792936,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4477,
+      "cpi": 155.74231125452133,
       "estimated": true
      }
     ]
@@ -180722,6 +181250,12 @@
       "date": "2026-08",
       "inflation": 0.3744,
       "cpi": 450.28548500662487,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3744,
+      "cpi": 451.97135386248965,
       "estimated": true
      }
     ]
@@ -182301,6 +182835,12 @@
       "inflation": 0.4717,
       "cpi": 230.12615751973036,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4716,
+      "cpi": 231.21147083295298,
+      "estimated": true
      }
     ]
    }
@@ -183577,6 +184117,12 @@
       "inflation": 0.2834,
       "cpi": 112.8434254515947,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2835,
+      "cpi": 113.16339298446269,
+      "estimated": true
      }
     ]
    }
@@ -184731,6 +185277,12 @@
       "date": "2026-08",
       "inflation": -0.0159,
       "cpi": 161.62698351539294,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0159,
+      "cpi": 161.60128482501398,
       "estimated": true
      }
     ]
@@ -186062,6 +186614,12 @@
       "date": "2026-08",
       "inflation": -0.0209,
       "cpi": 113.76013035928224,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0214,
+      "cpi": 113.73582361142881,
       "estimated": true
      }
     ]
@@ -190594,6 +191152,12 @@
       "inflation": 0.0848,
       "cpi": 117.82426424394836,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0845,
+      "cpi": 117.92378647247975,
+      "estimated": true
      }
     ]
    }
@@ -191619,6 +192183,12 @@
       "date": "2026-08",
       "inflation": 0.2196,
       "cpi": 141.1655460286208,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2197,
+      "cpi": 141.47568673324568,
       "estimated": true
      }
     ]
@@ -192948,6 +193518,12 @@
       "inflation": 1.1524,
       "cpi": 411.33051256432555,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 1.1515,
+      "cpi": 416.0671205266746,
+      "estimated": true
      }
     ]
    }
@@ -194274,6 +194850,12 @@
       "inflation": 0.7259,
       "cpi": 277.26002377801535,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.7283,
+      "cpi": 279.27916990117876,
+      "estimated": true
      }
     ]
    }
@@ -195428,6 +196010,12 @@
       "date": "2026-08",
       "inflation": 1.1513,
       "cpi": 8814.036211975535,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 1.1531,
+      "cpi": 8915.67233254186,
       "estimated": true
      }
     ]
@@ -197001,6 +197589,12 @@
       "inflation": 0.825,
       "cpi": 135.81512831340578,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.8246,
+      "cpi": 136.9350372256234,
+      "estimated": true
      }
     ]
    }
@@ -198027,6 +198621,12 @@
       "date": "2026-08",
       "inflation": 0.3669,
       "cpi": 204.18608320153243,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3709,
+      "cpi": 204.9434093841269,
       "estimated": true
      }
     ]
@@ -199300,6 +199900,12 @@
       "date": "2026-08",
       "inflation": 0.1655,
       "cpi": 201.53557839865687,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1689,
+      "cpi": 201.87603916909833,
       "estimated": true
      }
     ]
@@ -200626,6 +201232,12 @@
       "date": "2026-08",
       "inflation": 0.4151,
       "cpi": 124.8617906153921,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4139,
+      "cpi": 125.37861437704764,
       "estimated": true
      }
     ]
@@ -202797,6 +203409,12 @@
       "date": "2026-08",
       "inflation": 0.0989,
       "cpi": 161.32929629872646,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0975,
+      "cpi": 161.48653858618562,
       "estimated": true
      }
     ]
@@ -207124,6 +207742,12 @@
       "inflation": 0.1213,
       "cpi": 127.36577511008566,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1163,
+      "cpi": 127.51390150653869,
+      "estimated": true
      }
     ]
    }
@@ -209290,6 +209914,12 @@
       "inflation": 0.3091,
       "cpi": 158.23250561149464,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3044,
+      "cpi": 158.7141126144075,
+      "estimated": true
      }
     ]
    }
@@ -210317,6 +210947,12 @@
       "date": "2026-08",
       "inflation": -6.1508,
       "cpi": 35.51317577169577,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -6.2272,
+      "cpi": 33.30171112776599,
       "estimated": true
      }
     ]
@@ -211524,6 +212160,12 @@
       "date": "2026-08",
       "inflation": -0.0259,
       "cpi": 119.10355625817245,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.024,
+      "cpi": 119.07497140467048,
       "estimated": true
      }
     ]
@@ -213693,6 +214335,12 @@
       "inflation": 0.7697,
       "cpi": 112.96619740593152,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.7724,
+      "cpi": 113.83872948699538,
+      "estimated": true
      }
     ]
    }
@@ -214718,6 +215366,12 @@
       "date": "2026-08",
       "inflation": 0.5611,
       "cpi": 153.6232245945023,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.5615,
+      "cpi": 154.4857677928589,
       "estimated": true
      }
     ]
@@ -216414,6 +217068,12 @@
       "inflation": 0.4953,
       "cpi": 195.88627158690613,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4953,
+      "cpi": 196.85649629007608,
+      "estimated": true
      }
     ]
    }
@@ -217920,6 +218580,12 @@
       "inflation": 0.7749,
       "cpi": 177.98326589670344,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.7818,
+      "cpi": 179.3747094056062,
+      "estimated": true
      }
     ]
    }
@@ -218947,6 +219613,12 @@
       "date": "2026-08",
       "inflation": 0.643,
       "cpi": 120.40776406452646,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.6427,
+      "cpi": 121.1816849680512,
       "estimated": true
      }
     ]
@@ -220029,6 +220701,12 @@
       "date": "2026-08",
       "inflation": 0.1926,
       "cpi": 186.23196480655562,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1926,
+      "cpi": 186.59064757077306,
       "estimated": true
      }
     ]
@@ -221296,6 +221974,12 @@
       "date": "2026-08",
       "inflation": 0.4046,
       "cpi": 121.56174411788334,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4034,
+      "cpi": 122.05214445394556,
       "estimated": true
      }
     ]
@@ -223055,6 +223739,12 @@
       "inflation": 0.0578,
       "cpi": 106.55546189502886,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0579,
+      "cpi": 106.61713974822243,
+      "estimated": true
      }
     ]
    }
@@ -224764,6 +225454,12 @@
       "inflation": 0.2035,
       "cpi": 124.19651363771146,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2035,
+      "cpi": 124.4492535429642,
+      "estimated": true
      }
     ]
    }
@@ -225796,6 +226492,12 @@
       "date": "2026-08",
       "inflation": -0.1314,
       "cpi": 122.16480082440121,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.1313,
+      "cpi": 122.00439844091878,
       "estimated": true
      }
     ]
@@ -227367,6 +228069,12 @@
       "inflation": 0.1752,
       "cpi": 110.57901760502378,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1752,
+      "cpi": 110.77271518419525,
+      "estimated": true
      }
     ]
    }
@@ -228694,6 +229402,12 @@
       "date": "2026-08",
       "inflation": 0.454,
       "cpi": 130.36621762390482,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4526,
+      "cpi": 130.9562551248706,
       "estimated": true
      }
     ]
@@ -230351,6 +231065,12 @@
       "date": "2026-08",
       "inflation": 0.6213,
       "cpi": 118.11617383108543,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.622,
+      "cpi": 118.85087611834376,
       "estimated": true
      }
     ]
@@ -232879,6 +233599,12 @@
       "inflation": -0.0493,
       "cpi": 106.51487547942959,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0476,
+      "cpi": 106.46413889374288,
+      "estimated": true
      }
     ]
    }
@@ -233907,6 +234633,12 @@
       "date": "2026-08",
       "inflation": 1.3288,
       "cpi": 290.0690920930943,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 1.3359,
+      "cpi": 293.94427012891197,
       "estimated": true
      }
     ]
@@ -237395,6 +238127,12 @@
       "inflation": 0.2948,
       "cpi": 146.31616659656402,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2947,
+      "cpi": 146.74731156746856,
+      "estimated": true
      }
     ]
    }
@@ -239021,6 +239759,12 @@
       "inflation": -0.2189,
       "cpi": 129.60923314281655,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.2242,
+      "cpi": 129.31867084364922,
+      "estimated": true
      }
     ]
    }
@@ -240411,6 +241155,12 @@
       "inflation": 0.7388,
       "cpi": 122.6040819761354,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.741,
+      "cpi": 123.5126190916059,
+      "estimated": true
      }
     ]
    }
@@ -241737,6 +242487,12 @@
       "inflation": 0.1531,
       "cpi": 180.45237334889003,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.151,
+      "cpi": 180.724916583438,
+      "estimated": true
      }
     ]
    }
@@ -242865,6 +243621,12 @@
       "inflation": 0.2274,
       "cpi": 139.07960922297136,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2274,
+      "cpi": 139.3958762543444,
+      "estimated": true
      }
     ]
    }
@@ -243892,6 +244654,12 @@
       "date": "2026-08",
       "inflation": -0.7088,
       "cpi": 95.53674922688998,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.7127,
+      "cpi": 94.85581104677533,
       "estimated": true
      }
     ]
@@ -245226,6 +245994,12 @@
       "inflation": 2.5072,
       "cpi": 1423.3794513783905,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 2.507,
+      "cpi": 1459.0642859141724,
+      "estimated": true
      }
     ]
    }
@@ -246551,6 +247325,12 @@
       "date": "2026-08",
       "inflation": 0.0015,
       "cpi": 313.88742867694185,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0004,
+      "cpi": 313.88617312722715,
       "estimated": true
      }
     ]
@@ -250562,6 +251342,12 @@
       "date": "2026-08",
       "inflation": 0.4949,
       "cpi": 144.6443201975011,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4956,
+      "cpi": 145.36124977056,
       "estimated": true
      }
     ]
@@ -254889,6 +255675,12 @@
       "inflation": 0.4453,
       "cpi": 147.08144742550147,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4468,
+      "cpi": 147.7386073325986,
+      "estimated": true
      }
     ]
    }
@@ -255100,6 +255892,12 @@
       "date": "2026-08",
       "inflation": 0.1904,
       "cpi": 107.00601194857559,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1911,
+      "cpi": 107.21046476873867,
       "estimated": true
      }
     ]
@@ -256269,6 +257067,12 @@
       "date": "2026-08",
       "inflation": 1.0898,
       "cpi": 560.5961902766953,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 1.0898,
+      "cpi": 566.7055675583307,
       "estimated": true
      }
     ]
@@ -257837,6 +258641,12 @@
       "inflation": 0.0984,
       "cpi": 108.07828620339639,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1,
+      "cpi": 108.18636448959978,
+      "estimated": true
      }
     ]
    }
@@ -259299,6 +260109,12 @@
       "inflation": -0.0179,
       "cpi": 109.95195015839003,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0184,
+      "cpi": 109.93171899956089,
+      "estimated": true
      }
     ]
    }
@@ -260327,6 +261143,12 @@
       "inflation": 0.236,
       "cpi": 119.80235429757052,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2349,
+      "cpi": 120.0837700278155,
+      "estimated": true
      }
     ]
    }
@@ -261354,6 +262176,12 @@
       "date": "2026-08",
       "inflation": -0.1167,
       "cpi": 125.1763944625422,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.1152,
+      "cpi": 125.03217039338895,
       "estimated": true
      }
     ]
@@ -262470,6 +263298,12 @@
       "date": "2026-08",
       "inflation": 0.7622,
       "cpi": 298.66284620114453,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.7761,
+      "cpi": 300.9807187733706,
       "estimated": true
      }
     ]
@@ -264757,6 +265591,12 @@
       "inflation": 0.1672,
       "cpi": 198.3776180581153,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.167,
+      "cpi": 198.70884255439967,
+      "estimated": true
      }
     ]
    }
@@ -266565,6 +267405,12 @@
       "date": "2026-08",
       "inflation": 5.8777,
       "cpi": 443.19181512476405,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 5.8222,
+      "cpi": 468.99510738905053,
       "estimated": true
      }
     ]
@@ -270892,6 +271738,12 @@
       "inflation": 0.228,
       "cpi": 128.19915551670994,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2223,
+      "cpi": 128.48412087289768,
+      "estimated": true
      }
     ]
    }
@@ -272218,6 +273070,12 @@
       "inflation": 0.2888,
       "cpi": 144.6560647270113,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2861,
+      "cpi": 145.06997394688352,
+      "estimated": true
      }
     ]
    }
@@ -273247,6 +274105,12 @@
       "date": "2026-08",
       "inflation": -0.447,
       "cpi": 99.35210896885049,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.4491,
+      "cpi": 98.9059352061562,
       "estimated": true
      }
     ]
@@ -274875,6 +275739,12 @@
       "inflation": 0.4154,
       "cpi": 172.77295692833263,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4159,
+      "cpi": 173.49146206521192,
+      "estimated": true
      }
     ]
    }
@@ -276080,6 +276950,12 @@
       "date": "2026-08",
       "inflation": 0.51,
       "cpi": 308.9858219366577,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.5127,
+      "cpi": 310.5701467386379,
       "estimated": true
      }
     ]
@@ -278222,6 +279098,12 @@
       "inflation": 26.7411,
       "cpi": 21988.53246939162,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 26.7286,
+      "cpi": 27865.76302376084,
+      "estimated": true
      }
     ]
    }
@@ -279607,6 +280489,12 @@
       "date": "2026-08",
       "inflation": 0.3693,
       "cpi": 218.01556950748378,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3567,
+      "cpi": 218.79312203613222,
       "estimated": true
      }
     ]
@@ -281535,6 +282423,12 @@
       "inflation": 0.195,
       "cpi": 116.91865632250436,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1948,
+      "cpi": 117.14639437857788,
+      "estimated": true
      }
     ]
    }
@@ -282321,6 +283215,12 @@
       "date": "2026-08",
       "inflation": 0.1732,
       "cpi": 132.0651944289577,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1781,
+      "cpi": 132.30038052936993,
       "estimated": true
      }
     ]
@@ -283528,6 +284428,12 @@
       "date": "2026-08",
       "inflation": -0.0556,
       "cpi": 125.77846281865996,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0558,
+      "cpi": 125.70821554717574,
       "estimated": true
      }
     ]
@@ -285423,6 +286329,12 @@
       "date": "2026-08",
       "inflation": 1.4722,
       "cpi": 128217.47146095628,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 1.4722,
+      "cpi": 130105.08907580448,
       "estimated": true
      }
     ]
@@ -289750,6 +290662,12 @@
       "inflation": 0.1585,
       "cpi": 428.17934958975917,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1605,
+      "cpi": 428.86643471940084,
+      "estimated": true
      }
     ]
    }
@@ -291075,6 +291993,12 @@
       "date": "2026-08",
       "inflation": -0.0264,
       "cpi": 100.21002746005088,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0293,
+      "cpi": 100.18061581699136,
       "estimated": true
      }
     ]
@@ -293902,6 +294826,12 @@
       "inflation": 0.6039,
       "cpi": 142.64488068961842,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.6035,
+      "cpi": 143.50574254458027,
+      "estimated": true
      }
     ]
    }
@@ -296068,6 +296998,12 @@
       "inflation": 0.2972,
       "cpi": 253.38100459956104,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2972,
+      "cpi": 254.1341374055658,
+      "estimated": true
      }
     ]
    }
@@ -297274,6 +298210,12 @@
       "inflation": 0.2249,
       "cpi": 249.28011791927375,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.222,
+      "cpi": 249.83360287442719,
+      "estimated": true
      }
     ]
    }
@@ -298301,6 +299243,12 @@
       "date": "2026-08",
       "inflation": 0.1858,
       "cpi": 123.98914854849666,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.186,
+      "cpi": 124.21976836479686,
       "estimated": true
      }
     ]
@@ -299930,6 +300878,12 @@
       "inflation": -0.1458,
       "cpi": 98.11049742889466,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.1433,
+      "cpi": 97.9699377895782,
+      "estimated": true
      }
     ]
    }
@@ -300667,6 +301621,12 @@
       "date": "2026-08",
       "inflation": -0.0511,
       "cpi": 150.16019481321982,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0513,
+      "cpi": 150.08316263328064,
       "estimated": true
      }
     ]
@@ -302001,6 +302961,12 @@
       "inflation": 0.4944,
       "cpi": 923.177288323253,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4944,
+      "cpi": 927.7414768367232,
+      "estimated": true
      }
     ]
    }
@@ -303196,6 +304162,12 @@
       "inflation": 8.5205,
       "cpi": 752.2622370419977,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 8.534,
+      "cpi": 816.4602963511618,
+      "estimated": true
      }
     ]
    }
@@ -304226,6 +305198,12 @@
       "date": "2026-08",
       "inflation": 1.2741,
       "cpi": 336.13421874287815,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 1.2744,
+      "cpi": 340.417745159428,
       "estimated": true
      }
     ]
@@ -305317,6 +306295,12 @@
       "date": "2026-08",
       "inflation": -0.0273,
       "cpi": 129.33742936618293,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.0268,
+      "cpi": 129.302788491351,
       "estimated": true
      }
     ]
@@ -306627,6 +307611,12 @@
       "inflation": 0.3485,
       "cpi": 189.5346019594766,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3485,
+      "cpi": 190.19513004730535,
+      "estimated": true
      }
     ]
    }
@@ -307719,6 +308709,12 @@
       "date": "2026-08",
       "inflation": 5.7986,
       "cpi": 96183.38621822199,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 5.7986,
+      "cpi": 101760.6760514718,
       "estimated": true
      }
     ]
@@ -309049,6 +310045,12 @@
       "inflation": 0.2502,
       "cpi": 120.34417926443206,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2502,
+      "cpi": 120.64528040095166,
+      "estimated": true
      }
     ]
    }
@@ -310081,6 +311083,12 @@
       "date": "2026-08",
       "inflation": -0.6204,
       "cpi": 105.42566768558629,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.62,
+      "cpi": 104.77206368782488,
       "estimated": true
      }
     ]
@@ -311889,6 +312897,12 @@
       "inflation": 0.7861,
       "cpi": 118.04773126912707,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.7898,
+      "cpi": 118.98009192531251,
+      "estimated": true
      }
     ]
    }
@@ -312918,6 +313932,12 @@
       "date": "2026-08",
       "inflation": -0.1124,
       "cpi": 98.42746934124904,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.1121,
+      "cpi": 98.31716495727395,
       "estimated": true
      }
     ]
@@ -314643,6 +315663,12 @@
       "inflation": 1.0036,
       "cpi": 1709.5348809612806,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 1.0036,
+      "cpi": 1726.691773026608,
+      "estimated": true
      }
     ]
    }
@@ -315669,6 +316695,12 @@
       "date": "2026-08",
       "inflation": 0.1196,
       "cpi": 127.13145826146692,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1188,
+      "cpi": 127.28246924530517,
       "estimated": true
      }
     ]
@@ -316995,6 +318027,12 @@
       "date": "2026-08",
       "inflation": 0.4382,
       "cpi": 197.6834819859577,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4374,
+      "cpi": 198.5480836416703,
       "estimated": true
      }
     ]
@@ -318327,6 +319365,12 @@
       "date": "2026-08",
       "inflation": 0.5243,
       "cpi": 146.81843372983656,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.5254,
+      "cpi": 147.58979331091416,
       "estimated": true
      }
     ]
@@ -322654,6 +323698,12 @@
       "inflation": 1.9804,
       "cpi": 4130.852664266027,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 1.9763,
+      "cpi": 4212.489328519028,
+      "estimated": true
      }
     ]
    }
@@ -324281,6 +325331,12 @@
       "inflation": 0.1327,
       "cpi": 127.91461394088797,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1333,
+      "cpi": 128.08508148306655,
+      "estimated": true
      }
     ]
    }
@@ -325308,6 +326364,12 @@
       "date": "2026-08",
       "inflation": 0.4546,
       "cpi": 128.4976833272167,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4539,
+      "cpi": 129.08095572811948,
       "estimated": true
      }
     ]
@@ -326635,6 +327697,12 @@
       "inflation": 0.6713,
       "cpi": 547.2316651296206,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.6655,
+      "cpi": 550.8734006557808,
+      "estimated": true
      }
     ]
    }
@@ -327660,6 +328728,12 @@
       "date": "2026-08",
       "inflation": 0.2025,
       "cpi": 140.51579052663104,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.1996,
+      "cpi": 140.79621320592534,
       "estimated": true
      }
     ]
@@ -331987,6 +333061,12 @@
       "inflation": 0.2519,
       "cpi": 153.11130841912276,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2512,
+      "cpi": 153.4959750629744,
+      "estimated": true
      }
     ]
    }
@@ -333314,6 +334394,12 @@
       "inflation": 0.2628,
       "cpi": 117.83411719700116,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.2613,
+      "cpi": 118.14203738425645,
+      "estimated": true
      }
     ]
    }
@@ -334340,6 +335426,12 @@
       "date": "2026-08",
       "inflation": 0.6409,
       "cpi": 177.62861202429283,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.6389,
+      "cpi": 178.76348122651603,
       "estimated": true
      }
     ]
@@ -335913,6 +337005,12 @@
       "inflation": 0.0711,
       "cpi": 131.3107264607303,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.0712,
+      "cpi": 131.4042634682125,
+      "estimated": true
      }
     ]
    }
@@ -337042,6 +338140,12 @@
       "inflation": 11.0092,
       "cpi": 1584918126.2158568,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 11.0092,
+      "cpi": 1759404932.5672128,
+      "estimated": true
      }
     ]
    }
@@ -337865,6 +338969,12 @@
       "date": "2026-08",
       "inflation": -0.1163,
       "cpi": 93.69077396720239,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": -0.1163,
+      "cpi": 93.58181159707853,
       "estimated": true
      }
     ]
@@ -339381,6 +340491,12 @@
       "inflation": 0.3279,
       "cpi": 125.56884516279207,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3291,
+      "cpi": 125.9820503759411,
+      "estimated": true
      }
     ]
    }
@@ -340708,6 +341824,12 @@
       "inflation": 0.216,
       "cpi": 142.24158141546937,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.216,
+      "cpi": 142.54887064518726,
+      "estimated": true
      }
     ]
    }
@@ -342034,6 +343156,12 @@
       "inflation": 0.3907,
       "cpi": 142.59222070259705,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3899,
+      "cpi": 143.14811647500613,
+      "estimated": true
      }
     ]
    }
@@ -343185,6 +344313,12 @@
       "date": "2026-08",
       "inflation": 3.4772,
       "cpi": 18761.90964768093,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 3.4772,
+      "cpi": 19414.29876995009,
       "estimated": true
      }
     ]
@@ -347393,6 +348527,12 @@
       "inflation": 0.343,
       "cpi": 107.52237225335416,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.3421,
+      "cpi": 107.89017044804214,
+      "estimated": true
      }
     ]
    }
@@ -348418,6 +349558,12 @@
       "date": "2026-08",
       "inflation": 0.4883,
       "cpi": 559.0700925961651,
+      "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 0.4805,
+      "cpi": 561.7562380343921,
       "estimated": true
      }
     ]
@@ -349528,6 +350674,12 @@
       "inflation": 11.2728,
       "cpi": 22324.19167838634,
       "estimated": true
+     },
+     {
+      "date": "2026-09",
+      "inflation": 11.2726,
+      "cpi": 24840.70850952412,
+      "estimated": true
      }
     ]
    }
@@ -349541,7 +350693,7 @@
    "url": "https://datos.gob.ar/dataset/sspm-indice-precios-al-consumidor-nacional-ipc-base-diciembre-2016/archivo/sspm_145.3"
   },
   "IMF": {
-   "updatedAt": "2026-08-30T02:13:29.175Z",
+   "updatedAt": "2026-09-06T01:45:34.152Z",
    "provider": "IMF",
    "preference": 999
   }
